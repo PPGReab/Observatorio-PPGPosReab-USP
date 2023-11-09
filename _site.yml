@@ -195,16 +195,13 @@ navbar:
       href: [links.html]
     - text: ""
       icon: "fa-envelope"
-      href: [mailto:arthur_sf@icloud.com]
+      href: [mailto:pos-reab@usp.br]
     - text: ""
       icon: "fa-share-nodes"
       menu:
         - text: ""
-          icon: "fa-instagram"
-          href: [https://www.instagram.com/arthur.sa.ferreira/]
-        - text: ""
           icon: "fa-facebook"
-          href: [https://pt-br.facebook.com/arthur.sa.ferreira]
+          href: [https://www.facebook.com/cienciasdareabilitacaousp/]
   right:
     - text: ""
       icon: "fa-github"
