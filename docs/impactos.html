@@ -35,6 +35,28 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="site_libs/datatables-binding-0.30/datatables.js"></script>
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
+<script src="site_libs/pdfmake-1.13.4/pdfmake.js"></script>
+<script src="site_libs/pdfmake-1.13.4/vfs_fonts.js"></script>
+<link href="site_libs/dt-ext-buttons-1.13.4/css/buttons.dataTables.min.css" rel="stylesheet" />
+<script src="site_libs/dt-ext-buttons-1.13.4/js/dataTables.buttons.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.4/js/buttons.html5.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.4/js/buttons.colVis.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.4/js/buttons.print.min.js"></script>
+<link href="site_libs/dt-ext-colreorder-1.13.4/css/colReorder.dataTables.min.css" rel="stylesheet" />
+<script src="site_libs/dt-ext-colreorder-1.13.4/js/dataTables.colReorder.min.js"></script>
+<link href="site_libs/dt-ext-responsive-1.13.4/css/responsive.dataTables.min.css" rel="stylesheet" />
+<script src="site_libs/dt-ext-responsive-1.13.4/js/dataTables.responsive.min.js"></script>
+<link href="site_libs/dt-plugin-searchhighlight-1.13.4/source.css" rel="stylesheet" />
+<script src="site_libs/dt-plugin-searchhighlight-1.13.4/jquery.highlight.js"></script>
+<script src="site_libs/dt-plugin-searchhighlight-1.13.4/source.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
 <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -627,13 +649,6 @@ div.tocify {
 <li>
   <a href="links.html">Links</a>
 </li>
-<li>
-  <a href="mailto:pos-reab@usp.br">
-    <span class="fa fa-envelope"></span>
-     
-    
-  </a>
-</li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
     <span class="fa fa-share-nodes"></span>
@@ -643,6 +658,20 @@ div.tocify {
     <span class="caret"></span>
   </a>
   <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="mailto:pos-reab@usp.br">
+        <span class="fa fa-envelope"></span>
+         
+        E-mail
+      </a>
+    </li>
+    <li>
+      <a href="https://ppgreabilitacao.fm.usp.br">
+        <span class="fa fa-globe"></span>
+         
+        Site institucional
+      </a>
+    </li>
     <li>
       <a href="https://www.facebook.com/cienciasdareabilitacaousp/">
         <span class="fa fa-facebook"></span>
@@ -716,36 +745,84 @@ href="https://www.linkedin.com/shareArticle?mini=true&amp;url="><svg preserveAsp
 <h2><strong>Impacto educacional</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
-<p><br></p>
 <div id="formação-discente" class="section level3 tabset">
 <h3 class="tabset"><strong>Formação discente</strong></h3>
 <div id="turmas-oferecidas" class="section level4">
 <h4><strong>Turmas oferecidas</strong></h4>
+<p><img src="impactos_files/figure-html/turmas-tabela-1.png" width="100%" style="display: block; margin: auto;" /></p>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
 </div>
 <div id="bolsistas-titulados" class="section level4 tabset">
 <h4 class="tabset"><strong>Bolsistas titulados</strong></h4>
 <div id="doutorado" class="section level5">
 <h5><strong>Doutorado</strong></h5>
+<p><em>Sem dados para exibir</em></p>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 </div>
 <div id="mestrado" class="section level5">
 <h5><strong>Mestrado</strong></h5>
+<p><em>Sem dados para exibir</em></p>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
 </div>
 </div>
 <div id="cotas-de-bolsas" class="section level4 tabset">
 <h4 class="tabset"><strong>Cotas de bolsas</strong></h4>
+<div id="tabela" class="section level5">
+<h5><strong>Tabela</strong></h5>
+<p><em>Sem dados para exibir</em></p>
+<p><sup>1</sup> Dados de financiamento extraídos a partir dos
+financiadores dos trabalhos de conclusão de curso. Bolsistas ativos não
+estão incluídos.</p>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
+</div>
+<div id="gráfico" class="section level5">
+<h5><strong>Gráfico</strong></h5>
+<p><em>Sem dados para exibir</em></p>
+<p><sup>1</sup> Dados de financiamento extraídos a partir dos
+financiadores dos trabalhos de conclusão de curso. Bolsistas ativos não
+estão incluídos.</p>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
+</div>
 </div>
 </div>
 <div id="produção-acadêmica" class="section level3 tabset">
 <h3 class="tabset"><strong>Produção acadêmica</strong></h3>
 <div id="teses" class="section level4">
 <h4><strong>Teses</strong></h4>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5666d07fe13c531b8a90" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-5666d07fe13c531b8a90">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"caption":"<caption>12/11/2023<\/caption>","data":[["2022","2022","2022","2022","2022","2021","2021","2021","2021","2021","2021","2021","2021","2021","2020","2020","2020","2019","2019","2019","2019","2019","2019","2018","2018","2018","2018","2018","2017","2017","2017","2017","2017","2017","2017","2017","2017","2017","2017","2016","2016","2016","2016","2015","2015","2015","2015","2015","2014","2013","2013","2013"],["FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","LINGUAGEM","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","LINGUAGEM","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","LINGUAGEM","LINGUAGEM","INTERVENÇÃO SOCIAL EM TERAPIA OCUPACIONAL","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","LINGUAGEM","LINGUAGEM","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","AUDIÇÃO","INTERVENÇÃO SOCIAL EM TERAPIA OCUPACIONAL","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","LINGUAGEM","LINGUAGEM","LINGUAGEM","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","LINGUAGEM","LINGUAGEM","LINGUAGEM","AUDIÇÃO"],["Camila Miliani Capelini","Erica Queiroz Da Silva","Erica Queiroz Da Silva","Ibis Ariana Pena De Moraes","Matheus Silva d Alencar","Julia Biancalana Costa","Alessandra Bento Matias","Debora Stripari Schujmann Nogueira","Jessica Maria Ribeiro Bacha","Larissa Alamino Pereira De Viveiro","Renan Lima Monteiro","Erika Biscaro Laperuta","Raquel Fornaziero Gomes","Tathiany Silva Pichelli","Carolina Yuri Panvequio Aizawa","Milla Gabriela Belarmino Dantas","Liliane Aparecida Fagundes Silva","Leticia Segeren","Corina Aparecida Fernandes","Juerila Moreira Barreto","Ligia Raquel Ortiz Gomes Stolt","Ligia Raquel Ortiz Gomes Stolt","Thais Massetti","Ana Paula Ritto","Tatiane Faria Barrozo","Barbara Iansa De Lima Barroso","Susan Lee King Yuan","Mayra Monteiro Pires","Juliana Izidro Balestro","Thais Helena Ferreira Santos","Aline Arcanjo Gomes","Cinthia Santos Miotto De Amorim","Denise Harari","Eneida Yuri Suda","Juliana Araujo Nascimento","Licia Pazzoto Cacciari","Sabela Rivas Neira","Janaina Patricio De Lima","Taise Argolo Sena","Juliana De Oliveira Barros","Mauricio Oliveira Magalhaes","Patricia Jundi Penha","Nadia Vilela","Erica Macedo De Paula","Marina Jorge Pulga De Albuquerque Cygler","Telma Iacovino Monteiro Luperi","Sarah Rubia Ferreira De Meneses","Silvia Regina Shiwa","Danielle Azarias Defense Netrval","Ana Carolina Paiva Bento Gaz","Milene Rossi Pereira Barbosa","Jordana Costa Soares"],["Análise Do Desempenho Motor Em Tarefas De Realidade Virtual Em Pessoas Com Esclerose Múltipla","Efetividade De Um Programa Domiciliar De Exercícios Para o Tornozelo e Pé Por Meio De Uma Cartilha Educacional Para Pessoas Com Neuropatia Diabética: Foca Ii - Ensaio Clínico Controlado Randomizado","Efetividade De Um Programa Domiciliar De Exercícios Para o Tornozelo e Pé Por Meio De Uma Cartilha Educacional Para Pessoas Com Neuropatia Diabética: Foca Ii - Ensaio Clínico Controlado Randomizado","Análise De Desempenho Motor Entre Ambientes Real e Virtual Em Pessoas Com Transtorno Do Espectro Autista: Estudo Longitudinal Crossover","Associação Entre a Aprendizagem Implícita e as Deficiências De Automaticidade Na Marcha Em Pessoas Com Doença De Parkinson","Perfil Da Fluência Da Fala: Validação De Teste Diagnóstico Fonoaudiológico","Efeitos De Um Treinamento Da Musculatura Do Pé Sobre Os Aspectos Biomecânicos Da Corrida: Um Ensaio Clínico Randomizado","Uso De Um Programa De Mobilidade Progressiva e Tecnologia Para Aumento Do Nível De Atividade Física e Seus Benefícios No Sistema Respiratório, Muscular e Funcionalidade De Pacientes Em Uti: Um Ensaio Clínico Randomizado","Avaliação Da Aplicabilidade De Um Sistema Imersivo De Realidade Virtual Para Treinamento Cognitivo-Sensório-Motor De Idosos Caidores","Evidências De Validade De Estrutura Interna Do Brief-Balance Evaluation Systems Test Em Idosos Residentes Em Instituições De Longa Permanência Para Idosos","Efeitos Do Fortalecimento Dos Músculos Dos Pés Na Atividade Física De Vida Diária e Funcionalidade De Tornozelo e Pé De Pessoas Com Polineuropatia Diabética: Um Ensaio Clínico Controlado Randomizado","Treinamento De Habilidades Auditivas e Cognitivas – Uma Nova Proposta","Estudo Do Efeito Do Programa Dangerous Decibels®, Em Escolares Do Ensino Fundamental, Seus Familiares e Rede De Colegas.","Impacto Do Treinamento Auditivo Com Atividades De Escuta No Ruído Na Inibição Eferente Das Emissões Otoacústicas De Escolares.","Caracterização Do Neurodesenvolvimento De Lactentes Expostos Ao Vírus Zika Na Vida Intrauterina Por Meio Do General Movement Assessment e Da Escala Bayley Iii De Desenvolvimento Infantil","Prevalência De Escoliose Idiopática e De Dor Nas Costas Em Crianças e Adolescentes Do Sertão De Pernambuco","a Funcionalidade Das Vias Auditivas Periférica e Central Na Síndrome De Williams","Atendimento Fonoaudiológico a Crianças Com Distúrbios Do Espectro Do Autismo: Um Estudo Longitudinal","Efeitos Imediatos Da Estimulação Transcraniana Por Corrente Contínua Anódica No Córtex Motor e Parietal Associada a Treino De Integração Sensorial Sobre o Equilíbrio Em Sujeitos Saudáveis","Efeito Da Dança Circular Comparada Aos Exercícios De Estabilização Segmentar Lombar Na Lombalgia Crônica Inespecífica: Ensaio Clínico Controlado Aleatório","Quedas Acidentais e Suas Recorrências Em Mulheres De Meia-Idade: Incidência e Risco","Quedas Acidentais e Suas Recorrências Em Mulheres De Meia-Idade: Incidência e Risco","Validade e Confiabilidade De Software Com Realidade Virtual Como Tecnologia Assistiva Para Pessoas Com Distrofia Muscular De Duchenne","Fluência De Fala e Alteração Do Feedback Auditivo: Comparação Entre Medidas Objetivas e Perceptuais","Relação Entre Medidas Fonológicas, De Produção De Fala e Os Potenciais Evocados Auditivos","Adaptação Transcultural Do Modelo Prática Baseada Em Evidência Na Tecnologia Assistiva Para a Língua Portuguesa (Brasil)","Desenvolvimento De Aplicativo Móvel Para Promoção Do Autocuidado De Pacientes Com Fibromialgia","a Eficácia De Um Programa De Treinamento Auditivo Temporal Em Crianças Que Apresentam Erros Ortográficos De Caracterização Surda-Sonora","o Fonoaudiólogo e Os Pais: Uma Parceria Para o Desenvolvimento Da Comunicação De Crianças Do Espectro Do Autismo","Diferentes Perspectivas Na Verificação Das Habilidades Pragmáticas De Crianças Incluídas No Espectro Do Autismo","Papel Da Atividade Muscular No Padrão De Marcha De Diabéticos Neuropatas: Um Estudo Por Modelagem Computacional","Efeito De Três Intervenções De Fisioterapia Comparadas a Tratamento Odontológico Em Indivíduos Com Bruxismo: Um Ensaio Clínico Randomizado","Intervenção Multifacetada Pode Reduzir e Prevenir Distúrbios Osteomusculares e Suas Consequências Em Trabalhadores De Uma Empresa De Médio Porte","Padrões Dinâmicos De Recrutamento Muscular Por Emg De Alta Densidade De Diabéticos Em Diferentes Níveis De Severidade De Neuropatia Classificados Por Um Modelo Linguístico Fuzzy","Análise Da via Respiratória Preferencial Na Vigília e Durante o Sono Em Indivíduos Saudáveis e Com Apneia Obstrutiva Do Sono","Análise Da Distribuição Multivetorial De Cargas Do Assoalho Pélvico Feminino Em Diferentes Populações","Estudio Comparativo Del Efecto De Un Protocolo De Fisioterapia en Piscina Versus Sala en Jujeres Confibromialgia","Influência Da Musicoterapia Em Usuários De Implante Coclear","Implicações Da Contribuição Endógena e Exógena Para Obtenção Do P300 Utilizando Paradigma De Omissão","Interfaces Entre Produção De Saúde e Coordenação Do Cuidado: Perspectiva Da Psicodinâmica Do Trabalho Na Compreensão Do Trabalhar De Médicos Inseridos Em Um Hospital Universitário - São Paulo, Brasil","Efeito Da Terapia Cognitivo-Comportamental e Exercícios Versus Programa De Exercícios Supervisionados Em Pacientes Com Dor Lombar Crônica Não Específica: Estudo Controlado Aleatorizado","Prevalência De Escoliose Idiopática Do Adolescente Em Cidades Do Estado De São Paulo","Indicadores Para o Transtorno Do Processamento Auditivo Em Pré-Escolares","Habilidades Linguísticas De Crianças Pré e Pós Transplante Hepático","Tradução e Adaptação Do Lindamood Auditory Conceptualization Test – 3rd Edition: Um Estudo Em Crianças Com e Sem Transtorno Fonológico","Linguagem Em Crianças Com Histórico De Prematuridade e Crianças Com Alteração Específica De Linguagem","Efeito Da Laserterapia De Baixa Intensidade (904 Nm) e Do Alongamento Estático Em Pacientes Com Osteoartrite De Joelho: Ensaio Controlado Randomizado Simples Cego","Perfil Do Fisioterapeuta Do Estado De São Paulo","Proposta De Modelo De Indicadores De Qualidade Para o Atendimento Oferecido Aos Indivíduos Autistas Na Cidade De São Paulo","Desempenho De Escolares Falantes Do Português Brasileiro No Clinical Evolution of Linguage Functions - 4th Edition (Celf-4)","Identificação Das Variações Do Espectro Do Autismo","Reflectância De Orelha Média Na Síndrome De Down"],["FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","Escola Internacional de Doutoramento - Inditex S.A.","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Ano de Defesa<\/th>\n      <th>Linha de Pesquisa<\/th>\n      <th>Nome do Autor<\/th>\n      <th>Nome do Trabalho de Conclusão<\/th>\n      <th>Nome do Financiador<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":true,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy","text":"Copiar","filename":"Teses - Bolsistas"},{"extend":"csv","text":"CSV","filename":"Teses - Bolsistas"},{"extend":"pdf","text":"PDF","title":"Teses - Bolsistas","filename":"Teses - Bolsistas"}],"language":{"paginate":{"next":"Próximo","previous":"Anterior"}},"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
 </div>
 <div id="dissertações" class="section level4">
 <h4><strong>Dissertações</strong></h4>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ffc579f5c3a59daadb93" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ffc579f5c3a59daadb93">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"caption":"<caption>12/11/2023<\/caption>","data":[["2023","2023","2023","2023","2023","2022","2022","2022","2022","2021","2021","2021","2021","2020","2020","2020","2020","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2019","2018","2018","2018","2018","2018","2018","2018","2017","2017","2017","2017","2017","2017","2017","2017","2017","2017","2017","2017","2017","2017","2017","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2016","2015","2015","2015","2015","2015","2015","2015","2015","2015","2015","2015","2015","2015","2015","2015","2014","2014","2014","2014","2014","2014","2014","2014","2014","2014","2013","2013","2013","2013","2013","2013","2013","2013","2013","2013","2013","2013","2013"],["FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","LINGUAGEM","LINGUAGEM","LINGUAGEM","AUDIÇÃO","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","LINGUAGEM","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","INTERVENÇÃO SOCIAL EM TERAPIA OCUPACIONAL","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","LINGUAGEM","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","AUDIÇÃO","LINGUAGEM","INTERVENÇÃO SOCIAL EM TERAPIA OCUPACIONAL","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO","LINGUAGEM","LINGUAGEM","LINGUAGEM","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","LINGUAGEM","LINGUAGEM","LINGUAGEM","LINGUAGEM","INTERVENÇÃO SOCIAL EM TERAPIA OCUPACIONAL","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA","AUDIÇÃO","AUDIÇÃO","AUDIÇÃO"],["Caroline Maschio De Censo","Caroline Maschio De Censo","Jessica Santos Martins","Taciana Rocha Dos Santos Sixel","Jessica Sales Vosgrau","Beatriz Rodrigues Ferreira","Cinthia Parada Cabral","Eloisa Pinheiro Ferrari","Flavia Teixeira Chimelo","Juliana Aparecida Rhein Telles","Juliana Magalhaes Da Silva","Michelle Didone Dos Santos","Fernanda Yasmin Odila Maestri Miguel Padilha","Mariana Pelossi Grillo","Camila Dos Santos Arcas","Carolina Barbosa De Souza","Camila Pires De Aquino","Ana Carolina Martins Cortez","Daniela Cardilli Dias","Fernanda Parsequian Cartolano","Isabela Rodrigues Gibello","Joao Marcos Da Trindade Duarte","Joyce Pinheiro Da Silva","Joyce Pinheiro Da Silva","Juliana Yuri Ogau","Nathalia Dos Santos Fernandes De Avila","Stefane Ravagnani De Moraes","Vanessa Mayumi Sugawara","Priscilla Maria De Andrade Cavalcante","Deise Ferreira Da Silva","Flora Moreira Pitta","Marilia Graziella De Oliveira Carneiro","Marilia Graziella De Oliveira Carneiro","Glaucia Verena Sampaio De Souza","Daniele Dos Santos Scarcella","Geisa Nascimento De Andrade","Ingred Merllin Batista De Souza","Jane Suelen Silva Pires Ferreira","Ana Flavia De Oliveira Nalom","Barbara Gabriela Silva","Renata Correia Colombo","Fernando Vicente De Pontes","Barbarah Kelly Goncalves De Carvalho","Daniela Mitiyo Odagiri Utiyama Di Marzo","Debora Martins Meira","Hellen Cristina Souza De Carvalho Fusco","Jessica Maria Ribeiro Bacha","Leonardo Affonso Massabki Caffaro","Michele Ghilardi","Clayton Henrique Rocha","Gabriela Valiengo De Souza","Mariana Keiko Kamita","Mariana Keiko Kamita","Raquel Meirelles Pedreno","Thais Regina Monteiro","Ingrid Ya i Sun","Julia Biancalana Costa","Julia Biancalana Costa","Paula Renata Pedott","Ana Angelica Ribeiro De Lima","Camila Miliani Capelini","Isabela Lopes Trevizan","Josielli Comachio","Karen Brandao Evaristo","Lilian Del Ciello De Menezes","Maria Isabel Roveri","Michelle Lisidati Franchini","Patricia Goncalves Leite Rocco","Patricia Harry Lavoura","Rita Pavione Rodrigues Pereira","Tania Tonezzer","Erika Matsumura","Karenina Santos Calarga","Karenina Santos Calarga","Laurie Penha Rolim","Libia Camargo Ribeiro Leite","Carla Lucchi Pagliaro","Danira Tavares Francisco","Larriane Karen De Campos Cintra","Leticia Segeren","America Cristina Fracini","Lays Magalhaes Braga","Munick Linhares Pierre","Renan Lima Monteiro","Simone Aparecida De Amorim Marques","Thais Massetti","Thais Massetti","Aline Albuquerque Morais","Bruna Carla Cibin","Liliane Aparecida Fagundes Silva","Natalia Faria Siqueira Brito","Ana Paula Ritto","Andreza Luciane Da Silva Gouveia","Fabricia De Oliveira Biudes Amorim","Ana Carolina Atanes Mendes Peres Guirardi","Ana Paula De Moura Campos Carvalho e Silva","Desiderio Cano Porras","Ivye Leite Dos Reis Pereira","Marco Kenji Butugan","Marina Lazzari Nicola","Priscila Santos Albuquerque Goya","Ana Gabriela Lopes Pimentel","Aparecido Jose Couto Soares","Tatiane Faria Barrozo","Vivian Urbanejo Romero","Delmira De Fraga e Karmann","Gabriel Peixoto Leao Almeida","Gabriel Peixoto Leao Almeida","Gislene Guimaraes Garcia Tomazini","Larissa Mayumi Yokoyama","Roberto Casanova Dinato","Carolina Colin Lima","Daniele Tugumia","Tathiany Silva Pichelli"],["Avaliação Da Associação Entre Desordens Do Sono, o Equilíbrio Postural e a Atividade Física Em Indivíduos Com Dpoc Moderada a Muito Grave","Avaliação Da Associação Entre Desordens Do Sono, o Equilíbrio Postural e a Atividade Física Em Indivíduos Com Dpoc Moderada a Muito Grave","Controle Postural De Crianças Com Transtorno Do Desenvolvimento Da Coordenação : Validação Da Versão Brasileira Do Motor Coordination - Traffic Light Questionnaire e Estudo De Viabilidade De Um Protocolo De Ensaio Clínico Aleatorizado Controlado Duplo-Cego","a Força De Trabalho Em Saúde Na Rede De Cuidados à Pessoa Com Deficiência No Brasil","Estudo Longitudinal Da via Auditiva Periférica e Central Em Indivíduos Com Leucemia Linfóide Aguda","Percepção De Famílias Quanto à Escolarização De Indivíduos Com  Transtorno Do Espectro Autista","Correlações Entre Distúrbios Do Espectro Do Autismo e Apraxia De Fala Na Infância","Relação Entre Risco De Disfonia e Qualidade Vocal Em Estudantes De Artes Cênicas","Estudo Da via Auditiva Periférica e Central Em Indivíduos Com Mucopolissacaridose","Avaliação Do Desempenho De Universitários No Teste Háptico Manual De Alto Relevo Com Formas Geométricas (Hp-Rg)","Validade De Critério, Estabilidade e Aplicabilidade De Um Sistema De Realidade Virtual Imersiva Para Avaliar a Orientação Egocêntrica De Idosos Com e Sem Comprometimento Cognitivo Leve","Validade De Critério, Estabilidade e Aplicabilidade De Um Sistema De Realidade Virtual Imersivo Para Avaliação Da Aprendizagem De Rotas Em Idosos Com e Sem Comprometimento Cognitivo Leve","Acompanhamento Audiológico Longitudinal De Adultos Com e Sem Hipertensão Arterial","Caracterização Das Emissões Ecolálicas De Crianças Com Distúrbio Do Espectro Do Autismo","Efeitos Do Tabagismo e Da Cessação Do Tabagismo Sobre Os Mecanismos De Defesa Das Vias Aéreas e Expressão De Mirnas Em Sangue Periférico De Humanos","Predição De Risco Para Dificuldades Motoras Em Prematuros Com Idade Pré-Escolar Pelo General  Movement Assessment","Avaliação De Dois Diferentes Tipos De Fones Durante o Uso De Um Método De Teleaudiometria Para Tablet","Funções Executivas e Leitura De Palavras e Pseudopalavras Em Crianças Alfabéticas","Caracterização Das Articulações Na Rede De Cuidado à Saúde Do Bebê De Alto Risco e Suas Fragilidades","Qualidade De Vida Na Pessoa Com Deficiência Intelectual: Percepção Do Indivíduo","Compreensão De Expressões Idiomáticas No Espectro Do Autismo","Risco De Disfonia e Qualidade Vocal Em Atores Profissionais","Medidas Aerodinâmicas, Quociente De Abertura e Taxa Articulatória Nas Fricativas Vozeadas Em Crianças","Medidas Aerodinâmicas, Quociente De Abertura e Taxa Articulatória Nas Fricativas Vozeadas Em Crianças","Comparação Entre Dois Instrumentos De Screening Para Identificação De Risco Para Alterações Na Aquisição e No Desenvolvimento De Linguagem","Tratamento Da Gagueira Infantil – Avaliação Do Desempenho","Análise Programática Dos Resultados De Um Programa De Estimulação Conduzido Pelos Pais Com Acompanhamento à Distância Pelo Fonoaudiólogo","Programa De Orientação Fonoaudiológica Para Pais De Crianças Do Espectro Do Autismo Anterior à Intervenção Formal","Avaliação Da Intervenção Com Exercícios, Alongamento e Órtese Na Função Manual De Pessoas Com Síndrome Spoan","o Uso Do Mini-Bestest e Da Morse Fall Scale Na Avaliação Do Risco De Quedas Durante a Internação e No Pós Alta De Pessoas Idosas","Taxonomia Psicomotora De Um Sistema De Atividade Motora De Dança Para Seis Estilos De Dança: Uma Validação Do Método De Consenso Delphi","Efeitos De Um Programa De Exercício De Pilates Nos Fatores De Saúde Relacionados à Qualidade De Vida e No Controle Clínico De Pacientes Com Asma Moderada a Grave","Efeitos De Um Programa De Exercício De Pilates Nos Fatores De Saúde Relacionados à Qualidade De Vida e No Controle Clínico De Pacientes Com Asma Moderada a Grave","Consequências Acústicas Da Variação Tonal Na Emissão De Vogal Cantada Em Sopranos","Comparação Entre Proteção Articular, Tecnologia Assistiva e Exercícios No Atendimento a Pacientes Com Osteoartrite De Mãos","Efeitos De Um Programa De Treinamento Domiciliar Sobre a Capacidade Funcional e a Qualidade De Vida De Pacientes Com Insuficiência Cardíaca Crônica","Prevalência De Dor Lombar Em Idosos Da Cidade De Manaus, Amazonas","Tecnologia De Reabilitação No Cuidado Do Diabetes Mellitus: Desenvolvimento e Validação De Um Software Que Personaliza a Evolução De Exercícios Para Pés e Tornozelos","Processamento Auditivo, Vocabulário Receptivo e Compreensão Leitora Em Escolares Do 5º Ano Do Ensino Fundamental","Exposição Ao Ruído Em Call Center: Headsets, Sintomas Auditivos e Extra-Auditivos De Operadores De Telemarketing","Compreensão De Leitura e Vocabulário Receptivo No Ensino Fundamental i","Adequação Postural Em Cadeiras De Rodas De Pessoas Com Deficiência: Estudo Retrospectivo","Índice Da Postura Do Pé (Ipp-6) e Sua Relação Com o Sexo, Idade e Índice De Massa Corpórea Em Adolescentes De 10 a 14 Anos: Um Estudo Transversal","Efeitos Do Tabagismo e Da Cessação Do Tabagismo Nos Mecanismos De Defesa De via Aérea, Propriedades Do Muco e Inflamação Nasal","Impacto Da Hospitalização Na Capacidade Funcional e Força Muscular De Pacientes Adultos e Idosos Num Hospital Público De Nível Terciário: é Possível Predizar Estas Alterações?","Avaliação Da Força Do Assoalho Pélvico, Perda Urinária e Desempenho Sexual Em Mulheres Com Fibromialgia","Efeitos Dos Jogos Kinect Adventures Comparados Com a Fisioterapia Convencional No Controle Postural De Idosos: Ensaio Clínico Randomizado","Influência Da Estimulação Elétrica Nervosa Transcutânea No Crescimento De Carcinoma 4t1 Em Glândula Mamária De Camundongos","Análise Biomecânica Do Arabesque Realizado Por Piqué e Por Relevé e Os Efeitos Das Sapatilhas De Ponta e Meia Ponta","Inteligibilidade De Fala Em Trabalhadores Expostos a Ruído Com Protetores Auditivos","Potenciais Evocados Auditivos De Longa Latência Em Adultos  Pré e Pós Adaptação Do Aasi","Potenciais Evocados Auditivos De Tronco Encefálico e De Longa Latência Em Crianças Com Tronstornos Do Espectro Do Autismo","Potenciais Evocados Auditivos De Tronco Encefálico e De Longa Latência Em Crianças Com Tronstornos Do Espectro Do Autismo","Potenciais Evocados Auditivos De Longa Latência Em Indivíduos Com Apneia Obstrutiva Do Sono","Processamento Auditivo Em Crianças Ouvintes Filhas De Surdos Sinalizadores: Um Estudo Caso-Controle","Funções Executivas Na Terapia De Linguagem Nos Transtornos Do Espectro Do Autismo","Efetividade Do Tratamento Fonoaudiológico Na Promoção Da Fluência: Comparação Da Performance Em Diferentes Tarefas De Fala","Efetividade Do Tratamento Fonoaudiológico Na Promoção Da Fluência: Comparação Da Performance Em Diferentes Tarefas De Fala","Habilidades De Processamento Fonológico e De Escrita Em Crianças Com Distúrbio Específico De Linguagem: Um Estudo Comparativo Com a Normalidade","Tradução, Adaptação Transcultural Da Escala Swimming with Independent Measure (S.w.i.m.) Para Língua Portuguesa Do Brasil e Análise Psicométrica","Aprendizagem Motora Na Distrofia Muscular De Duchenne Por Meio De Jogo De Labirinto Em Telefone Móvel","Eficácia De Diferentes Dispositivos De Interação Em Tarefa Virtual Na Esclerose Lateral Amiotrófica","Efetividade Da Eletroacupuntura Versus Acupuntura Manual Em Pacientes Com Dor Lombar Crônica Não Específica: Um Ensaio Clínico Randomizado","Comparação Entre Exercício Aeróbio e Respiratório No Controle Clínico e Inflamação Pulmonar De Pacientes Com Asma Persistente Moderada Ou Grave: Ensaio Clínico Aleatorizado","Verificação Da Análise De Desempenho Na Síndrome De Down Por Meio De Jogo De Labirinto Em Telefone Móvel","Experiência Na Prática Deliberada De Corrida: Classificação Por Meio De Um Sistema Fuzzy De Apoio à Decisão","Efeitos Do Oxigênio Umidificado e Não Umidificado via Cateter Nasal Sobre o Transporte Mucociliar e Muco Nasal","Comparação Dos Treinamentos Físico Contínuo e Intervalado Na Percepção De Esforço, Nos Fatores Relacionados à Qualidade De Vida e No Nível De Atividade Física Em Pacientes Asmáticos","Impacto Da Hospitalização No Equilíbrio Postural e Na Qualidade De Vida De Pacientes Adultos e Idosos Num Hospital Público De Nível Terciário","Avaliação Da Postura e Do Equilíbrio Em Crianças Com Enurese","Uso Da Estimulação Elétrica Nervosa Transcutânea (Tens) Na Redução Dos Sintomas De Neuropatia Periférica Induzida Por Quimioterapia Anti-Neoplásica","Efeito Da Apneia Obstrutiva Do Sono Na Audição De Adultos","Tradução e Adaptação De Um Software De Treinamento Auditivo Para Escolares","Tradução e Adaptação De Um Software De Treinamento Auditivo Para Escolares","Efeitos Da Diabetes Mellitus e Hipertensão Arterial Sobre a Audição De Idosos","o Efeito Da Estimulação Top-Down e Bottom-Up No Potencial Evocado Auditivo De Tronco Encefálico Com Estímulo Complexo","Desenvolvimento Das Habilidades Motoras Orais De Alimentação Em Lactentes Prematuros Durante o Primeiro Ano De Vida","Contorno De Língua Na Produção Do /s/e/∫/ Na Fala De Adultos e Crianças Com e Sem Transtorno Fonológico","Comparação Entre o Perfil Escolar e as Habilidades Cognitivas e De Linguagem De Crianças e Adolescentes Do Espectro Do Autismo","Correlação Entre a Oralidade De Crianças Com Distúrbios Do Espectro Do Autismo e o Nível De Estresse De Seus Pais","Associação Entre Biomarcadores Renais, Funcionalidade, Endurance e Parâmetros Nutricionais Em Pacientes Com Insuficiência Renal Crônica Não Dialíticos Com e Sem Intervenção Fisioterapêutica Em Um Ambulatório De Nefrologia","Variabilidade Da Frequência Cardíaca Em Pacientes Com Insuficiência Cardíaca Submetidos Ao Teste Da Caminhada De Seis Minutos","Comparação De Protocolos De Eletroestimulação Do Nervo Tibial Para Tratamento Da Bexiga Hiperativa: Ensaio Clínico Randomizado Cego","Há Diferença Na Atividade Do Músculo Glúteo Médio Em Diferentes Posições De Quadril Durante o Exercício Inclinação Da Pelve?","Efeito Do Fortalecimento Dos Músculos Do Assoalho Pélvico e Músculos Do Quadril No Tratamento Da Incontinência Urinária De Esforço: Ensaio Clínico Randomizado Cego","Aprendizagem Motora Em Tarefa Virtual Na Paralisia Cerebral","Aprendizagem Motora Em Tarefa Virtual Na Paralisia Cerebral","a Eficácia Do Treinamento Auditivo Acusticamente Controlado Em Idosos Com Transtorno Do Processamento Auditivo","Reflectância De Banda Larga Em Indivíduos Com Artrite Reumatoide","Maturação Cortical Em Crianças Usuárias De Implante Coclear: Análise Das Medidas Eletrofisiológicas e Comportamentais","Ativação Do Efeito Inibitório Da via Eferente Auditiva Por Estímulo De Fala","Impacto Do Uso Do Speecheasy Nos Parâmetros Acústicos e Motores Da Fala De Indivíduos Com Gagueira","Fatores Que Interferem Na Adesão Do Cuidador Ao Tratamento Fonoaudiológico Para Pacientes Disfágicos Dependentes","Indicadores De Alterações De Comunicação Em Indivíduos Com Lesão Axonal Difusa","Avaliação Da Postura, Qualidade De Vida, Imagem Corporal e Autoestima Em Mulheres Com Mastectomia Sem Reconstrução e Com a Reconstrução Imediata Da Mama","Avaliação Do Controle Postural Estático e Dinâmico Na Síndrome Patelofemoral","Comparação Da Assincronia Toracoabdominal Ao Repouso e Ao Exercício Em Pacientes Com Doença Pulmonar Obstrutiva Crônica Utilizando Diferentes Metodologias","Análise Eletromiográfica De Três Exercícios De Core Do Mat Pilates e Suas Implicações Para a Dor Lombar Crônica Inespecífica","Influência Da Progressão Do Diabetes Nos Padrões Dinâmicos De Recrutamento De Fibras Musculares Analisados Através De Eletromiografia De Alta Densidade","Efeitos Do Tabagismo Sobre o Transporte Mucociliar Nasal, Propriedades Físicas Do Muco, Ph Do Condensado Do Ar Exalado, Celularidade e Citocinas De Lavado Nasal De Jovens","Desenvolvimento De Software Para Aplicação De Escala De Avaliação Funcional De Pessoas Com Distrofia Muscular De Duchenne e Testagem De Usabilidade","Autismo e Escola: Perspectiva De Pais e Professores","Consciência Fonêmica, Nomeação Automática Rápida e Velocidade De Leitura Em Escolares Do Ensino Fundamentel","Desempenho De Crianças Com Transtorno Fonológico Em Função Da Alteração Do Processamento Auditivo Central","Desempenho De Sujeitos Com Comprometimento Cognitivo Leve Em Tarefas De Compreensão Textual","Distúrbios De Voz e Violência Na Escola: Relato De Professoras","Relação Do Valgo Dinâmico Do Joelho Com a Força Muscular Do Quadril e Tronco Em Indivíduos Com Síndrome Patelofemoral","Relação Do Valgo Dinâmico Do Joelho Com a Força Muscular Do Quadril e Tronco Em Indivíduos Com Síndrome Patelofemoral","Queixas Osteomusculares e Trabalho Em Turno","Comparação Entre as Frequências Baixa e Alta Da Estimulação Elétrica Nervosa Transcutânea Na Prenhez Da Camundonga Swiss","Variáveis Biomecânicas Relacionadas Ao Impacto e Percepção De Conforto Em Calçados De Corrida Com Diferentes Tecnologias De Amortecimento","Avaliação Comportamental e Eletrofisiológica Das Funções Auditivas No Processo De Envelhecimento","Efeito De Um Programa De Treinamento Auditivo Em Portadores De Zumbido","Efeito Da Estimulação Contralateral Nas Medidas De Reflectância Acústica"],["CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","CONS NAC DE DESENVOLVIMENTO CIENTIFICO E TECNOLOGICO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","UNIVERSIDADE DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUND COORD DE APERFEICOAMENTO DE PESSOAL DE NIVEL SUP","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO","FUNDACAO DE AMPARO A PESQUISA DO ESTADO DE SAO PAULO"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Ano de Defesa<\/th>\n      <th>Linha de Pesquisa<\/th>\n      <th>Nome do Autor<\/th>\n      <th>Nome do Trabalho de Conclusão<\/th>\n      <th>Nome do Financiador<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":true,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy","text":"Copiar","filename":"Dissertações - Bolsistas"},{"extend":"csv","text":"CSV","filename":"Dissertações - Bolsistas"},{"extend":"pdf","text":"PDF","title":"Dissertações - Bolsistas","filename":"Dissertações - Bolsistas"}],"language":{"paginate":{"next":"Próximo","previous":"Anterior"}},"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
 </div>
 </div>
@@ -758,10 +835,3409 @@ href="https://www.linkedin.com/shareArticle?mini=true&amp;url="><svg preserveAsp
 <div id="produção-do-programa" class="section level4">
 <h4><strong>Produção do Programa</strong></h4>
 <p><br></p>
+<div id="fmdcogszaa"
+style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#fmdcogszaa table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#fmdcogszaa thead, #fmdcogszaa tbody, #fmdcogszaa tfoot, #fmdcogszaa tr, #fmdcogszaa td, #fmdcogszaa th {
+  border-style: none;
+}
+
+#fmdcogszaa p {
+  margin: 0;
+  padding: 0;
+}
+
+#fmdcogszaa .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#fmdcogszaa .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#fmdcogszaa .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#fmdcogszaa .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#fmdcogszaa .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#fmdcogszaa .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#fmdcogszaa .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#fmdcogszaa .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#fmdcogszaa .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#fmdcogszaa .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#fmdcogszaa .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#fmdcogszaa .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#fmdcogszaa .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#fmdcogszaa .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#fmdcogszaa .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fmdcogszaa .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#fmdcogszaa .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#fmdcogszaa .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#fmdcogszaa .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fmdcogszaa .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#fmdcogszaa .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fmdcogszaa .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#fmdcogszaa .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fmdcogszaa .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#fmdcogszaa .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#fmdcogszaa .gt_left {
+  text-align: left;
+}
+
+#fmdcogszaa .gt_center {
+  text-align: center;
+}
+
+#fmdcogszaa .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#fmdcogszaa .gt_font_normal {
+  font-weight: normal;
+}
+
+#fmdcogszaa .gt_font_bold {
+  font-weight: bold;
+}
+
+#fmdcogszaa .gt_font_italic {
+  font-style: italic;
+}
+
+#fmdcogszaa .gt_super {
+  font-size: 65%;
+}
+
+#fmdcogszaa .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#fmdcogszaa .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#fmdcogszaa .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#fmdcogszaa .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#fmdcogszaa .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#fmdcogszaa .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#fmdcogszaa .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings">
+<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2012&lt;/strong&gt;">
+<strong>2012</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2013&lt;/strong&gt;">
+<strong>2013</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2014&lt;/strong&gt;">
+<strong>2014</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2015&lt;/strong&gt;">
+<strong>2015</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2016&lt;/strong&gt;">
+<strong>2016</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2017&lt;/strong&gt;">
+<strong>2017</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2018&lt;/strong&gt;">
+<strong>2018</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2019&lt;/strong&gt;">
+<strong>2019</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2020&lt;/strong&gt;">
+<strong>2020</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2021&lt;/strong&gt;">
+<strong>2021</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2022&lt;/strong&gt;">
+<strong>2022</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2023&lt;/strong&gt;">
+<strong>2023</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;N (Período)&lt;/strong&gt;">
+<strong>N (Período)</strong>
+</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Produção por Área de Concentração
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+<br />
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+5,023
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    CIÊNCIAS DA REABILITAÇÃO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+825
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+581
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+653
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+575
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+425
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+359
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+469
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+417
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+422
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+334
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+8
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Produção por Linha de Pesquisa
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+<br />
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+5,023
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    FUNÇÃO E DISFUNÇÃO EM FISIOTERAPIA
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+274
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+241
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+317
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+263
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+240
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+187
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+298
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+180
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+231
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+147
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+4
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    LINGUAGEM
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+342
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+217
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+201
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+174
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+135
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+95
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+82
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+126
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+72
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+66
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    AUDIÇÃO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+158
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+90
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+97
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+122
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+37
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+54
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+58
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+76
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+60
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+82
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+4
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    INTERVENÇÃO SOCIAL EM TERAPIA OCUPACIONAL
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+50
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+31
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+38
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+16
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+10
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+21
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+28
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+33
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+51
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+39
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Produção por tipo
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+<br />
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+5,023
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    TÉCNICA
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+538
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+288
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+259
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+313
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+194
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+213
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+255
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+216
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+214
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+140
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+1
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    BIBLIOGRÁFICA
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+304
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+304
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+396
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+268
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+234
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+194
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+253
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+206
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+214
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+193
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+9
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    ARTÍSTICO-CULTURAL
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Categoria do Autor Principal
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+<br />
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+5,023
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    Docente
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+475
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+309
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+278
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+256
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+162
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+166
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+197
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+206
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+180
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+150
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+3
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    Participante Externo
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+207
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+154
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+216
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+174
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+123
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+120
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+128
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+91
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+117
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+85
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+2
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    Discente
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+136
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+106
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+136
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+133
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+102
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+85
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+133
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+55
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+96
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+69
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+1
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    Egresso
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+26
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+29
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+37
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+46
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+29
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+29
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+1
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    Sem categoria
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+24
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+15
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+13
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+12
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+9
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+3
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+6
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+18
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+3
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    Pós-Doc
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+8
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+11
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+6
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+6
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+8
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+6
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Produção vinculada a TCC concluído
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+<br />
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+5,023
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    Não
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+737
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+470
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+524
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+438
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+254
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+291
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+340
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+326
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+307
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+269
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+9
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    Sim
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+105
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+122
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+131
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+143
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+174
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+116
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+169
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+96
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+121
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+65
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+1
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Produção bibliográfica
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+<br />
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+2,849
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    ARTIGO EM PERIÓDICO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+111
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+141
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+145
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+105
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+131
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+123
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+91
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+121
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+127
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+121
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+9
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    TRABALHO EM ANAIS
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+170
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+126
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+174
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+140
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+60
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+58
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+130
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+64
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+59
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+37
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    APRESENTAÇÃO DE TRABALHO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+95
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+36
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+30
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+47
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+44
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+26
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+29
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+10
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+13
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+5
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    LIVRO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+20
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+29
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+62
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+17
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+40
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+10
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+27
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+17
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+21
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+32
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    ARTIGO EM JORNAL OU REVISTA
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+3
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+10
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+3
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+6
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+3
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    OUTRO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+5
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+6
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    TRADUÇÃO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    DESENVOLVIMENTO DE MATERIAL DIDÁTICO E INSTRUCIONAL
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    CURSO DE CURTA DURAÇÃO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    DESENVOLVIMENTO DE PRODUTO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    EDITORIA
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    PROGRAMA DE RÁDIO OU TV
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Produção técnica
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+<br />
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+<br />
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+2,510
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    APRESENTAÇÃO DE TRABALHO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+216
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+96
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+140
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+151
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+114
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+134
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+152
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+66
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+92
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+57
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    SERVIÇOS TÉCNICOS
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+190
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+84
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+50
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+96
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+13
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+8
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+9
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+58
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+54
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+48
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    DESENVOLVIMENTO DE MATERIAL DIDÁTICO E INSTRUCIONAL
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+55
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+45
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+24
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+9
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+18
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+29
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+21
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+29
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+25
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+11
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    ORGANIZAÇÃO DE EVENTO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+33
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+28
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+20
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+15
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+25
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+13
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+35
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+16
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+15
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+12
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    CURSO DE CURTA DURAÇÃO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+35
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+22
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+17
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+25
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+8
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+7
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+13
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+11
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    PROGRAMA DE RÁDIO OU TV
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+3
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+13
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+6
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+14
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+27
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+14
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+1
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    OUTRO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+7
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+10
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+7
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+8
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    RELATÓRIO DE PESQUISA
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+5
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    DESENVOLVIMENTO DE PRODUTO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+3
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    DESENVOLVIMENTO DE TÉCNICA
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+7
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    EDITORIA
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    TRABALHO EM ANAIS
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    ARTIGO EM PERIÓDICO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    LIVRO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+2
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    DESENVOLVIMENTO DE APLICATIVO
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    PATENTE
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left">
+    ARTIGO EM JORNAL OU REVISTA
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+0
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+0
+</td>
+<td headers="add_stat_1" class="gt_row gt_center">
+<br />
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
 </div>
 <div id="projetos-de-pesquisa" class="section level3">
 <h3><strong>Projetos de pesquisa</strong></h3>
+<div id="sysxuxcfny"
+style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#sysxuxcfny table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#sysxuxcfny thead, #sysxuxcfny tbody, #sysxuxcfny tfoot, #sysxuxcfny tr, #sysxuxcfny td, #sysxuxcfny th {
+  border-style: none;
+}
+
+#sysxuxcfny p {
+  margin: 0;
+  padding: 0;
+}
+
+#sysxuxcfny .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: auto;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#sysxuxcfny .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: initial;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#sysxuxcfny .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#sysxuxcfny .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#sysxuxcfny .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: normal;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#sysxuxcfny .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#sysxuxcfny .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#sysxuxcfny .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#sysxuxcfny .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#sysxuxcfny .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#sysxuxcfny .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#sysxuxcfny .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#sysxuxcfny .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#sysxuxcfny .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#sysxuxcfny .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sysxuxcfny .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#sysxuxcfny .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#sysxuxcfny .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#sysxuxcfny .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sysxuxcfny .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#sysxuxcfny .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sysxuxcfny .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#sysxuxcfny .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sysxuxcfny .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#sysxuxcfny .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#sysxuxcfny .gt_left {
+  text-align: left;
+}
+
+#sysxuxcfny .gt_center {
+  text-align: center;
+}
+
+#sysxuxcfny .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#sysxuxcfny .gt_font_normal {
+  font-weight: normal;
+}
+
+#sysxuxcfny .gt_font_bold {
+  font-weight: bold;
+}
+
+#sysxuxcfny .gt_font_italic {
+  font-style: italic;
+}
+
+#sysxuxcfny .gt_super {
+  font-size: 65%;
+}
+
+#sysxuxcfny .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#sysxuxcfny .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#sysxuxcfny .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#sysxuxcfny .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#sysxuxcfny .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#sysxuxcfny .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#sysxuxcfny .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
+<thead>
+<tr class="gt_col_headings">
+<th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;Ano&lt;/strong&gt;">
+<strong>Ano</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2012&lt;/strong&gt;">
+<strong>2012</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2013&lt;/strong&gt;">
+<strong>2013</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2014&lt;/strong&gt;">
+<strong>2014</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2015&lt;/strong&gt;">
+<strong>2015</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2016&lt;/strong&gt;">
+<strong>2016</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2017&lt;/strong&gt;">
+<strong>2017</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2018&lt;/strong&gt;">
+<strong>2018</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2019&lt;/strong&gt;">
+<strong>2019</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2020&lt;/strong&gt;">
+<strong>2020</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2021&lt;/strong&gt;">
+<strong>2021</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2022&lt;/strong&gt;">
+<strong>2022</strong>
+</th>
+<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="&lt;strong&gt;2023&lt;/strong&gt;">
+<strong>2023</strong>
+</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Áreas de concentração
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+3
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+1
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+1
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Linhas de pesquisa
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+4
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+4
+</td>
+</tr>
+<tr>
+<td headers="label" class="gt_row gt_left" style="font-weight: bold;">
+Projetos de pesquisa
+</td>
+<td headers="stat_1" class="gt_row gt_center">
+220
+</td>
+<td headers="stat_2" class="gt_row gt_center">
+206
+</td>
+<td headers="stat_3" class="gt_row gt_center">
+222
+</td>
+<td headers="stat_4" class="gt_row gt_center">
+217
+</td>
+<td headers="stat_5" class="gt_row gt_center">
+203
+</td>
+<td headers="stat_6" class="gt_row gt_center">
+173
+</td>
+<td headers="stat_7" class="gt_row gt_center">
+164
+</td>
+<td headers="stat_8" class="gt_row gt_center">
+135
+</td>
+<td headers="stat_9" class="gt_row gt_center">
+114
+</td>
+<td headers="stat_10" class="gt_row gt_center">
+120
+</td>
+<td headers="stat_11" class="gt_row gt_center">
+122
+</td>
+<td headers="stat_12" class="gt_row gt_center">
+107
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
 </div>
 <div id="periódicos-institucionais" class="section level3">
@@ -809,9 +4285,14 @@ href="https://www.linkedin.com/shareArticle?mini=true&amp;url="><svg preserveAsp
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 <p><br></p>
-<p><br></p>
 <div id="projetos-de-pesquisa-1" class="section level3">
 <h3><strong>Projetos de pesquisa</strong></h3>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-e159199e27c2ae53751e" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-e159199e27c2ae53751e">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"caption":"<caption>12/11/2023<\/caption>","data":[["CARLA GENTILE MATAS","CARLA GENTILE MATAS","CLAUDIA REGINA FURQUIM DE ANDRADE","JOSE EDUARDO POMPEU","JOSE EDUARDO POMPEU","JOSE EDUARDO POMPEU","MARIA HELENA MORGANI DE ALMEIDA","MARIA HELENA MORGANI DE ALMEIDA","MARIA HELENA MORGANI DE ALMEIDA","MARIA HELENA MORGANI DE ALMEIDA"],["Avaliação do processo ensino-aprendizagem dos estudantes e a expectativa dos docentes nos cursos de fisioterapia, fonoaudiologia e terapia ocupacional da fmusp durante a pandemia do covid-19","Estudo do sistema auditivo periférico e central em indivíduos após infecção por covid-19","Estudo clínico para avaliar a performance e segurança da deglutição em pacientes críticos com covid-19","Prognóstico funcional em adultos e idosos acometidos pela covid-19: estudo de coorte","Prognóstico funcional em adultos e idosos pós covid-19","Prognóstico funcional em adultos e idosos acometidos pela covid-19: estudo de coorte","Teleconsulta pelo terapeuta ocupacional: ferramenta clínica para acompanhamento de idosos em distanciamento social devido à pandemia covid-19","Grupo virtual para apoio emocional e ocupacional de pessoas idosas saudáveis e pré-frágeis com queixas de saúde mental pós-internação por covid-19","Grupo virtual para apoio emocional e ocupacional de pessoas idosas saudáveis e pré-frágeis com queixas de saúde mental pós-internação por covid-19","Teleconsulta pelo terapeuta ocupacional: ferramenta clínica para acompanhamento de idosos em distanciamento social devido à pandemia covid-19"],["Audição","Audição","Linguagem",null,"Função E Disfunção Em Fisioterapia","Função E Disfunção Em Fisioterapia","Intervenção Social Em Terapia Ocupacional","Intervenção Social Em Terapia Ocupacional","Intervenção Social Em Terapia Ocupacional","Intervenção Social Em Terapia Ocupacional"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Nome do Membro Responsável<\/th>\n      <th>Nome do Projeto de Pesquisa<\/th>\n      <th>Linha de Pesquisa<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":true,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy","text":"Copiar","filename":"Ações durante a Pandemia - Projetos de Pesquisa"},{"extend":"csv","text":"CSV","filename":"Ações durante a Pandemia - Projetos de Pesquisa"},{"extend":"pdf","text":"PDF","title":"Ações durante a Pandemia - Projetos de Pesquisa","filename":"Ações durante a Pandemia - Projetos de Pesquisa"}],"language":{"paginate":{"next":"Próximo","previous":"Anterior"}},"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
 </div>
 <div id="financiadores" class="section level3">
@@ -820,14 +4301,22 @@ href="https://www.linkedin.com/shareArticle?mini=true&amp;url="><svg preserveAsp
 </div>
 <div id="dissertações-e-teses" class="section level3">
 <h3><strong>Dissertações e Teses</strong></h3>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-323cacf4efe5b870df0a" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-323cacf4efe5b870df0a">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","ColReorder","Responsive"],"caption":"<caption>12/11/2023<\/caption>","data":[["2022"],["Tese"],["Preditores Clínicos Do Risco De Broncoaspiração Em Pacientes Acometidos Por Covid-19"],["Maira Santilli De Lima"],["Claudia Regina Furquim De Andrade"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Ano<\/th>\n      <th>Nível<\/th>\n      <th>Título<\/th>\n      <th>Autor<\/th>\n      <th>Orientador<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":true,"pageLength":4,"scrolX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy","text":"Copiar","filename":"Ações durante a Pandemia - Trabalhos de conclusão de curso"},{"extend":"csv","text":"CSV","filename":"Ações durante a Pandemia - Trabalhos de conclusão de curso"},{"extend":"pdf","text":"PDF","title":"Ações durante a Pandemia - Trabalhos de conclusão de curso","filename":"Ações durante a Pandemia - Trabalhos de conclusão de curso"}],"language":{"paginate":{"next":"Próximo","previous":"Anterior"}},"columnDefs":[],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<p><em>Fontes:</em> <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>⬆️</a><br></p>
 <p><br></p>
 </div>
 <div id="artigos-completos" class="section level3 tabset">
 <h3 class="tabset"><strong>Artigos completos</strong></h3>
+<p><em>Sem produção para exibir</em></p>
 <p><br></p>
 </div>
 <div id="artigos-resumos" class="section level3 tabset">
 <h3 class="tabset"><strong>Artigos resumos</strong></h3>
+<p><em>Sem produção para exibir</em></p>
 <p><br></p>
 </div>
 <div id="preprints" class="section level3 tabset">

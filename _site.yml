@@ -194,11 +194,14 @@ navbar:
     - text: "Links"
       href: [links.html]
     - text: ""
-      icon: "fa-envelope"
-      href: [mailto:pos-reab@usp.br]
-    - text: ""
       icon: "fa-share-nodes"
       menu:
+        - text: "E-mail"
+          icon: "fa-envelope"
+          href: [mailto:pos-reab@usp.br]
+        - text: "Site institucional"
+          icon: "fa-globe"
+          href: [https://ppgreabilitacao.fm.usp.br]
         - text: ""
           icon: "fa-facebook"
           href: [https://www.facebook.com/cienciasdareabilitacaousp/]
