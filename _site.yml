@@ -219,7 +219,10 @@ navbar:
         - text: "Site institucional"
           icon: "fa-globe"
           href: [https://ppgreabilitacao.fm.usp.br]
-        - text: ""
+        - text: "Instagram"
+          icon: "fa-instagram"
+          href: []
+        - text: "Faacebook"
           icon: "fa-facebook"
           href: [https://www.facebook.com/cienciasdareabilitacaousp/]
   right:
