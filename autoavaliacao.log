@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.29)  4 JUN 2024 12:03
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.29)  5 JUN 2024 01:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1329,37 +1329,86 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 Missing character: There is no – ("2013) in font ec-lmr10!
 Missing character: There is no – ("2013) in font ec-lmr10!
 
-Overfull \hbox (2.52202pt too wide) in paragraph at lines 523--523
+Overfull \hbox (5.04787pt too wide) in paragraph at lines 523--523
+ \T1/lmr/m/n/10 Aprendizagem 
+ []
+
+
+Overfull \hbox (14.03862pt too wide) in paragraph at lines 523--523
  []\T1/lmr/m/n/10 Comportamento 
  []
 
 
-Overfull \hbox (4.91197pt too wide) in paragraph at lines 523--523
+Overfull \hbox (16.42857pt too wide) in paragraph at lines 523--523
  []\T1/lmr/m/n/10 Desenvolvimento 
  []
 
 
-Overfull \hbox (4.91197pt too wide) in paragraph at lines 523--523
+Overfull \hbox (16.42857pt too wide) in paragraph at lines 523--523
  []\T1/lmr/m/n/10 Desenvolvimento 
+ []
+
+
+Overfull \hbox (8.59485pt too wide) in paragraph at lines 523--523
+ []\T1/lmr/m/n/10 Funcionalidade 
  []
 
 Missing character: There is no – ("2013) in font ec-lmr10!
 
-Overfull \hbox (4.74455pt too wide) in paragraph at lines 523--523
+Overfull \hbox (9.01091pt too wide) in paragraph at lines 523--523
+ []\T1/lmr/m/n/10 Implementação 
+ []
+
+
+Overfull \hbox (16.26115pt too wide) in paragraph at lines 523--523
  []\T1/lmr/m/n/10 Neuromodulação 
  []
 
 
-Overfull \hbox (4.91197pt too wide) in paragraph at lines 523--523
+Overfull \hbox (7.40057pt too wide) in paragraph at lines 523--523
+ []\T1/lmr/m/n/10 Caracterização 
+ []
+
+
+Overfull \hbox (7.40057pt too wide) in paragraph at lines 523--523
+ []\T1/lmr/m/n/10 Caracterização 
+ []
+
+
+Overfull \hbox (16.42857pt too wide) in paragraph at lines 523--523
  []\T1/lmr/m/n/10 Desenvolvimento 
  []
 
 
-Overfull \vbox (15301.58342pt too high) has occurred while \output is active []
+Overfull \hbox (1.09386pt too wide) in paragraph at lines 523--523
+ []\T1/lmr/m/n/10 Fononcologia: 
+ []
+
+
+Overfull \hbox (11.6503pt too wide) in paragraph at lines 523--523
+ []\T1/lmr/m/n/10 Fundamentação 
+ []
+
+
+Overfull \hbox (7.6226pt too wide) in paragraph at lines 523--523
+ []\T1/lmr/m/n/10 Processamento 
+ []
+
+
+Overfull \hbox (7.6226pt too wide) in paragraph at lines 523--523
+ []\T1/lmr/m/n/10 Processamento 
+ []
+
+
+Overfull \vbox (18345.36113pt too high) detected at line 525
+ []
+
+
+Overfull \vbox (18345.36113pt too high) has occurred while \output is active []
 
 
 
-Overfull \vbox (24224.81924pt too high) has occurred while \output is active []
+Overfull \vbox (27268.59695pt too high) has occurred while \output is active []
 
 
 [8] [9]
@@ -1749,7 +1798,7 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Here is how much of TeX's memory you used:
  37608 strings out of 474649
  725809 string characters out of 5755059
- 2173556 words of memory out of 5000000
+ 2215556 words of memory out of 5000000
  59310 multiletter control sequences out of 15000+600000
  594537 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
