@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.9)  12 JUN 2024 00:54
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.14)  14 JUN 2024 23:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **autoavaliacao.tex
 (./autoavaliacao.tex
-LaTeX2e <2024-06-01>
+LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/book.cls
 Document Class: book 2024/02/08 v1.4n Standard LaTeX document class
@@ -1420,11 +1420,11 @@ Overfull \hbox (7.6226pt too wide) in paragraph at lines 523--523
  []
 
 
-Overfull \vbox (18358.78375pt too high) detected at line 525
+Overfull \vbox (18345.36113pt too high) detected at line 525
  []
 
 
-Overfull \vbox (18358.78375pt too high) has occurred while \output is active []
+Overfull \vbox (18345.36113pt too high) has occurred while \output is active []
 
 
 
@@ -1432,7 +1432,7 @@ Overfull \vbox (18358.78375pt too high) has occurred while \output is active []
 [8]
 
 [9]
-Overfull \vbox (209.83849pt too high) has occurred while \output is active []
+Overfull \vbox (196.41586pt too high) has occurred while \output is active []
 
 
 
@@ -1797,7 +1797,7 @@ Overfull \hbox (13.63951pt too wide) in paragraph at lines 749--749
  []
 
 
-Overfull \vbox (6613.1777pt too high) has occurred while \output is active []
+Overfull \vbox (6599.75508pt too high) has occurred while \output is active []
 
 
 
@@ -1883,7 +1883,7 @@ Overfull \hbox (30.72008pt too wide) in paragraph at lines 1107--1140
 
 [47] (./autoavaliacao.aux)
  ***********
-LaTeX2e <2024-06-01>
+LaTeX2e <2024-06-01> patch level 1
 L3 programming layer <2024-05-27>
  ***********
 
@@ -1891,10 +1891,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 37488 strings out of 474256
- 723855 string characters out of 5742728
- 2216543 words of memory out of 5000000
- 59583 multiletter control sequences out of 15000+600000
+ 37486 strings out of 474256
+ 723833 string characters out of 5742727
+ 2215557 words of memory out of 5000000
+ 59581 multiletter control sequences out of 15000+600000
  594537 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,19n,122p,1202b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
