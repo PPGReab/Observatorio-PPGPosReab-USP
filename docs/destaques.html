@@ -35,22 +35,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
-<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
-<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
-<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
-<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
-<script src="site_libs/pdfmake-1.13.6/pdfmake.js"></script>
-<script src="site_libs/pdfmake-1.13.6/vfs_fonts.js"></script>
-<link href="site_libs/dt-ext-buttons-1.13.6/css/buttons.dataTables.min.css" rel="stylesheet" />
-<script src="site_libs/dt-ext-buttons-1.13.6/js/dataTables.buttons.min.js"></script>
-<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.html5.min.js"></script>
-<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.colVis.min.js"></script>
-<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.print.min.js"></script>
-<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
-<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 <link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="favicon_io/android-chrome-192x192.png" sizes="192x192" type="image/png">
@@ -508,9 +492,6 @@ div.tocify {
       <a href="bibliografica.html#artigo-periodico">Artigo em periódico</a>
     </li>
     <li>
-      <a href="bibliografica.html#retratacao">Retratação</a>
-    </li>
-    <li>
       <a href="bibliografica.html#livro">Livro</a>
     </li>
     <li>
@@ -790,11 +771,11 @@ $(document).ready(function() {
 <!--script for sharing-->
 <p align="right">
 <a
-href="https://twitter.com/share?url="><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z"/></svg></a>
+href="https://twitter.com/share?url=https://github.com/FerreiraAS"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM351.3 199.3v0c0 86.7-66 186.6-186.6 186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3 .6 10.4 .8 15.8 .8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8 .2 5.7 .2 8.5z"/></svg></a>
 <a
-href="https://www.facebook.com/sharer.php?u="><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a>
+href="https://www.facebook.com/sharer.php?u=https://github.com/FerreiraAS"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z"/></svg></a>
 <a
-href="https://www.linkedin.com/shareArticle?mini=true&amp;url="><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://github.com/FerreiraAS"><svg preserveAspectRatio="none" aria-hidden="true" role="img" viewBox="0 0 448 512" style="height:2em;width:2em;vertical-align:-0.125em;margin-left:0.2em;margin-right:0.2em;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
 </p>
 <!--script for generating ALTMETRIC badges-->
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
@@ -820,8 +801,6 @@ href="https://www.linkedin.com/shareArticle?mini=true&amp;url="><svg preserveAsp
 <h2 class="tabset"><strong>Produções: Visibilidade</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-56121d5c1bd4bd554bc8" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-56121d5c1bd4bd554bc8">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"caption":"<caption>14/06/2024<\/caption>","data":[["414","388","357","283","15","176","178","314","83","264","16","310","38","356","385","329","140","282","2","101"],["Brasil P, Pereira JP, Moreira ME, et al. Zika Virus Infection in Pregnant Women in Rio de Janeiro. New England Journal of Medicine. 2016;375(24):2321-2334. doi:10.1056/nejmoa1602412\n","Sanchez TG, Moraes F, Casseb J, Cota J, Freire K, Roberts LE. Tinnitus is associated with reduced sound level tolerance in adolescents with normal audiograms and otoacoustic emissions. Scientific Reports. 2016;6(1). doi:10.1038/srep27109\n","Ribeiro AP, João SMA. The Effect of Short and Long-Term Therapeutic Treatment with Insoles and Shoes on Pain, Function, and Plantar Load Parameters of Women with Plantar Fasciitis: A Randomized Controlled Trial. Medicina. 2022;58(11):1546. doi:10.3390/medicina58111546\n","Gil S, Gualano B, de Araújo AL, et al. Post-acute sequelae of SARS-CoV-2 associates with physical inactivity in a cohort of COVID-19 survivors. Scientific Reports. 2023;13(1). doi:10.1038/s41598-022-26888-3\n","França-Pinto A, Mendes FAR, de Carvalho-Pinto RM, et al. Aerobic training decreases bronchial hyperresponsiveness and systemic inflammation in patients with moderate or severe asthma: a randomised controlled trial. Thorax. 2015;70(8):732-739. doi:10.1136/thoraxjnl-2014-206070\n","st(doi = \"10.3389/fpsyg.2014.00550\", error = \"Error in curl::curl_fetch_memory(x$url$url, handle = x$url$handle) : \\n  Failed to connect to api.crossref.org port 443 after 0 ms: Couldn't connect to server\\n\")","st(doi = \"10.1249/mss.0000000000001574\", error = \"Error in curl::curl_fetch_memory(x$url$url, handle = x$url$handle) : \\n  Failed to connect to api.crossref.org port 443 after 0 ms: Couldn't connect to server\\n\")","Rotta BP, Silva JM da, Fu C, Goulardins JB, Pires-Neto R de C, Tanaka C. Relationship between availability of physiotherapy services and ICU costs. Jornal Brasileiro de Pneumologia. 2018;44(3):184-189. doi:10.1590/s1806-37562017000000196\n","Varanda C de A, Fernandes FDM. Cognitive flexibility training intervention among children with autism: a longitudinal study. Psicologia: Reflexão e Crítica. 2017;30(1). doi:10.1186/s41155-017-0069-5\n","Lopes Moreira ME, Nielsen-Saines K, Brasil P, et al. Neurodevelopment in Infants Exposed to Zika Virus In Utero. New England Journal of Medicine. 2018;379(24):2377-2379. doi:10.1056/nejmc1800098\n","Fernandes JR, Pinto TNC, Arruda LB, et al. Age-associated phenotypic imbalance in TCD4 and TCD8 cell subsets: comparison between healthy aged, smokers, COPD patients and young adults. Immunity &amp; Ageing. 2022;19(1). doi:10.1186/s12979-022-00267-y\n","Gomes TT, Schujmann DS, Fu C. Rehabilitation through virtual reality: physical activity of patients admitted to\n            the intensive care unit. Revista Brasileira de Terapia Intensiva. 2019;31(4). doi:10.5935/0103-507x.20190078\n","Damiano RF, Neto DB, Oliveira JVR, et al. Association between chemosensory impairment with neuropsychiatric morbidity in post-acute COVID-19 syndrome: results from a multidisciplinary cohort study. European Archives of Psychiatry and Clinical Neuroscience. 2022;273(2):325-333. doi:10.1007/s00406-022-01427-3\n","Sacco ICN, Pereira ILR, Dinato RC, Silva VC, Friso B, Viterbo SF. The Effect of Pillow Height on Muscle Activity of the Neck and Mid-Upper Back and Patient Perception of Comfort. Journal of Manipulative and Physiological Therapeutics. 2015;38(6):375-381. doi:10.1016/j.jmpt.2015.06.012\n","Medeiros LN, Sanchez TG. Tinnitus and cell phones: the role of electromagnetic radiofrequency radiation. Brazilian Journal of Otorhinolaryngology. 2016;82(1):97-104. doi:10.1016/j.bjorl.2015.04.013\n","Silva TD da, Silva PL da, Valenzuela E de J, et al. Serious Game Platform as a Possibility for Home-Based Telerehabilitation for Individuals With Cerebral Palsy During COVID-19 Quarantine – A Cross-Sectional Pilot Study. Frontiers in Psychology. 2021;12. doi:10.3389/fpsyg.2021.622678\n","Yuan SLK, Matsutani LA, Marques AP. Effectiveness of different styles of massage therapy in fibromyalgia: A systematic review and meta-analysis. Manual Therapy. 2015;20(2):257-264. doi:10.1016/j.math.2014.09.003\n","de Lima FF, Pinheiro DHA, Carvalho CRF de. Physical training in adults with asthma: An integrative approach on strategies, mechanisms, and benefits. Frontiers in Rehabilitation Sciences. 2023;4. doi:10.3389/fresc.2023.1115352\n","Freitas PD, Passos NFP, Carvalho-Pinto RM, et al. A Behavior Change Intervention Aimed at Increasing Physical Activity Improves Clinical Control in Adults With Asthma. Chest. 2021;159(1):46-57. doi:10.1016/j.chest.2020.08.2113\n","Aparecido da Silva R, Leite Rocco PG, Stelmach R, et al. Constant-Load Exercise Versus High-Intensity Interval Training on Aerobic Fitness in Moderate-to-Severe Asthma: A Randomized Controlled Trial. The Journal of Allergy and Clinical Immunology: In Practice. 2022;10(10):2596-2604.e7. doi:10.1016/j.jaip.2022.05.023\n"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>Reference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":false,"pageLength":0,"scrolX":false,"dom":"B","searchHighlight":false,"buttons":[{"extend":"copy","text":"Copiar","filename":"Produção de destaque - Atenção e visibilidade"},{"extend":"csv","text":"CSV","filename":"Produção de destaque - Atenção e visibilidade"},{"extend":"pdf","text":"PDF","title":"Produção de destaque - Atenção e visibilidade","filename":"Produção de destaque - Atenção e visibilidade"}],"headerCallback":"function(thead, display){\n$(thead).remove();\n}","columnDefs":[{"name":"ID","targets":0},{"name":"Reference","targets":1}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[0,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.headerCallback"],"jsHooks":[]}</script>
 <!-- -->
 <p><strong>Produtos (n = 20) e Impactos (Altmetric<sup>1</sup>,
 Dimensions<sup>2</sup>, PlumX<sup>3</sup>, CiteScore<sup>4</sup>,
@@ -1139,53 +1118,6 @@ Qualis <br>A1</a></nobr>
 </tr>
 <tr>
 <td valign=top;>
-<br> <a href="http://dx.doi.org/10.1249/mss.0000000000001574"
-target="_blank"><strong>Exercise Improves Physical Activity and
-Comorbidities in Obese Adults with Asthma</strong></a><br>Patrícia
-Duarte Freitas, Aline Grandi Silva, Palmira Gabriele Ferreira, Analuci
-DA Silva, João Marcos Salge, Regina Maria Carvalho-Pinto, Alberto
-Cukier, Claudia M Brito, Marcio C Mancini, Celso R F Carvalho<br>2018  -
- <em>Medicine and Science in Sports &amp; Exercise</em><br>
-<div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1249/mss.0000000000001574"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1249/mss.0000000000001574" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1249/mss.0000000000001574" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19894?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
-<div
-style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
-<div style="padding: 0px 16px;">
-<div style="padding-top:3px;line-height:1;">
-<div style="float:left;font-size:28px">
-<span id="citescoreVal"
-style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">9.80</span>
-</div>
-<div
-style="float:right;font-size:14px;padding-top:3px;text-align: right;">
-<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
-</div>
-</div>
-<div style="clear:both;">
-
-</div>
-<div style="padding-top:3px;">
-<div style="height:4px;background-color:#DCDCDC;">
-<div id="percentActBar"
-style="height: 4px; background-color: rgb(0, 115, 152); width:94%;">
- 
-</div>
-</div>
-<div style="font-size:11px;">
-<span id="citescorePerVal">94th percentile</span>
-</div>
-</div>
-<div style="font-size:12px;text-align:right;">
-
-</div>
-</div>
-</div>
-</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=19894&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=19894" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis <br>A1</a></nobr>
-</div>
-</tr>
-<tr>
-<td valign=top;>
 <br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1590/s1806-37562017000000196" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
 <a href="http://dx.doi.org/10.1590/s1806-37562017000000196"
 target="_blank"><strong>Relationship between availability of
@@ -1229,6 +1161,53 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:?%;">
 </div>
 </a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=0?&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=0" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis <br>B1</a></nobr>
+</div>
+</tr>
+<tr>
+<td valign=top;>
+<br> <a href="http://dx.doi.org/10.1249/mss.0000000000001574"
+target="_blank"><strong>Exercise Improves Physical Activity and
+Comorbidities in Obese Adults with Asthma</strong></a><br>Patrícia
+Duarte Freitas, Aline Grandi Silva, Palmira Gabriele Ferreira, Analuci
+DA Silva, João Marcos Salge, Regina Maria Carvalho-Pinto, Alberto
+Cukier, Claudia M Brito, Marcio C Mancini, Celso R F Carvalho<br>2018  -
+ <em>Medicine and Science in Sports &amp; Exercise</em><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1249/mss.0000000000001574"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1249/mss.0000000000001574" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1249/mss.0000000000001574" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19894?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<div
+style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
+<div style="padding: 0px 16px;">
+<div style="padding-top:3px;line-height:1;">
+<div style="float:left;font-size:28px">
+<span id="citescoreVal"
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">9.80</span>
+</div>
+<div
+style="float:right;font-size:14px;padding-top:3px;text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px;background-color:#DCDCDC;">
+<div id="percentActBar"
+style="height: 4px; background-color: rgb(0, 115, 152); width:94%;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">94th percentile</span>
+</div>
+</div>
+<div style="font-size:12px;text-align:right;">
+
+</div>
+</div>
+</div>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=19894&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=19894" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>A1</a></nobr>
 </div>
 </tr>
 <tr>
@@ -1834,8 +1813,6 @@ href="https://doaj.org"><strong>DOAJ</strong></a><br><br><br><a style="float:rig
 <h2 class="tabset"><strong>Produções: Prestígio</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-f463472984441e7f659d" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-f463472984441e7f659d">{"x":{"filter":"none","vertical":false,"extensions":["Buttons"],"caption":"<caption>14/06/2024<\/caption>","data":[["237","369","247","382","381","624","488","334","269","437","71","178","262","177","349","36","173","14","359","266"],["st(doi = \"10.1097/aud.0000000000000644\", error = \"Error in curl::curl_fetch_memory(x$url$url, handle = x$url$handle) : \\n  Failed to connect to api.crossref.org port 443 after 0 ms: Couldn't connect to server\\n\")","de Carvalho BKG, Penha PJ, Penha NLJ, Andrade RM, Ribeiro AP, João SMA. The influence of gender and body mass index on the FPI‐6 evaluated foot posture of 10‐ to 14‐year‐old school children in São Paulo, Brazil: a cross‐sectional study. Journal of Foot and Ankle Research. 2017;10(1). doi:10.1186/s13047-016-0183-0\n","st(doi = \"10.1155/2017/5087145\", error = \"Error in curl::curl_fetch_memory(x$url$url, handle = x$url$handle) : \\n  Failed to connect to api.crossref.org port 443 after 0 ms: Couldn't connect to server\\n\")","Garcia Júnior A, Caromano FA, Contesini AM, Escorcio R, Fernandes LAY, João SMA. Thoracic cirtometry in children with Duchenne muscular dystrophy - expansion of the method. Revista Brasileira de Fisioterapia. Published online 2013. doi:10.1590/s1413-35552012005000064\n","Ghodratitoostani I, Zana Y, Delbem ACB, Sani SS, Ekhtiari H, Sanchez TG. Theoretical Tinnitus Framework: A Neurofunctional Model. Frontiers in Neuroscience. 2016;10. doi:10.3389/fnins.2016.00370\n","Amato CA de la H, Santos THF, Barbosa MRP, Fernandes FDM. Estudo longitudinal da terapia de linguagem de 142 crianças e adolescentes com distúrbios do espectro do autismo. CoDAS. 2013;25(4):388-390. doi:10.1590/s2317-17822013000400015\n","Ribeiro KSQS, Saldanha JHS, Zanela ÂK, et al. Avaliação da implantação da Rede de Cuidados à Pessoa com Deficiência no Sistema Único de Saúde: um estudo de casos múltiplos. Cadernos de Saúde Pública. 2023;39(5). doi:10.1590/0102-311xpt186122\n","Misquiatti ARN, Brito MC, Olivati AG, Santos TR dos, Fernandes FDM. Sociocognitive performance in autism spectrum disorders and interference of the therapeutic environment. CoDAS. 2014;26(5):402-406. doi:10.1590/2317-1782/20142013006\n","Fernandes FDM, Amato CA de la H, Perissinoto J, et al. O papel do fonoaudiólogo e o foco da intervenção no TEA. CoDAS. 2022;34(5). doi:10.1590/2317-1782/20212021264\n","Santos THF, Cortez ACM, Sauini G, Nascimento ACC do, Fernandes FDM. Adaptação para o português do teste de habilidades pragmáticas de Shulman. CoDAS. 2018;30(1). doi:10.1590/2317-1782/20182017036\n","Voos MC, Oliveira T de P, Piemonte MEP, Barbosa ER. Case Report: Physical therapy management of axial dystonia. Physiotherapy Theory and Practice. 2013;30(1):56-61. doi:10.3109/09593985.2013.799252\n","st(doi = \"10.1249/mss.0000000000001574\", error = \"Error in curl::curl_fetch_memory(x$url$url, handle = x$url$handle) : \\n  Failed to connect to api.crossref.org port 443 after 0 ms: Couldn't connect to server\\n\")","Vasconcelos GC, Brietzke C, Franco-Alvarenga PE, Hettinga FJ, Pires FO. Music Alters Conscious Distance Monitoring without Changing Pacing and Performance during a Cycling Time Trial. International Journal of Environmental Research and Public Health. 2023;20(5):3890. doi:10.3390/ijerph20053890\n","st(doi = \"10.1055/s-0033-1358477\", error = \"Error in curl::curl_fetch_memory(x$url$url, handle = x$url$handle) : \\n  Failed to connect to api.crossref.org port 443 after 0 ms: Couldn't connect to server\\n\")","Nakagawa NK, Salles IC, Costa MM, Pinho JL, Böttiger BW. The “four-finger ruler” as a novel, simple and easy technique for hands placement during CPR training. Resuscitation. 2023;182:109683. doi:10.1016/j.resuscitation.2022.109683\n","Roveri MI, Manoel E de J, Onodera AN, et al. Assessing experience in the deliberate practice of running using a fuzzy decision-support system. Deng Y, ed. PLOS ONE. 2017;12(8):e0183389. doi:10.1371/journal.pone.0183389\n","st(doi = \"10.1016/j.ridd.2019.103541\", error = \"Error in curl::curl_fetch_memory(x$url$url, handle = x$url$handle) : \\n  Failed to connect to api.crossref.org port 443 after 0 ms: Couldn't connect to server\\n\")","Cavalcante de Sá M, Nakagawa NK, Saldiva de André CD, et al. Aerobic exercise in polluted urban environments: effects on airway defense mechanisms in young healthy amateur runners. Journal of Breath Research. 2016;10(4):046018. doi:10.1088/1752-7163/10/4/046018\n","De Freitas TB, Leite PHW, Doná F, Pompeu JE, Swarowsky A, Torriani-Pasin C. The effects of dual task gait and balance training in Parkinson’s disease: a systematic review. Physiotherapy Theory and Practice. 2018;36(10):1088-1096. doi:10.1080/09593985.2018.1551455\n","Anaize Tonon do Amaral J, Salatini R, Arab C, et al. Non-Alcoholic Cirrhosis and Heart Rate Variability: A Systematic Mini-Review. Medicina. 2020;56(3):116. doi:10.3390/medicina56030116\n"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>ID<\/th>\n      <th>Reference<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":false,"pageLength":0,"scrolX":false,"dom":"B","searchHighlight":false,"buttons":[{"extend":"copy","text":"Copiar","filename":"Produção de destaque - Prestígio do peridódico"},{"extend":"csv","text":"CSV","filename":"Produção de destaque - Prestígio do peridódico"},{"extend":"pdf","text":"PDF","title":"Produção de destaque - Prestígio do peridódico","filename":"Produção de destaque - Prestígio do peridódico"}],"headerCallback":"function(thead, display){\n$(thead).remove();\n}","columnDefs":[{"name":"ID","targets":0},{"name":"Reference","targets":1}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[0,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":["options.headerCallback"],"jsHooks":[]}</script>
 <!-- -->
 <p><strong>Produtos (n = 20) e Impactos (Altmetric<sup>1</sup>,
 Dimensions<sup>2</sup>, PlumX<sup>3</sup>, CiteScore<sup>4</sup>,
@@ -2104,6 +2081,53 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:99%;">
 </div>
 </div>
 </a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=18458&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=18458" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis <br>A1</a></nobr>
+</div>
+</tr>
+<tr>
+<td valign=top;>
+<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1186/cc13069" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
+<a href="http://dx.doi.org/10.1186/cc13069"
+target="_blank"><strong>Clinical prognostic indicators of dysphagia
+following prolonged orotracheal intubation in ICU
+patients</strong></a><br>DaniellePedroni Moraes, FernandaChiarion Sassi,
+LauraDavison Mangilli, Bruno Zilberstein, ClaudiaReginaFurquim de
+Andrade<br>2013  -  <em>Critical Care</em><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1186/cc13069"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1186/cc13069" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1186/cc13069" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/29914?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<div
+style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
+<div style="padding: 0px 16px;">
+<div style="padding-top:3px;line-height:1;">
+<div style="float:left;font-size:28px">
+<span id="citescoreVal"
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">18.80</span>
+</div>
+<div
+style="float:right;font-size:14px;padding-top:3px;text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px;background-color:#DCDCDC;">
+<div id="percentActBar"
+style="height: 4px; background-color: rgb(0, 115, 152); width:98%;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">98th percentile</span>
+</div>
+</div>
+<div style="font-size:12px;text-align:right;">
+
+</div>
+</div>
+</div>
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=29914&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=29914" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis <br>A1</a></nobr>
 </div>
 </tr>
@@ -2542,24 +2566,23 @@ Qualis <br>A1</a></nobr>
 </tr>
 <tr>
 <td valign=top;>
-<br> <a href="http://dx.doi.org/10.1186/s13613-021-00882-w"
-target="_blank"><strong>Protective ventilation and outcomes of
-critically ill patients with COVID-19: a cohort
-study</strong></a><br>Juliana C. Ferreira, Yeh-Li Ho, Bruno Adler
-Maccagnan Pinheiro Besen, Luiz Marcelo Sa Malbouisson, Leandro Utino
-Taniguchi, Pedro Vitale Mendes, Eduardo Leite Vieira Costa, Marcelo
-Park, Renato Daltro-Oliveira, Roberta M. L. Roepke, Joao M. Silva-Jr,
-Maria Jose Carvalho Carmona, Carlos R. R. Carvalho<br>2021  -
- <em>Annals of Intensive Care</em><br>
+<br> <a href="http://dx.doi.org/10.1002/mds.28773"
+target="_blank"><strong>Access and Attitudes Toward Palliative Care
+Among Movement Disorders Clinicians</strong></a><br>Janis M. Miyasaki,
+Shen‐Yang Lim, K. Ray Chaudhuri, Angelo Antonini, Maria Piemonte, Edward
+Richfield, Daniela Alburquerque Gonzalez, Stefan Lorenzl, Richard
+Walker, Roongroj Bhidayasiri, Raquel Bouca, Victor McConvey, the Task
+Force on Palliative Care of the International Parkinson and Movement
+Disorder Society<br>2021  -  <em>Movement Disorders</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1186/s13613-021-00882-w"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1186/s13613-021-00882-w" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1186/s13613-021-00882-w" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/21100200831?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1002/mds.28773"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1002/mds.28773" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.5em 0.3em 0.5em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1002/mds.28773" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/17407?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
 <div style="padding-top:3px;line-height:1;">
 <div style="float:left;font-size:28px">
 <span id="citescoreVal"
-style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">13.60</span>
+style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">13.70</span>
 </div>
 <div
 style="float:right;font-size:14px;padding-top:3px;text-align: right;">
@@ -2585,21 +2608,20 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:97%;">
 </div>
 </div>
 </div>
-</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=21100200831&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=21100200831" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=17407&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=17407" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis <br>A1</a></nobr>
 </div>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1136/annrheumdis-2022-eular.2201" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1136/annrheumdis-2022-eular.2201"
+<br> <a href="https://doi.org/NA"
 target="_blank"><strong>AB1539-HPR AMIGOS DE FIBRO (FIBRO FRIENDS):
 VALIDATION OF AN EDUCATIONAL E-BOOK TO PROMOTE THE HEALTH OF PEOPLE
 LIVING WITH FIBROMYALGIA IN BRAZIL</strong></a><br>M. Antunes, A.
 Schmitt, A. Pasqual Marques<br>2022  -  <em>Annals of the Rheumatic
 Diseases</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1136/annrheumdis-2022-eular.2201" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1136/annrheumdis-2022-eular.2201" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19136?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19136?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2639,14 +2661,13 @@ Qualis <br>A1</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1136/annrheumdis-2021-eular.2598" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1136/annrheumdis-2021-eular.2598"
+<br> <a href="https://doi.org/NA"
 target="_blank"><strong>AB0912-HPR AMIGOS DE FIBRO (FIBRO FRIENDS):
 EDUCATIONAL PROGRAM TO PROMOTE THE HEALTH OF PEOPLE WITH FIBROMYALGIA IN
 BRAZIL</strong></a><br>M. Antunes, A. Schmitt, A. Pasqual
 Marques<br>2021  -  <em>Annals of the Rheumatic Diseases</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1136/annrheumdis-2021-eular.2598" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1136/annrheumdis-2021-eular.2598" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19136?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19136?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2686,8 +2707,7 @@ Qualis <br>A1</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1136/annrheumdis-2021-eular.3723" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1136/annrheumdis-2021-eular.3723"
+<br> <a href="https://doi.org/NA"
 target="_blank"><strong>POS0887 TRANSCRANIAL ELECTRICAL STIMULATION IS
 SAFE AND EFFICIENT IN PATIENTS WITH SYSTEMIC AUTOIMMUNE
 MYOPATHIES</strong></a><br>L. F. Adsuara de Sousa, R. G. Misse, L. De
@@ -2695,7 +2715,7 @@ Macedo Dos Santos, A. Fontes Baptista, C. Tanaka, J. M. D’andréa Greve,
 S. Katsuyuki Shinjo<br>2021  -  <em>Annals of the Rheumatic
 Diseases</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1136/annrheumdis-2021-eular.3723" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1136/annrheumdis-2021-eular.3723" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19136?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/19136?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2735,15 +2755,13 @@ Qualis <br>A1</a></nobr>
 </tr>
 <tr>
 <td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1093/eurheartj/ehab724.2697" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1093/eurheartj/ehab724.2697"
-target="_blank"><strong>Education and lifestyle measures for awareness
-of syncope prodroms to prevent syncope recurrence in
-schoolchildren</strong></a><br>V Mair, F R A Santos, H G Pereira, C A
-Pastore, N Samesima, L J Diniz, J Y Takada, A P Mansur, N K
+<br> <a href="https://doi.org/NA" target="_blank"><strong>Education and
+lifestyle measures for awareness of syncope prodroms to prevent syncope
+recurrence in schoolchildren</strong></a><br>V Mair, F R A Santos, H G
+Pereira, C A Pastore, N Samesima, L J Diniz, J Y Takada, A P Mansur, N K
 Nakagawa<br>2021  -  <em>European Heart Journal</em><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1093/eurheartj/ehab724.2697" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1093/eurheartj/ehab724.2697" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/23183?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
+<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=NA" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/23183?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
 <div
 style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
 <div style="padding: 0px 16px;">
@@ -2777,54 +2795,6 @@ style="height: 4px; background-color: rgb(0, 115, 152); width:99%;">
 </div>
 </div>
 </a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=23183&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=23183" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis <br>A1</a></nobr>
-</div>
-</td>
-</tr>
-<tr>
-<td valign="top;">
-<br><a style="display: inline-block; float: left; margin:0.0em 0.2em 0.0em 0.0em; padding:0.0em 0.2em 0.0em 0.0em;" href="http://dx.doi.org/10.1186/cc13069" target="_blank"><img height="18px;" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Open_Access_logo_PLoS_white.svg/256px-Open_Access_logo_PLoS_white.svg.png"></a>
-<a href="https://doi.org/10.1186/cc13069"
-target="_blank"><strong>Clinical prognostic indicators of dysphagia
-following prolonged orotracheal intubation in ICU
-patients</strong></a><br>Danielle Pedroni Moraes, Fernanda Chiarion
-Sassi, Laura Davison Mangilli, Bruno Zilberstein, Claudia Regina Furquim
-de Andrade<br>2013  -  <em>Critical Care</em><br>
-<div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1186/cc13069" data-style="small_circle"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em;" class="plumx-plum-print-popup" href="https://plu.mx/plum/a/?doi=10.1186/cc13069" data-popup="right" data-size="medium" data-site="plum"></a><a href="https://www.scopus.com/sourceid/29914?dgcid=sc_widget-citescore" style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em; text-decoration:none;color:#505050">
-<div
-style="height:64px;width:160px;font-family:Arial, Verdana, helvetica, sans-serif;background-color:#ffffff;display:inline-block">
-<div style="padding: 0px 16px;">
-<div style="padding-top:3px;line-height:1;">
-<div style="float:left;font-size:28px">
-<span id="citescoreVal"
-style="letter-spacing: -2px;display: inline-block;padding-top: 7px;line-height: .75;">18.80</span>
-</div>
-<div
-style="float:right;font-size:14px;padding-top:3px;text-align: right;">
-<span id="citescoreYearVal" style="display:block;">2022</span>CiteScore
-</div>
-</div>
-<div style="clear:both;">
-
-</div>
-<div style="padding-top:3px;">
-<div style="height:4px;background-color:#DCDCDC;">
-<div id="percentActBar"
-style="height: 4px; background-color: rgb(0, 115, 152); width:98%;">
- 
-</div>
-</div>
-<div style="font-size:11px;">
-<span id="citescorePerVal">98th percentile</span>
-</div>
-</div>
-<div style="font-size:12px;text-align:right;">
-
-</div>
-</div>
-</div>
-</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=29914&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=29914" alt="SCImago Journal &amp; Country Rank"  /></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis <br>A1</a></nobr>
 </div>
 </td>
