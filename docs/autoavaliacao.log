@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.14)  20 JUN 2024 12:58
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.14)  28 JUN 2024 03:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1051,7 +1051,17 @@ File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count386
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/xurl/xurl.sty
 Package: xurl 2022/01/09 v 0.10 modify URL breaks
-) (./autoavaliacao.aux)
+) (./autoavaliacao.aux
+
+LaTeX Warning: Label `tab:1-1-1-PP-DP' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-docentes' multiply defined.
+
+
+LaTeX Warning: Label `tab:1-1-1-posdoutorandos' multiply defined.
+
+)
 \openout1 = `autoavaliacao.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 169.
@@ -1349,450 +1359,438 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 Missing character: There is no – ("2013) in font ec-lmr10!
 Missing character: There is no – ("2013) in font ec-lmr10!
 
-Overfull \hbox (5.04787pt too wide) in paragraph at lines 523--523
+Overfull \hbox (7.40057pt too wide) in paragraph at lines 527--527
+ []\T1/lmr/m/n/10 Caracterização 
+ []
+
+
+Overfull \hbox (16.42857pt too wide) in paragraph at lines 527--527
+ []\T1/lmr/m/n/10 Desenvolvimento 
+ []
+
+
+Overfull \hbox (5.04787pt too wide) in paragraph at lines 527--527
  \T1/lmr/m/n/10 Aprendizagem 
  []
 
 
-Overfull \hbox (14.03862pt too wide) in paragraph at lines 523--523
+Overfull \hbox (14.03862pt too wide) in paragraph at lines 527--527
  []\T1/lmr/m/n/10 Comportamento 
  []
 
 
-Overfull \hbox (16.42857pt too wide) in paragraph at lines 523--523
+Overfull \hbox (16.42857pt too wide) in paragraph at lines 527--527
  []\T1/lmr/m/n/10 Desenvolvimento 
  []
 
 
-Overfull \hbox (16.42857pt too wide) in paragraph at lines 523--523
- []\T1/lmr/m/n/10 Desenvolvimento 
- []
-
-
-Overfull \hbox (8.59485pt too wide) in paragraph at lines 523--523
- []\T1/lmr/m/n/10 Funcionalidade 
- []
-
-Missing character: There is no – ("2013) in font ec-lmr10!
-
-Overfull \hbox (9.01091pt too wide) in paragraph at lines 523--523
- []\T1/lmr/m/n/10 Implementação 
- []
-
-
-Overfull \hbox (16.26115pt too wide) in paragraph at lines 523--523
- []\T1/lmr/m/n/10 Neuromodulação 
- []
-
-
-Overfull \hbox (7.40057pt too wide) in paragraph at lines 523--523
- []\T1/lmr/m/n/10 Caracterização 
- []
-
-
-Overfull \hbox (7.40057pt too wide) in paragraph at lines 523--523
- []\T1/lmr/m/n/10 Caracterização 
- []
-
-
-Overfull \hbox (16.42857pt too wide) in paragraph at lines 523--523
- []\T1/lmr/m/n/10 Desenvolvimento 
- []
-
-
-Overfull \hbox (1.09386pt too wide) in paragraph at lines 523--523
+Overfull \hbox (1.09386pt too wide) in paragraph at lines 527--527
  []\T1/lmr/m/n/10 Fononcologia: 
  []
 
 
-Overfull \hbox (11.6503pt too wide) in paragraph at lines 523--523
+Overfull \hbox (8.59485pt too wide) in paragraph at lines 527--527
+ []\T1/lmr/m/n/10 Funcionalidade 
+ []
+
+
+Overfull \hbox (11.6503pt too wide) in paragraph at lines 527--527
  []\T1/lmr/m/n/10 Fundamentação 
  []
 
+Missing character: There is no – ("2013) in font ec-lmr10!
 
-Overfull \hbox (7.6226pt too wide) in paragraph at lines 523--523
+Overfull \hbox (9.01091pt too wide) in paragraph at lines 527--527
+ []\T1/lmr/m/n/10 Implementação 
+ []
+
+
+Overfull \hbox (16.26115pt too wide) in paragraph at lines 527--527
+ []\T1/lmr/m/n/10 Neuromodulação 
+ []
+
+
+Overfull \hbox (7.6226pt too wide) in paragraph at lines 527--527
  []\T1/lmr/m/n/10 Processamento 
  []
 
 
-Overfull \hbox (7.6226pt too wide) in paragraph at lines 523--523
+Overfull \hbox (7.6226pt too wide) in paragraph at lines 527--527
  []\T1/lmr/m/n/10 Processamento 
  []
-
-
-Overfull \vbox (18345.36113pt too high) detected at line 525
- []
-
-
-Overfull \vbox (18345.36113pt too high) has occurred while \output is active []
-
 
 
 
 [8]
+Overfull \vbox (15163.42026pt too high) has occurred while \output is active []
+
+
+
 
 [9]
-Overfull \vbox (196.41586pt too high) has occurred while \output is active []
-
-
 
 [10]
 
 [11]
 
 [12]
+Overfull \vbox (355.11508pt too high) has occurred while \output is active []
+
+
 
 [13]
 
 [14]
 
 [15]
-Overfull \hbox (11.27757pt too wide) in paragraph at lines 749--749
+
+[16]
+Overfull \hbox (11.27757pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 Disciplina|  
  []
 
 
-Overfull \hbox (18.6389pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.6389pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 Obrigatória 
  []
 
 
-Overfull \hbox (18.6389pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.6389pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 Obrigatória 
  []
 
 
-Overfull \hbox (35.77245pt too wide) in paragraph at lines 749--749
+Overfull \hbox (35.77245pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ABORDAGEM 
  []
 
 
-Overfull \hbox (41.98254pt too wide) in paragraph at lines 749--749
+Overfull \hbox (41.98254pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 ERGONÔMICA- 
  []
 
 
-Overfull \hbox (70.28548pt too wide) in paragraph at lines 749--749
+Overfull \hbox (70.28548pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 FISIOTERAPÊUTICA 
  []
 
 
-Overfull \hbox (35.77245pt too wide) in paragraph at lines 749--749
+Overfull \hbox (35.77245pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ABORDAGEM 
  []
 
 
-Overfull \hbox (41.98254pt too wide) in paragraph at lines 749--749
+Overfull \hbox (41.98254pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 ERGONÔMICA- 
  []
 
 
-Overfull \hbox (70.28548pt too wide) in paragraph at lines 749--749
+Overfull \hbox (70.28548pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 FISIOTERAPÊUTICA 
  []
 
 
-Overfull \hbox (35.77245pt too wide) in paragraph at lines 749--749
+Overfull \hbox (35.77245pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ABORDAGEM 
  []
 
 
-Overfull \hbox (41.98254pt too wide) in paragraph at lines 749--749
+Overfull \hbox (41.98254pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 ERGONÔMICA- 
  []
 
 
-Overfull \hbox (70.28548pt too wide) in paragraph at lines 749--749
+Overfull \hbox (70.28548pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 FISIOTERAPÊUTICA 
  []
 
 
-Overfull \hbox (35.77245pt too wide) in paragraph at lines 749--749
+Overfull \hbox (35.77245pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ABORDAGEM 
  []
 
 
-Overfull \hbox (41.98254pt too wide) in paragraph at lines 749--749
+Overfull \hbox (41.98254pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 ERGONÔMICA- 
  []
 
 
-Overfull \hbox (70.28548pt too wide) in paragraph at lines 749--749
+Overfull \hbox (70.28548pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 FISIOTERAPÊUTICA 
  []
 
 
-Overfull \hbox (12.36954pt too wide) in paragraph at lines 749--749
+Overfull \hbox (12.36954pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ANÁLISE 
  []
 
 
-Overfull \hbox (12.36954pt too wide) in paragraph at lines 749--749
+Overfull \hbox (12.36954pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ANÁLISE 
  []
 
 
-Overfull \hbox (2.74977pt too wide) in paragraph at lines 749--749
+Overfull \hbox (2.74977pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 SAÚDE|  
  []
 
 
-Overfull \hbox (71.67592pt too wide) in paragraph at lines 749--749
+Overfull \hbox (71.67592pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 APROFUNDAMENTO 
  []
 
 
-Overfull \hbox (71.67592pt too wide) in paragraph at lines 749--749
+Overfull \hbox (71.67592pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 APROFUNDAMENTO 
  []
 
 
-Overfull \hbox (17.5053pt too wide) in paragraph at lines 749--749
+Overfull \hbox (17.5053pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 AUDIÇÃO- 
  []
 
 
-Overfull \hbox (22.09152pt too wide) in paragraph at lines 749--749
+Overfull \hbox (22.09152pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ASPECTOS 
  []
 
 
-Overfull \hbox (22.09152pt too wide) in paragraph at lines 749--749
+Overfull \hbox (22.09152pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ASPECTOS 
  []
 
 
-Overfull \hbox (6.50003pt too wide) in paragraph at lines 749--749
+Overfull \hbox (6.50003pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 MENTO 
  []
 
 
-Overfull \hbox (2.74977pt too wide) in paragraph at lines 749--749
+Overfull \hbox (2.74977pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 SAÚDE|  
  []
 
 
-Overfull \hbox (22.09152pt too wide) in paragraph at lines 749--749
+Overfull \hbox (22.09152pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ASPECTOS 
  []
 
 
-Overfull \hbox (6.50003pt too wide) in paragraph at lines 749--749
+Overfull \hbox (6.50003pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 MENTO 
  []
 
 
-Overfull \hbox (22.09152pt too wide) in paragraph at lines 749--749
+Overfull \hbox (22.09152pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ASPECTOS 
  []
 
 
-Overfull \hbox (6.50003pt too wide) in paragraph at lines 749--749
+Overfull \hbox (6.50003pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 MENTO 
  []
 
 
-Overfull \hbox (22.09152pt too wide) in paragraph at lines 749--749
+Overfull \hbox (22.09152pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ASPECTOS 
  []
 
 
-Overfull \hbox (22.09152pt too wide) in paragraph at lines 749--749
+Overfull \hbox (22.09152pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ASPECTOS 
  []
 
 
-Overfull \hbox (41.25842pt too wide) in paragraph at lines 749--749
+Overfull \hbox (41.25842pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ATUALIDADES 
  []
 
 
-Overfull \hbox (2.74977pt too wide) in paragraph at lines 749--749
+Overfull \hbox (2.74977pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 SAÚDE|  
  []
 
 
-Overfull \hbox (15.98077pt too wide) in paragraph at lines 749--749
+Overfull \hbox (15.98077pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 AVANÇOS 
  []
 
 
-Overfull \hbox (65.10965pt too wide) in paragraph at lines 749--749
+Overfull \hbox (65.10965pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 CARACTERIZAÇÃO 
  []
 
 
-Overfull \hbox (17.5053pt too wide) in paragraph at lines 749--749
+Overfull \hbox (17.5053pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 AUDIÇÃO- 
  []
 
 
-Overfull \hbox (45.38821pt too wide) in paragraph at lines 749--749
+Overfull \hbox (45.38821pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 CORRELAÇÕES 
  []
 
 
-Overfull \hbox (65.10965pt too wide) in paragraph at lines 749--749
+Overfull \hbox (65.10965pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 CARACTERIZAÇÃO 
  []
 
 
-Overfull \hbox (18.44472pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.44472pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ENFOQUE 
  []
 
 
-Overfull \hbox (16.08304pt too wide) in paragraph at lines 749--749
+Overfull \hbox (16.08304pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 ESTUDOS 
  []
 
 
-Overfull \hbox (1.35979pt too wide) in paragraph at lines 749--749
+Overfull \hbox (1.35979pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 QUISA: 
  []
 
 
-Overfull \hbox (35.94345pt too wide) in paragraph at lines 749--749
+Overfull \hbox (35.94345pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 PUBLICAÇÃO|  
  []
 
 
-Overfull \hbox (47.023pt too wide) in paragraph at lines 749--749
+Overfull \hbox (47.023pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 METODOLOGIA 
  []
 
 
-Overfull \hbox (47.023pt too wide) in paragraph at lines 749--749
+Overfull \hbox (47.023pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 METODOLOGIA 
  []
 
 
-Overfull \hbox (19.97252pt too wide) in paragraph at lines 749--749
+Overfull \hbox (19.97252pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 MÉTODOS 
  []
 
 
-Overfull \hbox (36.95282pt too wide) in paragraph at lines 749--749
+Overfull \hbox (36.95282pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PATOMETRIA 
  []
 
 
-Overfull \hbox (36.95282pt too wide) in paragraph at lines 749--749
+Overfull \hbox (36.95282pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PATOMETRIA 
  []
 
 
-Overfull \hbox (36.95282pt too wide) in paragraph at lines 749--749
+Overfull \hbox (36.95282pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PATOMETRIA 
  []
 
 
-Overfull \hbox (30.42496pt too wide) in paragraph at lines 749--749
+Overfull \hbox (30.42496pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PEDAGOGIA 
  []
 
 
-Overfull \hbox (2.74977pt too wide) in paragraph at lines 749--749
+Overfull \hbox (2.74977pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 SAÚDE|  
  []
 
 
-Overfull \hbox (30.42496pt too wide) in paragraph at lines 749--749
+Overfull \hbox (30.42496pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PEDAGOGIA 
  []
 
 
-Overfull \hbox (2.74977pt too wide) in paragraph at lines 749--749
+Overfull \hbox (2.74977pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 SAÚDE|  
  []
 
 
-Overfull \hbox (30.42496pt too wide) in paragraph at lines 749--749
+Overfull \hbox (30.42496pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PEDAGOGIA 
  []
 
 
-Overfull \hbox (30.42496pt too wide) in paragraph at lines 749--749
+Overfull \hbox (30.42496pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PEDAGOGIA 
  []
 
 
-Overfull \hbox (18.75851pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.75851pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PESQUISA 
  []
 
 
-Overfull \hbox (18.75851pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.75851pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PESQUISA 
  []
 
 
-Overfull \hbox (6.50003pt too wide) in paragraph at lines 749--749
+Overfull \hbox (6.50003pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 MENTO 
  []
 
 
-Overfull \hbox (6.50003pt too wide) in paragraph at lines 749--749
+Overfull \hbox (6.50003pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 MENTO 
  []
 
 
-Overfull \hbox (6.50003pt too wide) in paragraph at lines 749--749
+Overfull \hbox (6.50003pt too wide) in paragraph at lines 761--761
 \T1/lmr/m/n/10 MENTO 
  []
 
 
-Overfull \hbox (18.75851pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.75851pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PESQUISA 
  []
 
 
-Overfull \hbox (18.75851pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.75851pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PESQUISA 
  []
 
 
-Overfull \hbox (18.75851pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.75851pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PESQUISA 
  []
 
 
-Overfull \hbox (18.75851pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.75851pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PESQUISA 
  []
 
 
-Overfull \hbox (18.75851pt too wide) in paragraph at lines 749--749
+Overfull \hbox (18.75851pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PESQUISA 
  []
 
 
-Overfull \hbox (27.888pt too wide) in paragraph at lines 749--749
+Overfull \hbox (27.888pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PRINCÍPIOS 
  []
 
 
-Overfull \hbox (60.8052pt too wide) in paragraph at lines 749--749
+Overfull \hbox (60.8052pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 PROCESSAMENTO 
  []
 
 
-Overfull \hbox (46.08209pt too wide) in paragraph at lines 749--749
+Overfull \hbox (46.08209pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 REABILITAÇÃO 
  []
 
 
-Overfull \hbox (75.73538pt too wide) in paragraph at lines 749--749
+Overfull \hbox (75.73538pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 REGULAMENTAÇÕES 
  []
 
 
-Overfull \hbox (2.74977pt too wide) in paragraph at lines 749--749
+Overfull \hbox (2.74977pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 SAÚDE 
  []
 
 
-Overfull \hbox (13.63951pt too wide) in paragraph at lines 749--749
+Overfull \hbox (13.63951pt too wide) in paragraph at lines 761--761
 []\T1/lmr/m/n/10 TÓPICOS 
  []
 
@@ -1800,8 +1798,6 @@ Overfull \hbox (13.63951pt too wide) in paragraph at lines 749--749
 Overfull \vbox (6599.75508pt too high) has occurred while \output is active []
 
 
-
-[16]
 
 [17]
 
@@ -1836,16 +1832,16 @@ Overfull \vbox (6599.75508pt too high) has occurred while \output is active []
 [32]
 
 [33]
-Overfull \hbox (330.69063pt too wide) in paragraph at lines 936--994
+
+[34]
+Overfull \hbox (330.69063pt too wide) in paragraph at lines 948--1006
  [][] 
  []
 
 
-LaTeX Warning: Float too large for page by 20.20285pt on input line 994.
+LaTeX Warning: Float too large for page by 20.20285pt on input line 1006.
 
 
-
-[34]
 
 [35]
 
@@ -1858,20 +1854,15 @@ LaTeX Warning: Float too large for page by 20.20285pt on input line 994.
 [39]
 
 [40]
-Overfull \hbox (27.03993pt too wide) in paragraph at lines 1044--1090
- [][] 
- []
-
-
 
 [41]
-
-[42]
-Overfull \hbox (30.72008pt too wide) in paragraph at lines 1107--1140
+Overfull \hbox (27.03993pt too wide) in paragraph at lines 1056--1102
  [][] 
  []
 
 
+
+[42]
 
 [43]
 
@@ -1889,12 +1880,15 @@ L3 programming layer <2024-05-27>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
  ) 
 Here is how much of TeX's memory you used:
- 37486 strings out of 474256
- 723851 string characters out of 5742727
- 2215557 words of memory out of 5000000
- 59581 multiletter control sequences out of 15000+600000
+ 37444 strings out of 474256
+ 723392 string characters out of 5742727
+ 2173557 words of memory out of 5000000
+ 59539 multiletter control sequences out of 15000+600000
  594537 words of font info for 71 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  94i,19n,122p,1202b,508s stack positions out of 10000i,1000n,20000p,200000b,200000s
