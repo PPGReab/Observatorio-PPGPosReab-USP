@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.31)  2 SEP 2024 20:48
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.8.31)  4 SEP 2024 21:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -576,7 +576,7 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 )) (/usr/local/texlive/2024/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/pdfpages.sty
-Package: pdfpages 2024/05/29 v0.6a Insert pages of external PDF documents (AM)
+Package: pdfpages 2024/08/20 v0.6b Insert pages of external PDF documents (AM)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/eso-pic/eso-pic.sty
@@ -588,7 +588,7 @@ Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
 \AM@pageheight=\dimen309
 \AM@fboxrule=\dimen310
 (/usr/local/texlive/2024/texmf-dist/tex/latex/pdfpages/ppxetex.def
-File: ppxetex.def 2024/05/29 v0.6a Pdfpages driver for XeTeX (AM)
+File: ppxetex.def 2024/08/20 v0.6b Pdfpages driver for XeTeX (AM)
 )
 \pdfpages@includegraphics@status=\count350
 \AM@pagebox=\box100
@@ -1576,12 +1576,6 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 [8]
 
 [9]
-
-[10]
-
-[11]
-
-[12]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -1590,895 +1584,895 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ABORDAGEM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 ERGONÔMICA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 FISIOTERAPÊUTICA
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 535--535
+Underfull \hbox (badness 5302) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ANÁLISE ARTICULA-
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 535--535
+Underfull \hbox (badness 2452) in paragraph at lines 502--502
 \TU/lmr/m/n/10 TÓRIA E ACÚSTICA
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 535--535
+Underfull \hbox (badness 2088) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ANÁLISE QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 APROFUNDAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 FISIOPATOLÓGICO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DA AUDIÇÃO-MOD.
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 535--535
+Underfull \hbox (badness 1231) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DADOS DA REABILI-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 535--535
+Underfull \hbox (badness 1406) in paragraph at lines 502--502
 \TU/lmr/m/n/10 TAÇÃO EM FISIOTE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ASPECTOS FILOSÓ-
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 535--535
+Underfull \hbox (badness 1117) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ASPECTOS FISIOPAT.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 E FUNCIONAIS DO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 MOVIMENTO E DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ASPECTOS METO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DOLÓGICOS E DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DIVULGAÇÃO DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 INVESTIGAÇÃO CI-
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 535--535
+Underfull \hbox (badness 4673) in paragraph at lines 502--502
 \TU/lmr/m/n/10 CÂNICA CLÍNICA E
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 535--535
+Underfull \hbox (badness 2856) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DE MATERIAIS BIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 CARACTERIZAÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 ELETROFIS.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DA AUDIÇÃO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 CORRELAÇÕES C/A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ENFOQUE FONOAU-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 535--535
+Underfull \hbox (badness 3148) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DIOLÓGICO EM PO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 LÍTICAS PÚBLICAS:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 AUDIÇÃO, LINGUA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 METODOLOGIA DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 METODOLOGIA DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 PESQUISA PARA
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 535--535
+Underfull \hbox (badness 8038) in paragraph at lines 502--502
 \TU/lmr/m/n/10 ENSAIO DIAGNÓSTI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 MÉTODOS ESTATÍS-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 TICOS APLICADOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 PESQUISA BIBLIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 GRÁFICA AUTOMA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 TIZADA EM BASES
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 535--535
+Underfull \hbox (badness 3646) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DE DADOS DE ME-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DICINA CLÍNICA E
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 535--535
+Underfull \hbox (badness 7326) in paragraph at lines 502--502
 \TU/lmr/m/n/10 ESPECIALIZADA EM
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 535--535
+Underfull \hbox (badness 1048) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DOENÇAS INFECCIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 PESQUISA CLÍNICA:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DELINEAMENTO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 CONDUÇÃO, PRO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 CESSAMENTO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 SINAIS BIOLÓGICOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 E TRATAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 PROCESSAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 REABILITAÇÃO VIR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 SAÚDE E TRABA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 CONTEMPORÂNEA
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 535--535
+Underfull \hbox (badness 7963) in paragraph at lines 502--502
 \TU/lmr/m/n/10 E SUAS RELAÇÕES
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 COM A TERAPIA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 TÓPICOS AVANÇA-
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 535--535
+Underfull \hbox (badness 1221) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DOS EM FISIOTERA-
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 535--535
+Underfull \hbox (badness 4608) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 VOZ E EXPRESSIVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ESTUDOS AVANÇA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DOS SOBRE PES-
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 535--535
+Underfull \hbox (badness 1014) in paragraph at lines 502--502
 \TU/lmr/m/n/10 QUISA QUALITATIVA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 EM CIÊNCIAS DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ABORDAGEM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 ERGONÔMICA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 FISIOTERAPÊUTICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 APROFUNDAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 FISIOPATOLÓGICO
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 535--535
+Underfull \hbox (badness 2173) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DA AUDIÇÃO - MO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DELO FONOAUDIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ASPECTOS FISIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 PATOLÓGICOS E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 FUNCIONAIS DO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 MOVIMENTO E DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ATUALIDADES E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 PERSPECTIVAS DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 PESQUISA EM RE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 ABILITAÇÃO NA
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 535--535
+Underfull \hbox (badness 1831) in paragraph at lines 502--502
 \TU/lmr/m/n/10 REDE DE ATENÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 CARACTERIZAÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 ELETROFISIOLÓGICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 RELAÇÕES COM A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 COMO ESCREVER
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 PATOMETRIA A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 POSTERIORI: ESTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 TÍSTICA INFEREN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 CIAL APLICADA À
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 PEDAGOGIA MÉ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DICA E DIDÁTICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 REGULAMENTAÇÕES
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ABORDAGEM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 ERGONÔMICA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 FISIOTERAPÊUTICA
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 535--535
+Underfull \hbox (badness 5302) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ANÁLISE ARTICULA-
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 535--535
+Underfull \hbox (badness 2452) in paragraph at lines 502--502
 \TU/lmr/m/n/10 TÓRIA E ACÚSTICA
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 535--535
+Underfull \hbox (badness 2088) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ANÁLISE QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 APROFUNDAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 FISIOPATOLÓGICO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DA AUDIÇÃO-MOD.
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 535--535
+Underfull \hbox (badness 1231) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DADOS DA REABILI-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 535--535
+Underfull \hbox (badness 1406) in paragraph at lines 502--502
 \TU/lmr/m/n/10 TAÇÃO EM FISIOTE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ASPECTOS FILOSÓ-
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 535--535
+Underfull \hbox (badness 1117) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ASPECTOS FISIOPAT.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 E FUNCIONAIS DO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 MOVIMENTO E DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ASPECTOS METO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DOLÓGICOS E DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DIVULGAÇÃO DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 INVESTIGAÇÃO CI-
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 535--535
+Underfull \hbox (badness 4673) in paragraph at lines 502--502
 \TU/lmr/m/n/10 CÂNICA CLÍNICA E
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 535--535
+Underfull \hbox (badness 2856) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DE MATERIAIS BIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 CARACTERIZAÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 ELETROFIS.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DA AUDIÇÃO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 CORRELAÇÕES C/A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 []\TU/lmr/m/n/10 ENFOQUE FONOAU-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 535--535
+Underfull \hbox (badness 3148) in paragraph at lines 502--502
 \TU/lmr/m/n/10 DIOLÓGICO EM PO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 LÍTICAS PÚBLICAS:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
 \TU/lmr/m/n/10 AUDIÇÃO, LINGUA-
+ []
+
+
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 METODOLOGIA DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 METODOLOGIA DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 PESQUISA PARA
+ []
+
+
+Underfull \hbox (badness 8038) in paragraph at lines 502--502
+\TU/lmr/m/n/10 ENSAIO DIAGNÓSTI-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 MÉTODOS ESTATÍS-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 TICOS APLICADOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 PESQUISA BIBLIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 GRÁFICA AUTOMA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 TIZADA EM BASES
+ []
+
+
+Underfull \hbox (badness 3646) in paragraph at lines 502--502
+\TU/lmr/m/n/10 DE DADOS DE ME-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 DICINA CLÍNICA E
+ []
+
+
+Underfull \hbox (badness 7326) in paragraph at lines 502--502
+\TU/lmr/m/n/10 ESPECIALIZADA EM
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 502--502
+\TU/lmr/m/n/10 DOENÇAS INFECCIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 PESQUISA CLÍNICA:
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 DELINEAMENTO E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 CONDUÇÃO, PRO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 CESSAMENTO DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 SINAIS BIOLÓGICOS
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 E TRATAMENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 PROCESSAMENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 REABILITAÇÃO VIR-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 SAÚDE E TRABA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 CONTEMPORÂNEA
+ []
+
+
+Underfull \hbox (badness 7963) in paragraph at lines 502--502
+\TU/lmr/m/n/10 E SUAS RELAÇÕES
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 COM A TERAPIA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 TÓPICOS AVANÇA-
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 502--502
+\TU/lmr/m/n/10 DOS EM FISIOTERA-
+ []
+
+
+Underfull \hbox (badness 4608) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 VOZ E EXPRESSIVI-
+ []
+
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 ESTUDOS AVANÇA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 DOS SOBRE PES-
+ []
+
+
+Underfull \hbox (badness 1014) in paragraph at lines 502--502
+\TU/lmr/m/n/10 QUISA QUALITATIVA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 EM CIÊNCIAS DA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 ABORDAGEM
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 ERGONÔMICA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 FISIOTERAPÊUTICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 APROFUNDAMENTO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 FISIOPATOLÓGICO
+ []
+
+
+Underfull \hbox (badness 2173) in paragraph at lines 502--502
+\TU/lmr/m/n/10 DA AUDIÇÃO - MO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 DELO FONOAUDIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 ASPECTOS FISIO-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 PATOLÓGICOS E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 FUNCIONAIS DO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 MOVIMENTO E DA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 ATUALIDADES E
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 PERSPECTIVAS DE
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 PESQUISA EM RE-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 ABILITAÇÃO NA
+ []
+
+
+Underfull \hbox (badness 1831) in paragraph at lines 502--502
+\TU/lmr/m/n/10 REDE DE ATENÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 CARACTERIZAÇÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 ELETROFISIOLÓGICA
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 RELAÇÕES COM A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 COMO ESCREVER
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 PATOMETRIA A
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 POSTERIORI: ESTA-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 TÍSTICA INFEREN-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 CIAL APLICADA À
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 PEDAGOGIA MÉ-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+\TU/lmr/m/n/10 DICA E DIDÁTICA
+ []
+
+
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 502--502
+[]\TU/lmr/m/n/10 REGULAMENTAÇÕES
  []
 
 
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 METODOLOGIA DE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 METODOLOGIA DE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 PESQUISA PARA
- []
-
-
-Underfull \hbox (badness 8038) in paragraph at lines 535--535
-\TU/lmr/m/n/10 ENSAIO DIAGNÓSTI-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 MÉTODOS ESTATÍS-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 TICOS APLICADOS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 PESQUISA BIBLIO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 GRÁFICA AUTOMA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 TIZADA EM BASES
- []
-
-
-Underfull \hbox (badness 3646) in paragraph at lines 535--535
-\TU/lmr/m/n/10 DE DADOS DE ME-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 DICINA CLÍNICA E
- []
-
-
-Underfull \hbox (badness 7326) in paragraph at lines 535--535
-\TU/lmr/m/n/10 ESPECIALIZADA EM
- []
-
-
-Underfull \hbox (badness 1048) in paragraph at lines 535--535
-\TU/lmr/m/n/10 DOENÇAS INFECCIO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 PESQUISA CLÍNICA:
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 DELINEAMENTO E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 CONDUÇÃO, PRO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 CESSAMENTO DE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 SINAIS BIOLÓGICOS
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 E TRATAMENTO
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 PROCESSAMENTO
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 REABILITAÇÃO VIR-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 SAÚDE E TRABA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 CONTEMPORÂNEA
- []
-
-
-Underfull \hbox (badness 7963) in paragraph at lines 535--535
-\TU/lmr/m/n/10 E SUAS RELAÇÕES
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 COM A TERAPIA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 TÓPICOS AVANÇA-
- []
-
-
-Underfull \hbox (badness 1221) in paragraph at lines 535--535
-\TU/lmr/m/n/10 DOS EM FISIOTERA-
- []
-
-
-Underfull \hbox (badness 4608) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 VOZ E EXPRESSIVI-
- []
-
-
-
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 ESTUDOS AVANÇA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 DOS SOBRE PES-
- []
-
-
-Underfull \hbox (badness 1014) in paragraph at lines 535--535
-\TU/lmr/m/n/10 QUISA QUALITATIVA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 EM CIÊNCIAS DA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 ABORDAGEM
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 ERGONÔMICA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 FISIOTERAPÊUTICA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 APROFUNDAMENTO
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 FISIOPATOLÓGICO
- []
-
-
-Underfull \hbox (badness 2173) in paragraph at lines 535--535
-\TU/lmr/m/n/10 DA AUDIÇÃO - MO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 DELO FONOAUDIO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 ASPECTOS FISIO-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 PATOLÓGICOS E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 FUNCIONAIS DO
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 MOVIMENTO E DA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 ATUALIDADES E
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 PERSPECTIVAS DE
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 PESQUISA EM RE-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 ABILITAÇÃO NA
- []
-
-
-Underfull \hbox (badness 1831) in paragraph at lines 535--535
-\TU/lmr/m/n/10 REDE DE ATENÇÃO
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 CARACTERIZAÇÃO
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 ELETROFISIOLÓGICA
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 RELAÇÕES COM A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 COMO ESCREVER
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 PATOMETRIA A
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 POSTERIORI: ESTA-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 TÍSTICA INFEREN-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 CIAL APLICADA À
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 PEDAGOGIA MÉ-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-\TU/lmr/m/n/10 DICA E DIDÁTICA
- []
-
-
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 535--535
-[]\TU/lmr/m/n/10 REGULAMENTAÇÕES
- []
-
-
-
-[16]
 > Step: init table outer spec.
 > Step: parse table options.
 > Step: split table.
@@ -2487,933 +2481,939 @@ Underfull \hbox (badness 10000) in paragraph at lines 535--535
 > Step: execute table commands.
 > Step: calculate cell and line sizes.
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ABORDAGEM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ERGONÔMICA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FISIOTERAPÊUTICA
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 598--598
+Underfull \hbox (badness 5302) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ANÁLISE ARTICULA-
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 598--598
+Underfull \hbox (badness 2452) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TÓRIA E ACÚSTICA
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 598--598
+Underfull \hbox (badness 2088) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ANÁLISE QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 APROFUNDAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FISIOPATOLÓGICO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DA AUDIÇÃO-MOD.
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 598--598
+Underfull \hbox (badness 1231) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DADOS DA REABILI-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 598--598
+Underfull \hbox (badness 1406) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TAÇÃO EM FISIOTE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ASPECTOS FILOSÓ-
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 598--598
+Underfull \hbox (badness 1117) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ASPECTOS FISIOPAT.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 E FUNCIONAIS DO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 MOVIMENTO E DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ASPECTOS METO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DOLÓGICOS E DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DIVULGAÇÃO DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 INVESTIGAÇÃO CI-
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 598--598
+Underfull \hbox (badness 4673) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CÂNICA CLÍNICA E
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 598--598
+Underfull \hbox (badness 2856) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DE MATERIAIS BIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 CARACTERIZAÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ELETROFIS.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DA AUDIÇÃO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CORRELAÇÕES C/A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 COMO ESCREVER
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ENFOQUE FONOAU-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 598--598
+Underfull \hbox (badness 3148) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DIOLÓGICO EM PO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 LÍTICAS PÚBLICAS:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 AUDIÇÃO, LINGUA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DA ELABORAÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DO PROJETO AO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 METODOLOGIA DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 METODOLOGIA DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 PESQUISA PARA
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 598--598
+Underfull \hbox (badness 8038) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ENSAIO DIAGNÓSTI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 MÉTODOS ESTATÍS-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TICOS APLICADOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PATOMETRIA A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 POSTERIORI: ESTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TÍSTICA INFEREN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CIAL APLICADA À
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PEDAGOGIA MÉ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DICA E DIDÁTICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PESQUISA BIBLIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 GRÁFICA AUTOMA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TIZADA EM BASES
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 598--598
+Underfull \hbox (badness 3646) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DE DADOS DE ME-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DICINA CLÍNICA E
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 598--598
+Underfull \hbox (badness 7326) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ESPECIALIZADA EM
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 598--598
+Underfull \hbox (badness 1048) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DOENÇAS INFECCIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PESQUISA CLÍNICA:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DELINEAMENTO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CONDUÇÃO, PRO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CESSAMENTO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 SINAIS BIOLÓGICOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 E TRATAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PROCESSAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 REABILITAÇÃO VIR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 SAÚDE E TRABA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CONTEMPORÂNEA
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 598--598
+Underfull \hbox (badness 7963) in paragraph at lines 565--565
 \TU/lmr/m/n/10 E SUAS RELAÇÕES
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 COM A TERAPIA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 TÓPICOS AVANÇA-
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 598--598
+Underfull \hbox (badness 1221) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DOS EM FISIOTERA-
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 598--598
+Underfull \hbox (badness 4608) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 VOZ E EXPRESSIVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ESTUDOS AVANÇA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DOS SOBRE PES-
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 598--598
+Underfull \hbox (badness 1014) in paragraph at lines 565--565
 \TU/lmr/m/n/10 QUISA QUALITATIVA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 EM CIÊNCIAS DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ABORDAGEM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ERGONÔMICA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FISIOTERAPÊUTICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 APROFUNDAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FISIOPATOLÓGICO
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 598--598
+Underfull \hbox (badness 2173) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DA AUDIÇÃO - MO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DELO FONOAUDIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ASPECTOS FISIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 PATOLÓGICOS E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FUNCIONAIS DO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 MOVIMENTO E DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ATUALIDADES E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 PERSPECTIVAS DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 PESQUISA EM RE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ABILITAÇÃO NA
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 598--598
+Underfull \hbox (badness 1831) in paragraph at lines 565--565
 \TU/lmr/m/n/10 REDE DE ATENÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 CARACTERIZAÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ELETROFISIOLÓGICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 RELAÇÕES COM A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PEDAGOGIA MÉ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DICA E DIDÁTICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 REGULAMENTAÇÕES
  []
 
 > Step: build the whole table.
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ABORDAGEM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ERGONÔMICA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FISIOTERAPÊUTICA
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 598--598
+Underfull \hbox (badness 5302) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ANÁLISE ARTICULA-
  []
 
 
-Underfull \hbox (badness 2452) in paragraph at lines 598--598
+Underfull \hbox (badness 2452) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TÓRIA E ACÚSTICA
  []
 
 
-Underfull \hbox (badness 2088) in paragraph at lines 598--598
+Underfull \hbox (badness 2088) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ANÁLISE QUANTITA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 APROFUNDAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FISIOPATOLÓGICO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DA AUDIÇÃO-MOD.
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 598--598
+Underfull \hbox (badness 1231) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DADOS DA REABILI-
  []
 
 
-Underfull \hbox (badness 1406) in paragraph at lines 598--598
+Underfull \hbox (badness 1406) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TAÇÃO EM FISIOTE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ASPECTOS FILOSÓ-
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 598--598
+Underfull \hbox (badness 1117) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ASPECTOS FISIOPAT.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 E FUNCIONAIS DO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 MOVIMENTO E DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ASPECTOS METO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DOLÓGICOS E DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DIVULGAÇÃO DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 INVESTIGAÇÃO CI-
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 598--598
+Underfull \hbox (badness 4673) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CÂNICA CLÍNICA E
  []
 
 
-Underfull \hbox (badness 2856) in paragraph at lines 598--598
+Underfull \hbox (badness 2856) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DE MATERIAIS BIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 CARACTERIZAÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ELETROFIS.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DA AUDIÇÃO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CORRELAÇÕES C/A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 COMO ESCREVER
  []
 
 
 
-[17]
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ENFOQUE FONOAU-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 598--598
+Underfull \hbox (badness 3148) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DIOLÓGICO EM PO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 LÍTICAS PÚBLICAS:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 AUDIÇÃO, LINGUA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DA ELABORAÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DO PROJETO AO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 METODOLOGIA DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 METODOLOGIA DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 PESQUISA PARA
  []
 
 
-Underfull \hbox (badness 8038) in paragraph at lines 598--598
+Underfull \hbox (badness 8038) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ENSAIO DIAGNÓSTI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 MÉTODOS ESTATÍS-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TICOS APLICADOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PATOMETRIA A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 POSTERIORI: ESTA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TÍSTICA INFEREN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CIAL APLICADA À
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PEDAGOGIA MÉ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DICA E DIDÁTICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PESQUISA BIBLIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 GRÁFICA AUTOMA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 TIZADA EM BASES
  []
 
 
-Underfull \hbox (badness 3646) in paragraph at lines 598--598
+Underfull \hbox (badness 3646) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DE DADOS DE ME-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DICINA CLÍNICA E
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 598--598
+Underfull \hbox (badness 7326) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ESPECIALIZADA EM
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 598--598
+Underfull \hbox (badness 1048) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DOENÇAS INFECCIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PESQUISA CLÍNICA:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DELINEAMENTO E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CONDUÇÃO, PRO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CESSAMENTO DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 SINAIS BIOLÓGICOS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 E TRATAMENTO
  []
 
 
 
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PROCESSAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 REABILITAÇÃO VIR-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 SAÚDE E TRABA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 CONTEMPORÂNEA
  []
 
 
-Underfull \hbox (badness 7963) in paragraph at lines 598--598
+Underfull \hbox (badness 7963) in paragraph at lines 565--565
 \TU/lmr/m/n/10 E SUAS RELAÇÕES
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 COM A TERAPIA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 TÓPICOS AVANÇA-
  []
 
 
-Underfull \hbox (badness 1221) in paragraph at lines 598--598
+Underfull \hbox (badness 1221) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DOS EM FISIOTERA-
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 598--598
+Underfull \hbox (badness 4608) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 VOZ E EXPRESSIVI-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ESTUDOS AVANÇA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DOS SOBRE PES-
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 598--598
+Underfull \hbox (badness 1014) in paragraph at lines 565--565
 \TU/lmr/m/n/10 QUISA QUALITATIVA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 EM CIÊNCIAS DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ABORDAGEM
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ERGONÔMICA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FISIOTERAPÊUTICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 APROFUNDAMENTO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FISIOPATOLÓGICO
  []
 
 
-Underfull \hbox (badness 2173) in paragraph at lines 598--598
+Underfull \hbox (badness 2173) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DA AUDIÇÃO - MO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DELO FONOAUDIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ASPECTOS FISIO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 PATOLÓGICOS E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 FUNCIONAIS DO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 MOVIMENTO E DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 ATUALIDADES E
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 PERSPECTIVAS DE
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 PESQUISA EM RE-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ABILITAÇÃO NA
  []
 
 
-Underfull \hbox (badness 1831) in paragraph at lines 598--598
+Underfull \hbox (badness 1831) in paragraph at lines 565--565
 \TU/lmr/m/n/10 REDE DE ATENÇÃO
  []
 
 
 
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+[16]
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 CARACTERIZAÇÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 ELETROFISIOLÓGICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 RELAÇÕES COM A
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 PEDAGOGIA MÉ-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 \TU/lmr/m/n/10 DICA E DIDÁTICA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 598--598
+Underfull \hbox (badness 10000) in paragraph at lines 565--565
 []\TU/lmr/m/n/10 REGULAMENTAÇÕES
  []
 
 
+
+[17]
+
+[18]
+
+[19]
 
 [20]
 
@@ -3442,17 +3442,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 598--598
 [32]
 
 [33]
+Overfull \hbox (330.64316pt too wide) in paragraph at lines 840--871
+ [][] 
+ []
+
+
 
 [34]
 
 [35]
 
 [36]
-Overfull \hbox (330.64316pt too wide) in paragraph at lines 873--904
- [][] 
- []
-
-
 
 [37]
 
@@ -3467,17 +3467,17 @@ Overfull \hbox (330.64316pt too wide) in paragraph at lines 873--904
 [42]
 
 [43]
-Overfull \hbox (27.01315pt too wide) in paragraph at lines 990--1036
- [][] 
- []
-
-
 
 [44]
 
 [45]
 
 [46]
+Overfull \hbox (27.01315pt too wide) in paragraph at lines 1056--1102
+ [][] 
+ []
+
+
 
 [47]
 
@@ -3485,7 +3485,13 @@ Overfull \hbox (27.01315pt too wide) in paragraph at lines 990--1036
 
 [49]
 
-[50] (./autoavaliacao.aux)
+[50]
+
+[51]
+
+[52]
+
+[53] (./autoavaliacao.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-16>
@@ -3495,12 +3501,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 43968 strings out of 474235
- 920584 string characters out of 5742253
- 1958609 words of memory out of 5000000
- 66028 multiletter control sequences out of 15000+600000
+ 43970 strings out of 474235
+ 920612 string characters out of 5742253
+ 1961609 words of memory out of 5000000
+ 66030 multiletter control sequences out of 15000+600000
  569115 words of font info for 77 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,123p,1202b,1362s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on autoavaliacao.pdf (53 pages).
+Output written on autoavaliacao.pdf (56 pages).

@@ -206,10 +206,6 @@ navbar:
       menu:
         - text: "-Autoavaliação-"
           href: [autoavaliacao.html]
-        - text: "Metodologia"
-          href: [autoavaliacao.html#metodologia]
-        - text: "Autoavaliação PPG"
-          href: [autoavaliacao.html#autoavaliacao-ppg]
         - text: "Avaliação CAPES"
           href: [autoavaliacao.html#avaliacao-capes]
         - text: "Dados do Coleta"
@@ -245,7 +241,7 @@ navbar:
           href: [https://www.facebook.com/cienciasdareabilitacaousp/]
         - text: "Observatório CAPES"
           icon: "fa-binoculars"
-          href: [https://sucupira-beta.capes.gov.br/sucupira4/observatorio/detalhamento/programas/52131]
+          href: [https://sucupira-v2.capes.gov.br/observatorio/detalhamento/programas/52131]
     - text: ""
       icon: "fa-github"
       href: [https://github.com/FerreiraAS/observatorio]
