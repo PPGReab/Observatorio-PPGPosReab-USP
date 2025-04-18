@@ -35,6 +35,27 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet" />
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
+<script src="site_libs/pdfmake-1.13.6/pdfmake.js"></script>
+<script src="site_libs/pdfmake-1.13.6/vfs_fonts.js"></script>
+<link href="site_libs/dt-ext-buttons-1.13.6/css/buttons.dataTables.min.css" rel="stylesheet" />
+<script src="site_libs/dt-ext-buttons-1.13.6/js/dataTables.buttons.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.html5.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.colVis.min.js"></script>
+<script src="site_libs/dt-ext-buttons-1.13.6/js/buttons.print.min.js"></script>
+<link href="site_libs/dt-ext-responsive-1.13.6/css/responsive.dataTables.min.css" rel="stylesheet" />
+<script src="site_libs/dt-ext-responsive-1.13.6/js/dataTables.responsive.min.js"></script>
+<link href="site_libs/dt-plugin-searchhighlight-1.13.6/source.css" rel="stylesheet" />
+<script src="site_libs/dt-plugin-searchhighlight-1.13.6/jquery.highlight.js"></script>
+<script src="site_libs/dt-plugin-searchhighlight-1.13.6/source.min.js"></script>
+<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 <link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 <link rel="shortcut icon" href="favicon_io/android-chrome-192x192.png" sizes="192x192" type="image/png">
@@ -357,6 +378,9 @@ div.tocify {
       <a href="programa.html">-Programa-</a>
     </li>
     <li>
+      <a href="programa.html#dados-basicos">Dados básicos do Programa</a>
+    </li>
+    <li>
       <a href="programa.html#breve-historico">Breve histórico</a>
     </li>
     <li>
@@ -444,10 +468,10 @@ div.tocify {
       <a href="pessoas.html#egressos">Egressos</a>
     </li>
     <li>
-      <a href="pessoas.html#bacharekado">Bacharelado</a>
+      <a href="pessoas.html#encerrados">Encerrados</a>
     </li>
     <li>
-      <a href="pessoal.html#formacao-pessoal">Formação de pessoal</a>
+      <a href="pessoas.html#bacharelado">Bacharelado</a>
     </li>
     <li>
       <a href="pessoas.html#grupos-pesquisa">Grupos de pesquisa</a>
@@ -651,34 +675,52 @@ div.tocify {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="autoavaliacao.html">-Autoavaliação-</a>
+      <a href="autoavaliacao-2025-2028.html">2025-2028</a>
     </li>
     <li>
-      <a href="autoavaliacao.html#avaliacao-capes">Avaliação CAPES</a>
+      <a href="autoavaliacao-2021-2024.html">2021-2024</a>
     </li>
     <li>
-      <a href="autoavaliacao.html#coleta">Dados do Coleta</a>
+      <a href="autoavaliacao-2017-2020.html">2017-2020</a>
     </li>
     <li>
-      <a href="autoavaliacao.html#ficha-avaliacao">Ficha de avaliação</a>
+      <a href="autoavaliacao-2013-2016.html">2013-2016</a>
     </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Relatórios
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="autoavaliacao.html#programa">1. Programa</a>
-    </li>
-    <li>
-      <a href="autoavaliacao.html#formacao">2. Formação</a>
-    </li>
-    <li>
-      <a href="autoavaliacao.html#impacto">3. Impacto na sociedade</a>
-    </li>
-    <li>
-      <a href="autoavaliacao.html#relatorio-quadrienal">Relatório quadrienal</a>
-    </li>
-    <li>
-      <a href="autoavaliacao.pdf">
+      <a href="autoavaliacao-2025-2028.pdf">
         <span class="fa fa-file-pdf"></span>
          
-        Relatório quadrienal
+        2025-2028
+      </a>
+    </li>
+    <li>
+      <a href="autoavaliacao-2021-2024.pdf">
+        <span class="fa fa-file-pdf"></span>
+         
+        2021-2024
+      </a>
+    </li>
+    <li>
+      <a href="autoavaliacao-2017-2020.pdf">
+        <span class="fa fa-file-pdf"></span>
+         
+        2017-2020
+      </a>
+    </li>
+    <li>
+      <a href="autoavaliacao-2013-2016.pdf">
+        <span class="fa fa-file-pdf"></span>
+         
+        2013-2016
       </a>
     </li>
   </ul>
@@ -791,7 +833,7 @@ href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://github.com
 <script type="text/javascript" src="//cdn.plu.mx/widget-all.js"></script>
 <p><br></p>
 <div id="egressos-destaque" class="section level2 tabset">
-<h2 class="tabset"><strong>Egressos</strong></h2>
+<h2 class="tabset"><strong>Egressos de destaque</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 <p><br></p>
@@ -1464,18 +1506,18 @@ RCT</strong></a><br>
 <div style="vertical-align: middle; display: inline-block;">
 <nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.jaip.2022.05.023"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.jaip.2022.05.023" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1016/j.jaip.2022.05.023" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis
-<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
+<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=21100239250&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=21100239250" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
 <div
 style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
 <div style="padding:0px16p;">
 <div style="padding-top:3px; line-height:1;">
 <div style="float:left; font-size:28px;">
 <span id="citescoreVal"
-style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;"></span>
+style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">11.1</span>
 </div>
 <div
 style="float:right; font-size:14px; padding-top:3px; text-align: right;">
-<span id="citescoreYearVal" style="display:block;"></span>CiteScore
+<span id="citescoreYearVal" style="display:block;">2023</span>CiteScore
 </div>
 </div>
 <div style="clear:both;">
@@ -1994,21 +2036,21 @@ Powered by
 </tr>
 <tr>
 <td valign="top;">
-<br><a href="https://doi.org/10.1111/psyp.13810"
-target="_blank"><strong>EFFECTS OF EXPERIMENTALLY INDUCED MUSCLE PAIN ON
-ENDURANCE PERFORMANCE: A PROOF-OF-CONCEPT STUDY ASSESSING
-NEUROPHYSIOLOGICAL AND PERCEPTUAL RESPONSES</strong></a><br>
+<br><a href="https://doi.org/10.1123/ijsnem.2020-0363"
+target="_blank"><strong>HABITUAL CAFFEINE CONSUMPTION DOES NOT INTERFERE
+WITH THE ACUTE CAFFEINE SUPPLEMENTATION EFFECTS ON STRENGTH ENDURANCE
+AND JUMPING PERFORMANCE IN TRAINED INDIVIDUALS</strong></a><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1111/psyp.13810"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1111/psyp.13810" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1111/psyp.13810" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1123/ijsnem.2020-0363"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1123/ijsnem.2020-0363" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1123/ijsnem.2020-0363" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis
-<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=18747&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=18747" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
+<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=40900&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=40900" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
 <div
 style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
 <div style="padding:0px16p;">
 <div style="padding-top:3px; line-height:1;">
 <div style="float:left; font-size:28px;">
 <span id="citescoreVal"
-style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">6.8</span>
+style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">5</span>
 </div>
 <div
 style="float:right; font-size:14px; padding-top:3px; text-align: right;">
@@ -2040,25 +2082,25 @@ Powered by
 </tr>
 <tr>
 <td valign="top;">
-<br><a href="https://doi.org/10.1123/ijsnem.2020-0363"
-target="_blank"><strong>HABITUAL CAFFEINE CONSUMPTION DOES NOT INTERFERE
-WITH THE ACUTE CAFFEINE SUPPLEMENTATION EFFECTS ON STRENGTH ENDURANCE
-AND JUMPING PERFORMANCE IN TRAINED INDIVIDUALS</strong></a><br>
+<br><a href="https://doi.org/10.1111/psyp.13810"
+target="_blank"><strong>EFFECTS OF EXPERIMENTALLY INDUCED MUSCLE PAIN ON
+ENDURANCE PERFORMANCE: A PROOF-OF-CONCEPT STUDY ASSESSING
+NEUROPHYSIOLOGICAL AND PERCEPTUAL RESPONSES</strong></a><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1123/ijsnem.2020-0363"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1123/ijsnem.2020-0363" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1123/ijsnem.2020-0363" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1111/psyp.13810"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1111/psyp.13810" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1111/psyp.13810" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis
-<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
+<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=18747&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=18747" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
 <div
 style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
 <div style="padding:0px16p;">
 <div style="padding-top:3px; line-height:1;">
 <div style="float:left; font-size:28px;">
 <span id="citescoreVal"
-style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;"></span>
+style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">6.8</span>
 </div>
 <div
 style="float:right; font-size:14px; padding-top:3px; text-align: right;">
-<span id="citescoreYearVal" style="display:block;"></span>CiteScore
+<span id="citescoreYearVal" style="display:block;">2023</span>CiteScore
 </div>
 </div>
 <div style="clear:both;">
@@ -2308,18 +2350,18 @@ EXERCISES ON ASTHMA CONTROL: A RANDOMIZED TRIAL</strong></a><br>
 <div style="vertical-align: middle; display: inline-block;">
 <nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.jaip.2020.06.042"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.jaip.2020.06.042" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1016/j.jaip.2020.06.042" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis
-<br>A1</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
+<br>A1</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=21100239250&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=21100239250" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
 <div
 style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
 <div style="padding:0px16p;">
 <div style="padding-top:3px; line-height:1;">
 <div style="float:left; font-size:28px;">
 <span id="citescoreVal"
-style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;"></span>
+style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">11.1</span>
 </div>
 <div
 style="float:right; font-size:14px; padding-top:3px; text-align: right;">
-<span id="citescoreYearVal" style="display:block;"></span>CiteScore
+<span id="citescoreYearVal" style="display:block;">2023</span>CiteScore
 </div>
 </div>
 <div style="clear:both;">
@@ -3419,6 +3461,51 @@ Powered by
 </tr>
 <tr>
 <td valign="top;">
+<br><a href="https://doi.org/10.1016/j.jmpt.2017.10.014"
+target="_blank"><strong>EFFECT OF PHYSICAL THERAPY IN BRUXISM TREATMENT:
+A SYSTEMATIC REVIEW</strong></a><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.jmpt.2017.10.014"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.jmpt.2017.10.014" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1016/j.jmpt.2017.10.014" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis
+<br>A2</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=35303&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=35303" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
+<div
+style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
+<div style="padding:0px16p;">
+<div style="padding-top:3px; line-height:1;">
+<div style="float:left; font-size:28px;">
+<span id="citescoreVal"
+style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">3</span>
+</div>
+<div
+style="float:right; font-size:14px; padding-top:3px; text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2023</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px; background-color:#DCDCDC;">
+<div id="percentActBar" style="height:4px; background-color:#007398;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">?th percentile</span>
+</div>
+</div>
+<div style="font-size:12px; text-align:right;">
+Powered by
+ <span><img alt="Scopus" style="width:50px; height:15px;" src="https://www.scopus.com/static/images/scopusLogoOrange.svg"></span>
+</div>
+</div>
+</div>
+</a></nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top;">
 <br><a href="https://doi.org/10.1093/intqhc/mzx203"
 target="_blank"><strong>ASSESSING FUNCTIONAL STATUS AFTER INTENSIVE CARE
 UNIT STAY: THE BARTHEL INDEX AND THE KATZ INDEX</strong></a><br>
@@ -3519,51 +3606,6 @@ INHERITANCE?</strong></a><br>
 <nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.bjorl.2017.06.014"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.bjorl.2017.06.014" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1016/j.bjorl.2017.06.014" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis
 <br>A3</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=4700152300&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=4700152300" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
-<div
-style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
-<div style="padding:0px16p;">
-<div style="padding-top:3px; line-height:1;">
-<div style="float:left; font-size:28px;">
-<span id="citescoreVal"
-style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">3</span>
-</div>
-<div
-style="float:right; font-size:14px; padding-top:3px; text-align: right;">
-<span id="citescoreYearVal" style="display:block;">2023</span>CiteScore
-</div>
-</div>
-<div style="clear:both;">
-
-</div>
-<div style="padding-top:3px;">
-<div style="height:4px; background-color:#DCDCDC;">
-<div id="percentActBar" style="height:4px; background-color:#007398;">
- 
-</div>
-</div>
-<div style="font-size:11px;">
-<span id="citescorePerVal">?th percentile</span>
-</div>
-</div>
-<div style="font-size:12px; text-align:right;">
-Powered by
- <span><img alt="Scopus" style="width:50px; height:15px;" src="https://www.scopus.com/static/images/scopusLogoOrange.svg"></span>
-</div>
-</div>
-</div>
-</a></nobr>
-</div>
-</td>
-</tr>
-<tr>
-<td valign="top;">
-<br><a href="https://doi.org/10.1016/j.jmpt.2017.10.014"
-target="_blank"><strong>EFFECT OF PHYSICAL THERAPY IN BRUXISM TREATMENT:
-A SYSTEMATIC REVIEW</strong></a><br>
-<div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.jmpt.2017.10.014"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.jmpt.2017.10.014" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1016/j.jmpt.2017.10.014" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis
-<br>A2</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=35303&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=35303" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
 <div
 style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
 <div style="padding:0px16p;">
@@ -7042,6 +7084,52 @@ Powered by
 </tr>
 <tr>
 <td valign="top;">
+<br><a href="https://doi.org/10.1016/j.jaip.2022.05.023"
+target="_blank"><strong>CONSTANT-LOAD EXERCISE VERSUS HIGH-INTENSITY
+INTERVAL TRAINING ON AEROBIC FITNESS IN MODERATE TO SEVERE ASTHMA: A
+RCT</strong></a><br>
+<div style="vertical-align: middle; display: inline-block;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.jaip.2022.05.023"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.jaip.2022.05.023" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1016/j.jaip.2022.05.023" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+Qualis
+<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=21100239250&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=21100239250" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
+<div
+style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
+<div style="padding:0px16p;">
+<div style="padding-top:3px; line-height:1;">
+<div style="float:left; font-size:28px;">
+<span id="citescoreVal"
+style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">11.1</span>
+</div>
+<div
+style="float:right; font-size:14px; padding-top:3px; text-align: right;">
+<span id="citescoreYearVal" style="display:block;">2023</span>CiteScore
+</div>
+</div>
+<div style="clear:both;">
+
+</div>
+<div style="padding-top:3px;">
+<div style="height:4px; background-color:#DCDCDC;">
+<div id="percentActBar" style="height:4px; background-color:#007398;">
+ 
+</div>
+</div>
+<div style="font-size:11px;">
+<span id="citescorePerVal">?th percentile</span>
+</div>
+</div>
+<div style="font-size:12px; text-align:right;">
+Powered by
+ <span><img alt="Scopus" style="width:50px; height:15px;" src="https://www.scopus.com/static/images/scopusLogoOrange.svg"></span>
+</div>
+</div>
+</div>
+</a></nobr>
+</div>
+</td>
+</tr>
+<tr>
+<td valign="top;">
 <br><a href="https://doi.org/10.1111/resp.14359"
 target="_blank"><strong>INCREASED PHYSICAL ACTIVITY REDUCES SLEEP
 DISTURBANCES IN ASTHMA: A RANDOMIZED CONTROLLED TRIAL</strong></a><br>
@@ -7102,51 +7190,6 @@ style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-se
 <div style="float:left; font-size:28px;">
 <span id="citescoreVal"
 style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">10.2</span>
-</div>
-<div
-style="float:right; font-size:14px; padding-top:3px; text-align: right;">
-<span id="citescoreYearVal" style="display:block;">2023</span>CiteScore
-</div>
-</div>
-<div style="clear:both;">
-
-</div>
-<div style="padding-top:3px;">
-<div style="height:4px; background-color:#DCDCDC;">
-<div id="percentActBar" style="height:4px; background-color:#007398;">
- 
-</div>
-</div>
-<div style="font-size:11px;">
-<span id="citescorePerVal">?th percentile</span>
-</div>
-</div>
-<div style="font-size:12px; text-align:right;">
-Powered by
- <span><img alt="Scopus" style="width:50px; height:15px;" src="https://www.scopus.com/static/images/scopusLogoOrange.svg"></span>
-</div>
-</div>
-</div>
-</a></nobr>
-</div>
-</td>
-</tr>
-<tr>
-<td valign="top;">
-<br><strong>PREDICTIVE EFFECT OF WELL-KNOWN RISK FACTORS AND FOOT-CORE
-TRAINING IN LOWER LIMB RUNNING-RELATED INJURIES IN RECREATIONAL RUNNERS:
-A SECONDARY ANALYSIS OF A RANDOMIZED CONTROLLED TRIAL</strong><br>
-<div style="vertical-align: middle; display: inline-block;">
-<nobr><img style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" src="https://badges.altmetric.com/?score=?&types=????????"><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="NA" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
-Qualis
-<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=19799&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=19799" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
-<div
-style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
-<div style="padding:0px16p;">
-<div style="padding-top:3px; line-height:1;">
-<div style="float:left; font-size:28px;">
-<span id="citescoreVal"
-style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">9.3</span>
 </div>
 <div
 style="float:right; font-size:14px; padding-top:3px; text-align: right;">
@@ -12458,20 +12501,21 @@ Powered by
 </tr>
 <tr>
 <td valign="top;">
-<br><a href="https://doi.org/10.1111/resp.14359"
-target="_blank"><strong>INCREASED PHYSICAL ACTIVITY REDUCES SLEEP
-DISTURBANCES IN ASTHMA: A RANDOMIZED CONTROLLED TRIAL</strong></a><br>
+<br><a href="https://doi.org/10.1016/j.jaip.2022.05.023"
+target="_blank"><strong>CONSTANT-LOAD EXERCISE VERSUS HIGH-INTENSITY
+INTERVAL TRAINING ON AEROBIC FITNESS IN MODERATE TO SEVERE ASTHMA: A
+RCT</strong></a><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1111/resp.14359"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1111/resp.14359" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1111/resp.14359" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1016/j.jaip.2022.05.023"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1016/j.jaip.2022.05.023" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1016/j.jaip.2022.05.023" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis
-<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=19062&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=19062" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
+<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=21100239250&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=21100239250" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
 <div
 style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
 <div style="padding:0px16p;">
 <div style="padding-top:3px; line-height:1;">
 <div style="float:left; font-size:28px;">
 <span id="citescoreVal"
-style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">10.6</span>
+style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">11.1</span>
 </div>
 <div
 style="float:right; font-size:14px; padding-top:3px; text-align: right;">
@@ -12503,21 +12547,20 @@ Powered by
 </tr>
 <tr>
 <td valign="top;">
-<br><a href="https://doi.org/10.1007/s00406-022-01427-3"
-target="_blank"><strong>ASSOCIATION BETWEEN CHEMOSENSORY IMPAIRMENT WITH
-NEUROPSYCHIATRIC MORBIDITY IN POST-ACUTE COVID-19 SYNDROME: RESULTS FROM
-A MULTIDISCIPLINARY COHORT STUDY</strong></a><br>
+<br><a href="https://doi.org/10.1111/resp.14359"
+target="_blank"><strong>INCREASED PHYSICAL ACTIVITY REDUCES SLEEP
+DISTURBANCES IN ASTHMA: A RANDOMIZED CONTROLLED TRIAL</strong></a><br>
 <div style="vertical-align: middle; display: inline-block;">
-<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1007/s00406-022-01427-3"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1007/s00406-022-01427-3" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1007/s00406-022-01427-3" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
+<nobr><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" class="altmetric-embed" data-badge-type="donut" data-badge-popover="right" data-doi="10.1111/resp.14359"></a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" data-legend="hover-right" class="__dimensions_badge_embed__" data-doi="10.1111/resp.14359" data-style="small_circle"></a><a href="https://plu.mx/plum/a/?doi=10.1111/resp.14359" data-popup="hidden" data-size="medium" class="plumx-plum-print-popup" data-site="plum" data-hide-when-empty="false"></a><a style="border-radius:10%; border-style: solid; margin:0.1em 0.3em 0.1em 0.3em; padding:0.4em 0.3em 0.4em 0.3em; text-decoration:none; text-align: center; display:inline-block; float:left; color:black;">
 Qualis
-<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=15546&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=15546" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
+<br>?</a><a style="display: inline-block; float: left; margin:0.1em 0.3em 0.1em 0.3em;" href="https://www.scimagojr.com/journalsearch.php?q=19062&amp;tip=sid&amp;exact=no" target="_blank" title="SCImago Journal &amp; Country Rank"><img border="0" height="64px;" src="https://www.scimagojr.com/journal_img.php?id=19062" alt="SCImago Journal &amp; Country Rank"  /></a><a href="https://www.scopus.com/sourceid/28773?dgcid=sc_widget_citescore" style="text-decoration:none; color:#505050;">
 <div
 style="height:100px; width:120px; font-family:Arial, Verdana, helvetica, sans-serif; background-color:#ffffff; display:inline-block;">
 <div style="padding:0px16p;">
 <div style="padding-top:3px; line-height:1;">
 <div style="float:left; font-size:28px;">
 <span id="citescoreVal"
-style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">8.8</span>
+style="letter-spacing:-2px; display:inline-block; padding-top:7px; line-height:.75;">10.6</span>
 </div>
 <div
 style="float:right; font-size:14px; padding-top:3px; text-align: right;">
@@ -16982,1929 +17025,53 @@ href="https://doaj.org"><strong>DOAJ</strong></a><br><br><br><a style="float:rig
 <h2 class="tabset"><strong>Representatividade</strong></h2>
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
-<div id="associações" class="section level3 tabset">
-<h3 class="tabset"><strong>Associações</strong></h3>
-<!-- -->
-<div id="section-33" class="section level4">
-<h4><strong>1</strong></h4>
-<!-- -->
-<div id="alessandra-giannella-samelli" class="section level5">
-<h5><strong>ALESSANDRA GIANNELLA SAMELLI</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-34" class="section level4">
-<h4><strong>2</strong></h4>
-<!-- -->
-<div id="amelia-pasqual-marques" class="section level5">
-<h5><strong>AMELIA PASQUAL MARQUES</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-35" class="section level4">
-<h4><strong>3</strong></h4>
-<!-- -->
-<div id="carla-gentile-matas" class="section level5">
-<h5><strong>CARLA GENTILE MATAS</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-36" class="section level4">
-<h4><strong>4</strong></h4>
-<!-- -->
-<div id="carlos-bandeira-de-mello-monteiro" class="section level5">
-<h5><strong>CARLOS BANDEIRA DE MELLO MONTEIRO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-37" class="section level4">
-<h4><strong>5</strong></h4>
-<!-- -->
-<div id="carolina-fu" class="section level5">
-<h5><strong>CAROLINA FU</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-38" class="section level4">
-<h4><strong>6</strong></h4>
-<!-- -->
-<div id="celso-ricardo-fernandes-de-carvalho" class="section level5">
-<h5><strong>CELSO RICARDO FERNANDES DE CARVALHO</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Afiliação
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Atuação
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Associação Brasileira de Pesquisa e Pós-Graduação em Fisioterapia
-</td>
-<td style="text-align:left;">
-Associated
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-European Respiratory Society
-</td>
-<td style="text-align:left;">
-Associated
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Sociedade Brasileira de Pneumologia e Tisiologia
-</td>
-<td style="text-align:left;">
-Associated
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Associação Brasileira de Fisioterapia Respiratoria, Fisioterapia
-Cardiovascular e Fisioterapia em Terapia Intensiva
-</td>
-<td style="text-align:left;">
-Associated
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-39" class="section level4">
-<h4><strong>7</strong></h4>
-<!-- -->
-<div id="claudia-regina-furquim-de-andrade" class="section level5">
-<h5><strong>CLAUDIA REGINA FURQUIM DE ANDRADE</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-40" class="section level4">
-<h4><strong>8</strong></h4>
-<!-- -->
-<div id="debora-maria-befi-lopes" class="section level5">
-<h5><strong>DEBORA MARIA BEFI LOPES</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-41" class="section level4">
-<h4><strong>9</strong></h4>
-<!-- -->
-<div id="eliane-schochat" class="section level5">
-<h5><strong>ELIANE SCHOCHAT</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-42" class="section level4">
-<h4><strong>10</strong></h4>
-<!-- -->
-<div id="isabel-de-camargo-neves-sacco" class="section level5">
-<h5><strong>ISABEL DE CAMARGO NEVES SACCO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-43" class="section level4">
-<h4><strong>11</strong></h4>
-<!-- -->
-<div id="raquel-aparecida-casarotto" class="section level5">
-<h5><strong>RAQUEL APARECIDA CASAROTTO</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Afiliação
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Atuação
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Associação de Fisioterapeutas do Brasil
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-44" class="section level4">
-<h4><strong>12</strong></h4>
-<!-- -->
-<div id="renata-mota-mamede-carvallo" class="section level5">
-<h5><strong>RENATA MOTA MAMEDE CARVALLO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-45" class="section level4">
-<h4><strong>13</strong></h4>
-<!-- -->
-<div id="selma-lancman" class="section level5">
-<h5><strong>SELMA LANCMAN</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-46" class="section level4">
-<h4><strong>14</strong></h4>
-<!-- -->
-<div id="silvia-maria-amado-joao" class="section level5">
-<h5><strong>SILVIA MARIA AMADO JOAO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-47" class="section level4">
-<h4><strong>15</strong></h4>
-<!-- -->
-<div id="ana-carolina-basso-schmitt" class="section level5">
-<h5><strong>ANA CAROLINA BASSO SCHMITT</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-48" class="section level4">
-<h4><strong>16</strong></h4>
-<!-- -->
-<div id="daniela-regina-molini-avejonas" class="section level5">
-<h5><strong>DANIELA REGINA MOLINI AVEJONAS</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-49" class="section level4">
-<h4><strong>17</strong></h4>
-<!-- -->
-<div id="jose-eduardo-pompeu" class="section level5">
-<h5><strong>JOSE EDUARDO POMPEU</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-50" class="section level4">
-<h4><strong>18</strong></h4>
-<!-- -->
-<div id="eneida-yuri-suda" class="section level5">
-<h5><strong>ENEIDA YURI SUDA</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-51" class="section level4">
-<h4><strong>19</strong></h4>
-<!-- -->
-<div id="flavio-de-oliveira-pires" class="section level5">
-<h5><strong>FLAVIO DE OLIVEIRA PIRES</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-52" class="section level4">
-<h4><strong>20</strong></h4>
-<!-- -->
-<div id="evelim-leal-de-freitas-dantas-gomes" class="section level5">
-<h5><strong>EVELIM LEAL DE FREITAS DANTAS GOMES</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Afiliação
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Atuação
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Associacao brasileira de fisioterapia respiratoria
-</td>
-<td style="text-align:left;">
-Membro comitê científico
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-European Respiratory Society
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<p><br></p>
-</div>
-</div>
-</div>
 <div id="corpo-editorial-de-periódicos" class="section level3 tabset">
 <h3 class="tabset"><strong>Corpo editorial de periódicos</strong></h3>
-<!-- -->
-<div id="section-53" class="section level4">
-<h4><strong>1</strong></h4>
-<!-- -->
-<div id="alessandra-giannella-samelli-1" class="section level5">
-<h5><strong>ALESSANDRA GIANNELLA SAMELLI</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-54" class="section level4">
-<h4><strong>2</strong></h4>
-<!-- -->
-<div id="amelia-pasqual-marques-1" class="section level5">
-<h5><strong>AMELIA PASQUAL MARQUES</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-55" class="section level4">
-<h4><strong>3</strong></h4>
-<!-- -->
-<div id="carla-gentile-matas-1" class="section level5">
-<h5><strong>CARLA GENTILE MATAS</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-56" class="section level4">
-<h4><strong>4</strong></h4>
-<!-- -->
-<div id="carlos-bandeira-de-mello-monteiro-1" class="section level5">
-<h5><strong>CARLOS BANDEIRA DE MELLO MONTEIRO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-57" class="section level4">
-<h4><strong>5</strong></h4>
-<!-- -->
-<div id="carolina-fu-1" class="section level5">
-<h5><strong>CAROLINA FU</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-58" class="section level4">
-<h4><strong>6</strong></h4>
-<!-- -->
-<div id="celso-ricardo-fernandes-de-carvalho-1" class="section level5">
-<h5><strong>CELSO RICARDO FERNANDES DE CARVALHO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-59" class="section level4">
-<h4><strong>7</strong></h4>
-<!-- -->
-<div id="claudia-regina-furquim-de-andrade-1" class="section level5">
-<h5><strong>CLAUDIA REGINA FURQUIM DE ANDRADE</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-60" class="section level4">
-<h4><strong>8</strong></h4>
-<!-- -->
-<div id="debora-maria-befi-lopes-1" class="section level5">
-<h5><strong>DEBORA MARIA BEFI LOPES</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-61" class="section level4">
-<h4><strong>9</strong></h4>
-<!-- -->
-<div id="eliane-schochat-1" class="section level5">
-<h5><strong>ELIANE SCHOCHAT</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódico
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Atuação
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Neuroaudiology
-</td>
-<td style="text-align:left;">
-Invited research
-</td>
-</tr>
-</tbody>
-</table>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-cea11e833a8b5f528b92" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-cea11e833a8b5f528b92">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","Responsive"],"caption":"<caption>18/04/2025<\/caption>","data":[["1998","","2025","2025"],["Atual","Atual","",""],["Eliane Schochat","Selma Lancman","Gomes, ELFD; Gomes,EL;Dantas Gomes, ELF","Gomes, ELFD; Gomes,EL;Dantas Gomes, ELF"],["Neuroaudiology",null,"Diretoria Executiva Nacional","Diretoria Executiva Nacional"],["Invited research",null,"Vice Presidente","Diretora Secretária"],["US","FR","BR","BR"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Ano (início)<\/th>\n      <th>Ano (fim)<\/th>\n      <th>Docente<\/th>\n      <th>Periódico<\/th>\n      <th>Atuação<\/th>\n      <th>País<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":false,"pageLength":4,"width":"100%","scrollX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy","text":"Copiar","filename":"Destaques - Representação em Corpo Editorial de Periódicos Científicos"},{"extend":"csv","text":"CSV","filename":"Destaques - Representação em Corpo Editorial de Periódicos Científicos"},{"extend":"pdf","text":"PDF","title":"Destaques - Representação em Corpo Editorial de Periódicos Científicos","filename":"Destaques - Representação em Corpo Editorial de Periódicos Científicos"}],"language":{"info":"Mostrando de _START_ até _END_ de _TOTAL_","zeroRecords":"Nenhum registro encontrado","search":"Pesquisar","paginate":{"next":"Próximo","previous":"Anterior"}},"columnDefs":[{"name":"Ano (início)","targets":0},{"name":"Ano (fim)","targets":1},{"name":"Docente","targets":2},{"name":"Periódico","targets":3},{"name":"Atuação","targets":4},{"name":"País","targets":5}],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 <p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-62" class="section level4">
-<h4><strong>10</strong></h4>
-<!-- -->
-<div id="isabel-de-camargo-neves-sacco-1" class="section level5">
-<h5><strong>ISABEL DE CAMARGO NEVES SACCO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-63" class="section level4">
-<h4><strong>11</strong></h4>
-<!-- -->
-<div id="raquel-aparecida-casarotto-1" class="section level5">
-<h5><strong>RAQUEL APARECIDA CASAROTTO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-64" class="section level4">
-<h4><strong>12</strong></h4>
-<!-- -->
-<div id="renata-mota-mamede-carvallo-1" class="section level5">
-<h5><strong>RENATA MOTA MAMEDE CARVALLO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-65" class="section level4">
-<h4><strong>13</strong></h4>
-<!-- -->
-<div id="selma-lancman-1" class="section level5">
-<h5><strong>SELMA LANCMAN</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódico
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Atuação
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-NA
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-66" class="section level4">
-<h4><strong>14</strong></h4>
-<!-- -->
-<div id="silvia-maria-amado-joao-1" class="section level5">
-<h5><strong>SILVIA MARIA AMADO JOAO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-67" class="section level4">
-<h4><strong>15</strong></h4>
-<!-- -->
-<div id="ana-carolina-basso-schmitt-1" class="section level5">
-<h5><strong>ANA CAROLINA BASSO SCHMITT</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-68" class="section level4">
-<h4><strong>16</strong></h4>
-<!-- -->
-<div id="daniela-regina-molini-avejonas-1" class="section level5">
-<h5><strong>DANIELA REGINA MOLINI AVEJONAS</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-69" class="section level4">
-<h4><strong>17</strong></h4>
-<!-- -->
-<div id="jose-eduardo-pompeu-1" class="section level5">
-<h5><strong>JOSE EDUARDO POMPEU</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-70" class="section level4">
-<h4><strong>18</strong></h4>
-<!-- -->
-<div id="eneida-yuri-suda-1" class="section level5">
-<h5><strong>ENEIDA YURI SUDA</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-71" class="section level4">
-<h4><strong>19</strong></h4>
-<!-- -->
-<div id="flavio-de-oliveira-pires-1" class="section level5">
-<h5><strong>FLAVIO DE OLIVEIRA PIRES</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-72" class="section level4">
-<h4><strong>20</strong></h4>
-<!-- -->
-<div id="evelim-leal-de-freitas-dantas-gomes-1" class="section level5">
-<h5><strong>EVELIM LEAL DE FREITAS DANTAS GOMES</strong></h5>
-<!-- -->
-<!-- -->
+href="https://orcid.org"><strong>ORCID</strong></a></p>
 <p><br><a style="float:right" href="#top"><b>Início  </b>
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
 </a><br></p>
 <p><br></p>
-</div>
-</div>
 </div>
 <div id="revisor-de-periódicos" class="section level3 tabset">
 <h3 class="tabset"><strong>Revisor de periódicos</strong></h3>
-<!-- -->
-<div id="section-73" class="section level4">
-<h4><strong>1</strong></h4>
-<!-- -->
-<div id="alessandra-giannella-samelli-2" class="section level5">
-<h5><strong>ALESSANDRA GIANNELLA SAMELLI</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (3)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Journal of Epidemiology &amp; Community Health
-</td>
-<td style="text-align:left;">
-2.091
-</td>
-<td style="text-align:left;">
-11.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-PLoS ONE
-</td>
-<td style="text-align:left;">
-0.839
-</td>
-<td style="text-align:left;">
-6.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Heliyon
-</td>
-<td style="text-align:left;">
-0.617
-</td>
-<td style="text-align:left;">
-4.5
-</td>
-</tr>
-</tbody>
-</table>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-f76b4f6873fa3407bbc2" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-f76b4f6873fa3407bbc2">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","Responsive"],"caption":"<caption>18/04/2025<\/caption>","data":[["2024","2024","2023","2023","2021","2024","2024","2022","2022","2019","2024","2024","2024","2020","2024","2021","2023","2023","2022","2020","2019","2024","2024","2021","2023","2023","2019","2023","2023","2023","2022","2022","2021","2021","2021","2020","2021","2022","2025","2024","2024","2023","2023","2023","2019","2019","2019","2013","2018","2016","2017","2017","2023","2020","2024","2023","2020","2022","2021","2021","2021","2020","2019","2019","2019","2025","2024","2017","2024","2017","2024","2016","2024","2023","2014","2019","2020","2022","2021","2020","2019","2020","2016"],["2024","2024","2023","2023","2021","2024","2024","2022","2023","2019","2025","2025","2024","2020","2024","2021","2024","2024","2022","2020","2019","2025","2024","2021","2024","2024","2024","2024","2023","2023","2022","2022","2022","2021","2021","2020","2021","2024","2025","2024","2024","2023","2023","2023","2021","2021","2019","2019","2019","2017","2017","2017","2025","2024","2024","2023","2022","2022","2022","2022","2022","2021","2019","2019","2025","2025","2025","2024","2024","2024","2024","2024","2024","2024","2023","2023","2022","2022","2021","2020","2020","2020","2016"],["ALESSANDRA GIANNELLA SAMELLI","ALESSANDRA GIANNELLA SAMELLI","ALESSANDRA GIANNELLA SAMELLI","ALESSANDRA GIANNELLA SAMELLI","ALESSANDRA GIANNELLA SAMELLI","AMELIA PASQUAL MARQUES","AMELIA PASQUAL MARQUES","CARLA GENTILE MATAS","CARLOS BANDEIRA DE MELLO MONTEIRO","CAROLINA FU","CELSO RICARDO FERNANDES DE CARVALHO","CELSO RICARDO FERNANDES DE CARVALHO","CELSO RICARDO FERNANDES DE CARVALHO","CLAUDIA REGINA FURQUIM DE ANDRADE","ELIANE SCHOCHAT","ELIANE SCHOCHAT","ISABEL DE CAMARGO NEVES SACCO","ISABEL DE CAMARGO NEVES SACCO","ISABEL DE CAMARGO NEVES SACCO","ISABEL DE CAMARGO NEVES SACCO","ISABEL DE CAMARGO NEVES SACCO","RAQUEL APARECIDA CASAROTTO","RAQUEL APARECIDA CASAROTTO","RAQUEL APARECIDA CASAROTTO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","DANIELA REGINA MOLINI AVEJONAS","JOSE EDUARDO POMPEU","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES"],["Journal of Epidemiology & Community Health","Heliyon",null,"PLoS ONE",null,"European Journal of Integrative Medicine","Advances in Rheumatology",null,null,null,"The Journal of Allergy and Clinical Immunology In Practice","Respiratory Medicine","Pulmonology","Gates Open Research","Journal of Communication Disorders","PLoS ONE","Gait & Posture","Diabetes Research and Clinical Practice","Diabetology & Metabolic Syndrome","BMC Musculoskeletal Disorders","Research on Biomedical Engineering","Brazilian Journal of Physical Therapy","Journal of Manipulative and Physiological Therapeutics","Trials","Disability and Rehabilitation","Gait & Posture","Fisioterapia e Pesquisa","PLoS ONE","Healthcare","Brazilian Journal of Physical Therapy",null,"Journal of Clinical Medicine","Motriz Revista de Educa\\u00e7\\u00e3o F\\u00edsica","Revista Paulista de Pediatria",null,null,"PLoS ONE","Fisioterapia e Pesquisa","Clinics","Brazilian Journal of Physical Therapy","Fisioterapia e Pesquisa","The Journal of Sports Medicine and Physical Fitness","Frontiers in Bioengineering and Biotechnology","Scientific Reports",null,"Research on Biomedical Engineering","Journal of Diabetes Science and Technology",null,null,null,"PLoS ONE","Scandinavian Journal of Medicine and Science in Sports",null,null,null,null,"Scandinavian Journal of Medicine and Science in Sports",null,null,"Sports Medicine",null,"Research Quarterly for Exercise and Sport","Human Psychopharmacology Clinical and Experimental","PLoS ONE","Fisioterapia e Pesquisa","Journal of Asthma",null,"Archives of Physical Medicine and Rehabilitation",null,"Disability and Rehabilitation","Clinics","Physiotherapy Research International","Revista Paulista de Pediatria","Brazilian Journal of Physical Therapy","Respiratory Care","Therapeutic Advances in Respiratory Disease","Pediatric Allergy Immunology and Pulmonology","Motriz Revista de Educa\\u00e7\\u00e3o F\\u00edsica",null,"Acta Paediatrica","Journal of International Medical Research",null,null],["2.091","0.617","0.907","0.839","0.329","0.416","0.704","0.762","0.804","0.561","1.698","1.180","1.284","0.629","0.588","0.839","0.724","1.340","1.147","0.714","0.328","1.008","0.419","0.812","0.796","0.724","   NA","0.839","0.606","1.008","0.808","0.882","0.199","0.361","   NA","0.535","0.839","NA","0.535","1.008","   NA","0.427","0.893","0.900","1.008","0.328","1.048","0.825","0.724","0.873","0.839","1.485","1.016","1.078","0.730","0.492","1.485","0.652","3.492","3.492","1.303","   NA","0.541","0.839","   NA","0.609","0.555","1.091","0.725","0.796","0.535","0.608","0.361","1.008","0.761","1.179","0.342","0.199","1.078","0.847","0.445","0.492","   NA"],["11.1"," 4.5"," 5.6"," 6.2"," 2.0","4.7","4.0","6.9","6.7","3.7","11.1"," 7.5","14.3","3.6","3.3","6.2"," 4.7","10.3"," 6.2"," 3.8"," 3.3","6.1","3.0","3.8","5.0","4.7"," NA","6.2","3.5","6.1","5.6","5.7","1.1","2.3"," NA","4.1","6.2","NA","4.1","6.1"," NA","2.9","8.3","7.5","6.1","3.3","7.5","4.7","4.7","4.5","6.2","7.9"," 6.0"," 6.6"," 4.8"," 4.0"," 7.9"," 5.3","18.4","18.4"," 6.8","  NA"," 4.1"," 6.2"," NA","4.0","3.5","6.2","3.4","5.0","4.1","3.3","2.3","6.1","4.7","6.9","2.0","1.1","6.6","6.5","3.2","4.0"," NA"],[1,1,1,1,1,1,1,1,5,1,3,2,1,1,1,1,5,2,1,1,1,2,1,2,2,3,5,7,2,2,1,2,2,1,1,1,1,3,1,3,1,1,1,1,2,5,1,7,2,6,1,2,3,4,1,1,5,1,2,2,3,2,2,1,11,1,2,5,1,3,1,2,1,2,15,6,3,2,1,1,5,1,1],["GB","US","US","US","US","US","US","US","GB","NZ","US","US","US","GB","US","US","US","US","US","US","US","US","US","US","GB","US","GB","US, GB","GB","US","GB","GB","GB","GB","GB","GB","US","GB","US","US","GB","GB","GB","GB","GB","GB, US","GB","GB","GB","GB","GB","GB","US","GB","GB","GB","GB","US","US","GB","GB","GB","GB","US","GB, NZ","GB","GB","US, NZ","GB","GB, NZ","US","GB, NZ","GB","US","GB, NZ","GB, NZ","GB","NZ","GB","NZ","NZ","NZ","NZ"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Ano (início)<\/th>\n      <th>Ano (fim)<\/th>\n      <th>Docente<\/th>\n      <th>Periódico<\/th>\n      <th>SJR<\/th>\n      <th>CiteScore<\/th>\n      <th>Pareceres<\/th>\n      <th>País<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":false,"pageLength":4,"width":"100%","scrollX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy","text":"Copiar","filename":"Destaques - Representação em Corpo de Revisores de Periódicos Científicos"},{"extend":"csv","text":"CSV","filename":"Destaques - Representação em Corpo de Revisores de Periódicos Científicos"},{"extend":"pdf","text":"PDF","title":"Destaques - Representação em Corpo de Revisores de Periódicos Científicos","filename":"Destaques - Representação em Corpo de Revisores de Periódicos Científicos"}],"language":{"info":"Mostrando de _START_ até _END_ de _TOTAL_","zeroRecords":"Nenhum registro encontrado","search":"Pesquisar","paginate":{"next":"Próximo","previous":"Anterior"}},"columnDefs":[{"className":"dt-right","targets":6},{"name":"Ano (início)","targets":0},{"name":"Ano (fim)","targets":1},{"name":"Docente","targets":2},{"name":"Periódico","targets":3},{"name":"SJR","targets":4},{"name":"CiteScore","targets":5},{"name":"Pareceres","targets":6},{"name":"País","targets":7}],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 <p><strong>Fontes</strong>: <a
 href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
 Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-74" class="section level4">
-<h4><strong>2</strong></h4>
-<!-- -->
-<div id="amelia-pasqual-marques-2" class="section level5">
-<h5><strong>AMELIA PASQUAL MARQUES</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (2)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Advances in Rheumatology
-</td>
-<td style="text-align:left;">
-0.704
-</td>
-<td style="text-align:left;">
-4.0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-European Journal of Integrative Medicine
-</td>
-<td style="text-align:left;">
-0.416
-</td>
-<td style="text-align:left;">
-4.7
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-75" class="section level4">
-<h4><strong>3</strong></h4>
-<!-- -->
-<div id="carla-gentile-matas-2" class="section level5">
-<h5><strong>CARLA GENTILE MATAS</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (0)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-76" class="section level4">
-<h4><strong>4</strong></h4>
-<!-- -->
-<div id="carlos-bandeira-de-mello-monteiro-2" class="section level5">
-<h5><strong>CARLOS BANDEIRA DE MELLO MONTEIRO</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (0)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-77" class="section level4">
-<h4><strong>5</strong></h4>
-<!-- -->
-<div id="carolina-fu-2" class="section level5">
-<h5><strong>CAROLINA FU</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (0)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-78" class="section level4">
-<h4><strong>6</strong></h4>
-<!-- -->
-<div id="celso-ricardo-fernandes-de-carvalho-2" class="section level5">
-<h5><strong>CELSO RICARDO FERNANDES DE CARVALHO</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (3)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-The Journal of Allergy and Clinical Immunology In Practice
-</td>
-<td style="text-align:left;">
-1.698
-</td>
-<td style="text-align:left;">
-11.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Pulmonology
-</td>
-<td style="text-align:left;">
-1.284
-</td>
-<td style="text-align:left;">
-14.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Respiratory Medicine
-</td>
-<td style="text-align:left;">
-1.180
-</td>
-<td style="text-align:left;">
-7.5
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-79" class="section level4">
-<h4><strong>7</strong></h4>
-<!-- -->
-<div id="claudia-regina-furquim-de-andrade-2" class="section level5">
-<h5><strong>CLAUDIA REGINA FURQUIM DE ANDRADE</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (1)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Gates Open Research
-</td>
-<td style="text-align:left;">
-0.629
-</td>
-<td style="text-align:left;">
-3.6
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-80" class="section level4">
-<h4><strong>8</strong></h4>
-<!-- -->
-<div id="debora-maria-befi-lopes-2" class="section level5">
-<h5><strong>DEBORA MARIA BEFI LOPES</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-81" class="section level4">
-<h4><strong>9</strong></h4>
-<!-- -->
-<div id="eliane-schochat-2" class="section level5">
-<h5><strong>ELIANE SCHOCHAT</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (2)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-PLoS ONE
-</td>
-<td style="text-align:left;">
-0.839
-</td>
-<td style="text-align:left;">
-6.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Journal of Communication Disorders
-</td>
-<td style="text-align:left;">
-0.588
-</td>
-<td style="text-align:left;">
-3.3
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-82" class="section level4">
-<h4><strong>10</strong></h4>
-<!-- -->
-<div id="isabel-de-camargo-neves-sacco-2" class="section level5">
-<h5><strong>ISABEL DE CAMARGO NEVES SACCO</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (5)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Diabetes Research and Clinical Practice
-</td>
-<td style="text-align:left;">
-1.340
-</td>
-<td style="text-align:left;">
-10.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Diabetology &amp; Metabolic Syndrome
-</td>
-<td style="text-align:left;">
-1.147
-</td>
-<td style="text-align:left;">
-6.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Gait &amp; Posture
-</td>
-<td style="text-align:left;">
-0.724
-</td>
-<td style="text-align:left;">
-4.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-BMC Musculoskeletal Disorders
-</td>
-<td style="text-align:left;">
-0.714
-</td>
-<td style="text-align:left;">
-3.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Research on Biomedical Engineering
-</td>
-<td style="text-align:left;">
-0.328
-</td>
-<td style="text-align:left;">
-3.3
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-83" class="section level4">
-<h4><strong>11</strong></h4>
-<!-- -->
-<div id="raquel-aparecida-casarotto-2" class="section level5">
-<h5><strong>RAQUEL APARECIDA CASAROTTO</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (3)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Brazilian Journal of Physical Therapy
-</td>
-<td style="text-align:left;">
-1.008
-</td>
-<td style="text-align:left;">
-6.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Trials
-</td>
-<td style="text-align:left;">
-0.812
-</td>
-<td style="text-align:left;">
-3.8
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Journal of Manipulative and Physiological Therapeutics
-</td>
-<td style="text-align:left;">
-0.419
-</td>
-<td style="text-align:left;">
-3.0
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-84" class="section level4">
-<h4><strong>12</strong></h4>
-<!-- -->
-<div id="renata-mota-mamede-carvallo-2" class="section level5">
-<h5><strong>RENATA MOTA MAMEDE CARVALLO</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-85" class="section level4">
-<h4><strong>13</strong></h4>
-<!-- -->
-<div id="selma-lancman-2" class="section level5">
-<h5><strong>SELMA LANCMAN</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-86" class="section level4">
-<h4><strong>14</strong></h4>
-<!-- -->
-<div id="silvia-maria-amado-joao-2" class="section level5">
-<h5><strong>SILVIA MARIA AMADO JOAO</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (9)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Brazilian Journal of Physical Therapy
-</td>
-<td style="text-align:left;">
-1.008
-</td>
-<td style="text-align:left;">
-6.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Journal of Clinical Medicine
-</td>
-<td style="text-align:left;">
-0.882
-</td>
-<td style="text-align:left;">
-5.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-PLoS ONE
-</td>
-<td style="text-align:left;">
-0.839
-</td>
-<td style="text-align:left;">
-6.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Disability and Rehabilitation
-</td>
-<td style="text-align:left;">
-0.796
-</td>
-<td style="text-align:left;">
-5.0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Gait &amp; Posture
-</td>
-<td style="text-align:left;">
-0.724
-</td>
-<td style="text-align:left;">
-4.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Healthcare
-</td>
-<td style="text-align:left;">
-0.606
-</td>
-<td style="text-align:left;">
-3.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Revista Paulista de Pediatria
-</td>
-<td style="text-align:left;">
-0.361
-</td>
-<td style="text-align:left;">
-2.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Motriz Revista de Educa0e70e3o F0edsica
-</td>
-<td style="text-align:left;">
-0.199
-</td>
-<td style="text-align:left;">
-1.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Fisioterapia e Pesquisa
-</td>
-<td style="text-align:left;">
-NA
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-87" class="section level4">
-<h4><strong>15</strong></h4>
-<!-- -->
-<div id="ana-carolina-basso-schmitt-2" class="section level5">
-<h5><strong>ANA CAROLINA BASSO SCHMITT</strong></h5>
-<!-- -->
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-88" class="section level4">
-<h4><strong>16</strong></h4>
-<!-- -->
-<div id="daniela-regina-molini-avejonas-2" class="section level5">
-<h5><strong>DANIELA REGINA MOLINI AVEJONAS</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (1)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-PLoS ONE
-</td>
-<td style="text-align:left;">
-0.839
-</td>
-<td style="text-align:left;">
-6.2
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-89" class="section level4">
-<h4><strong>17</strong></h4>
-<!-- -->
-<div id="jose-eduardo-pompeu-2" class="section level5">
-<h5><strong>JOSE EDUARDO POMPEU</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (1)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Fisioterapia e Pesquisa
-</td>
-<td style="text-align:left;">
-NA
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-90" class="section level4">
-<h4><strong>18</strong></h4>
-<!-- -->
-<div id="eneida-yuri-suda-2" class="section level5">
-<h5><strong>ENEIDA YURI SUDA</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (9)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Scandinavian Journal of Medicine and Science in Sports
-</td>
-<td style="text-align:left;">
-1.485
-</td>
-<td style="text-align:left;">
-7.9
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Journal of Diabetes Science and Technology
-</td>
-<td style="text-align:left;">
-1.048
-</td>
-<td style="text-align:left;">
-7.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Brazilian Journal of Physical Therapy
-</td>
-<td style="text-align:left;">
-1.008
-</td>
-<td style="text-align:left;">
-6.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scientific Reports
-</td>
-<td style="text-align:left;">
-0.900
-</td>
-<td style="text-align:left;">
-7.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Frontiers in Bioengineering and Biotechnology
-</td>
-<td style="text-align:left;">
-0.893
-</td>
-<td style="text-align:left;">
-8.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-PLoS ONE
-</td>
-<td style="text-align:left;">
-0.839
-</td>
-<td style="text-align:left;">
-6.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-The Journal of Sports Medicine and Physical Fitness
-</td>
-<td style="text-align:left;">
-0.427
-</td>
-<td style="text-align:left;">
-2.9
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Research on Biomedical Engineering
-</td>
-<td style="text-align:left;">
-0.328
-</td>
-<td style="text-align:left;">
-3.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Fisioterapia e Pesquisa
-</td>
-<td style="text-align:left;">
-NA
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-91" class="section level4">
-<h4><strong>19</strong></h4>
-<!-- -->
-<div id="flavio-de-oliveira-pires-2" class="section level5">
-<h5><strong>FLAVIO DE OLIVEIRA PIRES</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (5)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Sports Medicine
-</td>
-<td style="text-align:left;">
-3.492
-</td>
-<td style="text-align:left;">
-18.4
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Scandinavian Journal of Medicine and Science in Sports
-</td>
-<td style="text-align:left;">
-1.485
-</td>
-<td style="text-align:left;">
-7.9
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-PLoS ONE
-</td>
-<td style="text-align:left;">
-0.839
-</td>
-<td style="text-align:left;">
-6.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Human Psychopharmacology Clinical and Experimental
-</td>
-<td style="text-align:left;">
-0.541
-</td>
-<td style="text-align:left;">
-4.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Research Quarterly for Exercise and Sport
-</td>
-<td style="text-align:left;">
-NA
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
-<p><br><a style="float:right" href="#top"><b>Início  </b>
-<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
-</a><br></p>
-<!-- -->
-</div>
-</div>
-<div id="section-92" class="section level4">
-<h4><strong>20</strong></h4>
-<!-- -->
-<div id="evelim-leal-de-freitas-dantas-gomes-2" class="section level5">
-<h5><strong>EVELIM LEAL DE FREITAS DANTAS GOMES</strong></h5>
-<!-- -->
-<table class="table table-striped table-hover table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
-<thead>
-<tr>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-Periódicos (13)
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-SJR
-</th>
-<th style="text-align:left;font-weight: bold;color: white !important;background-color: black !important;">
-CiteScore
-</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left;">
-Therapeutic Advances in Respiratory Disease
-</td>
-<td style="text-align:left;">
-1.179
-</td>
-<td style="text-align:left;">
-6.9
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Archives of Physical Medicine and Rehabilitation
-</td>
-<td style="text-align:left;">
-1.091
-</td>
-<td style="text-align:left;">
-6.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Brazilian Journal of Physical Therapy
-</td>
-<td style="text-align:left;">
-1.008
-</td>
-<td style="text-align:left;">
-6.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Acta Paediatrica
-</td>
-<td style="text-align:left;">
-0.847
-</td>
-<td style="text-align:left;">
-6.5
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Disability and Rehabilitation
-</td>
-<td style="text-align:left;">
-0.796
-</td>
-<td style="text-align:left;">
-5.0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Respiratory Care
-</td>
-<td style="text-align:left;">
-0.761
-</td>
-<td style="text-align:left;">
-4.7
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Physiotherapy Research International
-</td>
-<td style="text-align:left;">
-0.608
-</td>
-<td style="text-align:left;">
-3.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Clinics
-</td>
-<td style="text-align:left;">
-0.535
-</td>
-<td style="text-align:left;">
-4.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Journal of International Medical Research
-</td>
-<td style="text-align:left;">
-0.445
-</td>
-<td style="text-align:left;">
-3.2
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Revista Paulista de Pediatria
-</td>
-<td style="text-align:left;">
-0.361
-</td>
-<td style="text-align:left;">
-2.3
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Pediatric Allergy Immunology and Pulmonology
-</td>
-<td style="text-align:left;">
-0.342
-</td>
-<td style="text-align:left;">
-2.0
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Motriz Revista de Educa0e70e3o F0edsica
-</td>
-<td style="text-align:left;">
-0.199
-</td>
-<td style="text-align:left;">
-1.1
-</td>
-</tr>
-<tr>
-<td style="text-align:left;">
-Fisioterapia e Pesquisa
-</td>
-<td style="text-align:left;">
-NA
-</td>
-<td style="text-align:left;">
-NA
-</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Fontes</strong>: <a
-href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
-Sucupira</strong></a>, <a
-href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
-<!-- -->
+href="https://orcid.org"><strong>ORCID</strong></a></p>
 <p><br><a style="float:right" href="#top"><b>Início  </b>
 <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
 </a><br></p>
 <p><br></p>
 </div>
-</div>
+<div id="associações" class="section level3 tabset">
+<h3 class="tabset"><strong>Associações</strong></h3>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-ceaa6e266d5f25c0fda0" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ceaa6e266d5f25c0fda0">{"x":{"filter":"none","vertical":false,"extensions":["Buttons","Responsive"],"caption":"<caption>18/04/2025<\/caption>","data":[["2024","2024","2023","2023","2021","2024","2024","2022","2022","2019","2024","2024","2024","2020","2024","2021","2023","2023","2022","2020","2019","2024","2024","2021","2023","2023","2019","2023","2023","2023","2022","2022","2021","2021","2021","2020","2021","2022","2025","2024","2024","2023","2023","2023","2019","2019","2019","2013","2018","2016","2017","2017","2023","2020","2024","2023","2020","2022","2021","2021","2021","2020","2019","2019","2019","2025","2024","2017","2024","2017","2024","2016","2024","2023","2014","2019","2020","2022","2021","2020","2019","2020","2016"],["2024","2024","2023","2023","2021","2024","2024","2022","2023","2019","2025","2025","2024","2020","2024","2021","2024","2024","2022","2020","2019","2025","2024","2021","2024","2024","2024","2024","2023","2023","2022","2022","2022","2021","2021","2020","2021","2024","2025","2024","2024","2023","2023","2023","2021","2021","2019","2019","2019","2017","2017","2017","2025","2024","2024","2023","2022","2022","2022","2022","2022","2021","2019","2019","2025","2025","2025","2024","2024","2024","2024","2024","2024","2024","2023","2023","2022","2022","2021","2020","2020","2020","2016"],["ALESSANDRA GIANNELLA SAMELLI","ALESSANDRA GIANNELLA SAMELLI","ALESSANDRA GIANNELLA SAMELLI","ALESSANDRA GIANNELLA SAMELLI","ALESSANDRA GIANNELLA SAMELLI","AMELIA PASQUAL MARQUES","AMELIA PASQUAL MARQUES","CARLA GENTILE MATAS","CARLOS BANDEIRA DE MELLO MONTEIRO","CAROLINA FU","CELSO RICARDO FERNANDES DE CARVALHO","CELSO RICARDO FERNANDES DE CARVALHO","CELSO RICARDO FERNANDES DE CARVALHO","CLAUDIA REGINA FURQUIM DE ANDRADE","ELIANE SCHOCHAT","ELIANE SCHOCHAT","ISABEL DE CAMARGO NEVES SACCO","ISABEL DE CAMARGO NEVES SACCO","ISABEL DE CAMARGO NEVES SACCO","ISABEL DE CAMARGO NEVES SACCO","ISABEL DE CAMARGO NEVES SACCO","RAQUEL APARECIDA CASAROTTO","RAQUEL APARECIDA CASAROTTO","RAQUEL APARECIDA CASAROTTO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","SILVIA MARIA AMADO JOAO","DANIELA REGINA MOLINI AVEJONAS","JOSE EDUARDO POMPEU","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","ENEIDA YURI SUDA","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","FLAVIO DE OLIVEIRA PIRES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES","EVELIM LEAL DE FREITAS DANTAS GOMES"],["Journal of Epidemiology & Community Health","Heliyon",null,"PLoS ONE",null,"European Journal of Integrative Medicine","Advances in Rheumatology",null,null,null,"The Journal of Allergy and Clinical Immunology In Practice","Respiratory Medicine","Pulmonology","Gates Open Research","Journal of Communication Disorders","PLoS ONE","Gait & Posture","Diabetes Research and Clinical Practice","Diabetology & Metabolic Syndrome","BMC Musculoskeletal Disorders","Research on Biomedical Engineering","Brazilian Journal of Physical Therapy","Journal of Manipulative and Physiological Therapeutics","Trials","Disability and Rehabilitation","Gait & Posture","Fisioterapia e Pesquisa","PLoS ONE","Healthcare","Brazilian Journal of Physical Therapy",null,"Journal of Clinical Medicine","Motriz Revista de Educa\\u00e7\\u00e3o F\\u00edsica","Revista Paulista de Pediatria",null,null,"PLoS ONE","Fisioterapia e Pesquisa","Clinics","Brazilian Journal of Physical Therapy","Fisioterapia e Pesquisa","The Journal of Sports Medicine and Physical Fitness","Frontiers in Bioengineering and Biotechnology","Scientific Reports",null,"Research on Biomedical Engineering","Journal of Diabetes Science and Technology",null,null,null,"PLoS ONE","Scandinavian Journal of Medicine and Science in Sports",null,null,null,null,"Scandinavian Journal of Medicine and Science in Sports",null,null,"Sports Medicine",null,"Research Quarterly for Exercise and Sport","Human Psychopharmacology Clinical and Experimental","PLoS ONE","Fisioterapia e Pesquisa","Journal of Asthma",null,"Archives of Physical Medicine and Rehabilitation",null,"Disability and Rehabilitation","Clinics","Physiotherapy Research International","Revista Paulista de Pediatria","Brazilian Journal of Physical Therapy","Respiratory Care","Therapeutic Advances in Respiratory Disease","Pediatric Allergy Immunology and Pulmonology","Motriz Revista de Educa\\u00e7\\u00e3o F\\u00edsica",null,"Acta Paediatrica","Journal of International Medical Research",null,null],["2.091","0.617","0.907","0.839","0.329","0.416","0.704","0.762","0.804","0.561","1.698","1.180","1.284","0.629","0.588","0.839","0.724","1.340","1.147","0.714","0.328","1.008","0.419","0.812","0.796","0.724","   NA","0.839","0.606","1.008","0.808","0.882","0.199","0.361","   NA","0.535","0.839","NA","0.535","1.008","   NA","0.427","0.893","0.900","1.008","0.328","1.048","0.825","0.724","0.873","0.839","1.485","1.016","1.078","0.730","0.492","1.485","0.652","3.492","3.492","1.303","   NA","0.541","0.839","   NA","0.609","0.555","1.091","0.725","0.796","0.535","0.608","0.361","1.008","0.761","1.179","0.342","0.199","1.078","0.847","0.445","0.492","   NA"],["11.1"," 4.5"," 5.6"," 6.2"," 2.0","4.7","4.0","6.9","6.7","3.7","11.1"," 7.5","14.3","3.6","3.3","6.2"," 4.7","10.3"," 6.2"," 3.8"," 3.3","6.1","3.0","3.8","5.0","4.7"," NA","6.2","3.5","6.1","5.6","5.7","1.1","2.3"," NA","4.1","6.2","NA","4.1","6.1"," NA","2.9","8.3","7.5","6.1","3.3","7.5","4.7","4.7","4.5","6.2","7.9"," 6.0"," 6.6"," 4.8"," 4.0"," 7.9"," 5.3","18.4","18.4"," 6.8","  NA"," 4.1"," 6.2"," NA","4.0","3.5","6.2","3.4","5.0","4.1","3.3","2.3","6.1","4.7","6.9","2.0","1.1","6.6","6.5","3.2","4.0"," NA"],[1,1,1,1,1,1,1,1,5,1,3,2,1,1,1,1,5,2,1,1,1,2,1,2,2,3,5,7,2,2,1,2,2,1,1,1,1,3,1,3,1,1,1,1,2,5,1,7,2,6,1,2,3,4,1,1,5,1,2,2,3,2,2,1,11,1,2,5,1,3,1,2,1,2,15,6,3,2,1,1,5,1,1],["GB","US","US","US","US","US","US","US","GB","NZ","US","US","US","GB","US","US","US","US","US","US","US","US","US","US","GB","US","GB","US, GB","GB","US","GB","GB","GB","GB","GB","GB","US","GB","US","US","GB","GB","GB","GB","GB","GB, US","GB","GB","GB","GB","GB","GB","US","GB","GB","GB","GB","US","US","GB","GB","GB","GB","US","GB, NZ","GB","GB","US, NZ","GB","GB, NZ","US","GB, NZ","GB","US","GB, NZ","GB, NZ","GB","NZ","GB","NZ","NZ","NZ","NZ"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Ano (início)<\/th>\n      <th>Ano (fim)<\/th>\n      <th>Docente<\/th>\n      <th>Periódico<\/th>\n      <th>SJR<\/th>\n      <th>CiteScore<\/th>\n      <th>Pareceres<\/th>\n      <th>País<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"colReorder":false,"pageLength":4,"width":"100%","scrollX":false,"dom":"Bftip","searchHighlight":true,"buttons":[{"extend":"copy","text":"Copiar","filename":"Destaques - Representação em Entidades Científicas"},{"extend":"csv","text":"CSV","filename":"Destaques - Representação em Entidades Científicas"},{"extend":"pdf","text":"PDF","title":"Destaques - Representação em Entidades Científicas","filename":"Destaques - Representação em Entidades Científicas"}],"language":{"info":"Mostrando de _START_ até _END_ de _TOTAL_","zeroRecords":"Nenhum registro encontrado","search":"Pesquisar","paginate":{"next":"Próximo","previous":"Anterior"}},"columnDefs":[{"className":"dt-right","targets":6},{"name":"Ano (início)","targets":0},{"name":"Ano (fim)","targets":1},{"name":"Docente","targets":2},{"name":"Periódico","targets":3},{"name":"SJR","targets":4},{"name":"CiteScore","targets":5},{"name":"Pareceres","targets":6},{"name":"País","targets":7}],"order":[],"autoWidth":false,"orderClasses":false,"responsive":true,"lengthMenu":[4,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://orcid.org"><strong>ORCID</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-07efd8bab33d665d8b93" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-07efd8bab33d665d8b93">{"x":null,"evals":[],"jsHooks":[]}</script>
+<p><strong>Fontes</strong>: <a
+href="https://sucupira.capes.gov.br/sucupira/"><strong>Plataforma
+Sucupira</strong></a>, <a
+href="https://orcid.org"><strong>ORCID</strong></a></p>
+<p><br><a style="float:right" href="#top"><b>Início  </b>
+<svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM385 231c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-71-71V376c0 13.3-10.7 24-24 24s-24-10.7-24-24V193.9l-71 71c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9L239 119c9.4-9.4 24.6-9.4 33.9 0L385 231z"/></svg>
+</a><br></p>
+<p><br></p>
 </div>
 </div>
 <div id="divulgacao" class="section level2 tabset">
@@ -18934,7 +17101,7 @@ href="https://orcid.org"><strong>ORCID</strong></a><br><br></p>
 </div>
 
 <div style="text-align: center; vertical-align: baseline;">
-  <img style="vertical-align: baseline" width="2%" src="https://raw.githubusercontent.com/rstudio/hex-stickers/main/thumbs/RStudio.png"> Desenvolvido em <a href="https://www.rstudio.com/" target="_blank">RStudio</a> usando <a href="https://rmarkdown.rstudio.com" target="_blank">R Markdown</a>
+  <img style="vertical-align: center" width="1.5%" src="https://raw.githubusercontent.com/rstudio/hex-stickers/main/thumbs/RStudio.png"> Desenvolvido em <a href="https://www.rstudio.com/" target="_blank">RStudio</a> usando <a href="https://rmarkdown.rstudio.com" target="_blank">R Markdown</a>
 </div>
 
 <br>

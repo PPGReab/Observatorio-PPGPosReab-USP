@@ -18,6 +18,7 @@ doi_with_metrics <-
     dimnames = list(c(), columns_to_grab)
   ), check.names = FALSE)
 
+source_with_error <- c()
 # loop for all entries in the list
 for (input in 1:dim(df_scopus)[1]) {
   tryCatch(
@@ -36,9 +37,9 @@ for (input in 1:dim(df_scopus)[1]) {
       } else {
         # proceed as there is info for this entry
         split_data <- strsplit(colnames(raw_data), ":")
-
+        
         split_names <- sapply(split_data, "[[", 1)
-
+        
         split_data.2 <- c()
         for (i in 1:length(columns_to_grab)) {
           # bind label and data
@@ -49,7 +50,7 @@ for (input in 1:dim(df_scopus)[1]) {
                  paste(split_data[[match(label, gsub("\\{|\\}", "", split_names))]][2:length(split_data[[match(label, gsub("\\{|\\}", "", split_names))]])], collapse = ":", sep = ""))
           split_data.2 <- rbind(split_data.2, c(label, data))
         }
-
+        
         # bind rows data
         doi_with_metrics[input, columns_to_grab] <- t(split_data.2)[2, ]
         
