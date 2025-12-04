@@ -76,6 +76,98 @@ periodo.vigente <- anos
 <!--script for generating HORIZONTAL LINE-->
 <hr style="height:2px;border-width:0;color:black;background-color:black">
 
+### **Distribuição nacional** {#egressos-nacional}
+
+```{r egressos-periodo, eval = has.discentes}
+discentes.raw <-
+  readxl::read_excel(
+    "PPG/Discentes.xlsx",
+    sheet = "Discentes",
+    col_types = c("text")
+  )
+discentes.raw <- discentes.raw[discentes.raw$País == "Brasil",]
+discentes.raw$'Data Matrícula' <-
+  as.Date(openxlsx::convertToDate(discentes.raw$`Data Matrícula`), format = "%d/%m/%Y")
+discentes.raw$'Data Situação' <-
+  as.Date(openxlsx::convertToDate(discentes.raw$`Data Situação`), format = "%d/%m/%Y")
+discentes.raw$'Ano Titulação' <-
+  substr(as.Date(discentes.raw$'Data Situação', format = "%d/%m/%Y"), 1, 4)
+# tempo de curso
+discentes.raw$`Tempo de Curso (meses)` <-
+  lubridate::interval(start = lubridate::ymd(gsub("-", "", discentes.raw$'Data Matrícula')), end = lubridate::ymd(gsub("-", "", discentes.raw$'Data Situação'))) %/% months(1)
+discentes.raw <- discentes.raw %>%
+  dplyr::mutate(`Tempo de Curso (meses)` = as.numeric(`Tempo de Curso (meses)`)) %>%
+  dplyr::mutate(`Ano Titulação` = as.numeric(`Ano Titulação`))
+discentes.raw$Curso[grepl("Mestrado", discentes.raw$Curso)] <- "Mestrado"
+discentes.raw$Curso[grepl("Doutorado", discentes.raw$Curso)] <- "Doutorado"
+
+discentes <- discentes.raw[is.na(discentes.raw$'Data Situação'), ]
+discentes <- discentes[discentes$'Situação' != "Cancelado", ]
+discentes <- discentes[discentes$'Situação' != "Desligado", ]
+discentes <- discentes[!is.na(discentes$'Nome'), ]
+
+egressos <- discentes.raw[!is.na(discentes.raw$'Data Situação'), ]
+
+# plot Brazil states per period
+periodos <-
+  rbind(cbind(2010, 2012), cbind(2013, 2016), cbind(2017, 2020), cbind(2021, 2024), cbind(2025, 2028))
+colnames(periodos) <- c("Início", "Fim")
+rownames(periodos) <- c("Trienal", "Quadrienal", "Quadrienal", "Quadrienal", "Quadrienal")
+
+par(
+  oma = c(0, 0, 0, 0),
+  mar = c(5.1, 4.1, 4.1, 2.1),
+  bg = 'black',
+  col.lab = "white",
+  col.axis = "white",
+  fg = "white",
+  col.main = "white"
+)
+layout(matrix(seq(1:dim(periodos)[1]), ncol = dim(periodos)[1], byrow = TRUE))
+maps <- list()
+for (j in 1:dim(periodos)[1]) {
+  egressos.periodo <-
+    egressos[egressos$`Ano Titulação` >= periodos[j, 1] &
+                egressos$`Ano Titulação` <= periodos[j, 2], ]
+  states$egressos <- rep(NA, dim(states)[1])
+  UF <- as.data.frame(table(egressos.periodo$UF))
+  for (i in 1:length(UF$Var1)) {
+    states$egressos[states$abbrev_state == UF$Var1[i]] <- UF$Freq[i]
+  }
+  maps[[j]] <- ggplot2::ggplot() +
+    ggplot2::geom_sf(
+      data = states,
+      ggplot2::aes(fill = egressos),
+      color = NA,
+      size = .15
+    ) +
+    ggplot2::scale_fill_distiller(
+      palette = "Spectral",
+      name = "Egressos, n",
+      limits = c(min(0, UF$Freq), max(UF$Freq)),
+      na.value = "grey"
+    ) +
+    ggplot2::theme_minimal() +
+    ggplot2::theme(
+      plot.margin = ggplot2::unit(c(0, 0, 0, 0), "cm"),
+      panel.background = ggplot2::element_rect(fill = "transparent",  color = "transparent"),
+      plot.background = ggplot2::element_rect(fill = "transparent",  color = "transparent"),
+      panel.grid.major = ggplot2::element_line(color = "transparent"),
+      axis.text.x = ggplot2::element_blank(),
+      axis.text.y = ggplot2::element_blank()
+  ) +
+    ggplot2::labs(subtitle = paste0(periodos[j, 1], "-", periodos[j, 2]),
+         size = 12) +
+    ggplot2::guides(fill = FALSE)
+}
+Rmisc::multiplot(plotlist = maps, cols = dim(periodos)[1])
+
+cat('\n\n')
+cat('<br><a style="float:right" href="#top"><b>Início &nbsp;</b>', fontawesome::fa("circle-arrow-up"), '</a><br>')
+```
+
+<br>
+
 ### **Formação continuada** {#formacao-continuada}
 
 ```{r formacao-continuada, eval = has.sucupira.files}
@@ -230,7 +322,7 @@ source("Scripts/fonte-sucupira.R", local = knitr::knit_global())
 
 <br>
 
-### **Turmas**
+### **Turmas** {#turmas}
 
 ```{r turmas-nivel, eval = has.sucupira.files}
 sheet <- "Turmas"
@@ -323,7 +415,7 @@ source("Scripts/fonte-sucupira.R", local = knitr::knit_global())
 
 <br>
 
-### **Disciplinas**
+### **Disciplinas** {#turmas-disciplinas}
 
 ```{r turmas-disciplinas, eval = has.sucupira.files}
 sheet <- "Turmas"
@@ -413,7 +505,7 @@ source("Scripts/fonte-sucupira.R", local = knitr::knit_global())
 
 <br>
 
-### **Docentes e Pós-Docs**
+### **Docentes e Pós-Docs** {#docentes-pos-docs}
 
 ```{r turmas-docentes, eval = has.sucupira.files}
 sheet <- "Turmas"
@@ -564,7 +656,6 @@ for (i in 1:length(sucupira)) {
     sucupira[[i]]
   )
 }
-
 
 sucupira.df <- data.frame(do.call(dplyr::bind_rows, sucupira), check.names = FALSE)
 names(sucupira.df) <- names(sucupira[[as.character(max(as.numeric(periodo.vigente)))]])
@@ -1337,7 +1428,7 @@ if(!sjmisc::is_empty(table.aut)){
 
 ```{r 3-1-2-list-tables, eval = has.sucupira.files}
 # List all tables
-table.all <- list(
+table.3.1.2 <- list(
   table.tot.gt,
   table.ac.gt,
   table.lp.gt,
@@ -1349,14 +1440,15 @@ table.all <- list(
 )
 
 # Drop empty elements from the list
-table.all <- table.all[lapply(table.all, length) > 0]
-
-if(!sjmisc::is_empty(table.all)){
-  table.all <- gtsummary::tbl_stack(table.all)
+table.3.1.2 <- table.3.1.2[lapply(table.3.1.2, length) > 0]
+if(any(lapply(table.3.1.2, length) > 0)){
+  table.3.1.2 <- gtsummary::tbl_stack(table.3.1.2)
+} else {
+  table.3.1.2 <- list()
 }
 
 # Print HTML table
-if (knitr::is_html_output() && !sjmisc::is_empty(table.all)) {
+if (knitr::is_html_output() && !sjmisc::is_empty(table.3.1.2)) {
   print(table.3.1.2)
 }
 
@@ -1400,8 +1492,10 @@ síntese.ano <- dplyr::bind_cols(
       BlueSky = as.numeric(metricas_all_ID$cited_by_bluesky_count),
       Wikipedia = as.numeric(metricas_all_ID$cited_by_wikipedia_count),
       Policies = as.numeric(metricas_all_ID$cited_by_policies_count),
+      Diretrizes = as.numeric(metricas_all_ID$cited_by_guidelines_count),
       Patentes = as.numeric(metricas_all_ID$cited_by_patents_count),
       'YouTube/Vimeo' = as.numeric(metricas_all_ID$cited_by_videos_count),
+      Podcasts = as.numeric(metricas_all_ID$cited_by_podcasts_count),
       Posts = as.numeric(metricas_all_ID$cited_by_posts_count),
       Mendeley = as.numeric(metricas_all_ID$mendeley),
       'Acesso aberto' = factor(as.logical(metricas_all_ID$is_oa), levels = c(TRUE, FALSE), labels = c("Sim", "Não"))
@@ -1426,8 +1520,10 @@ síntese.ano <- síntese.ano %>%
     "BlueSky",
     "Wikipedia",
     "Policies",
+    "Diretrizes",
     "Patentes",
     "YouTube/Vimeo",
+    "Podcasts",
     "Posts",
     "Mendeley",
     "Acesso aberto"
@@ -1461,8 +1557,10 @@ table.3.2.1 <-
       "BlueSky" ~ "continuous",
       "Wikipedia" ~ "continuous",
       "Policies" ~ "continuous",
+      "Diretrizes" ~ "continuous",
       "Patentes" ~ "continuous",
       "YouTube/Vimeo" ~ "continuous",
+      "Podcasts" ~ "continuous",
       "Posts" ~ "continuous",
       "Mendeley" ~ "continuous",
       "Acesso aberto" ~ "categorical"
@@ -1939,10 +2037,10 @@ if (file.exists(file.path("cache", "impactos", "sage-profile.Rds"))) {
   # rename columns
   colnames(sage.profiles) <- c("Ano",
                                "Título",
-                               "Tipo",
-                               "Pesquisas citadas (DOI)",
+                               "Fonte",
+                               "Agência",
                                "País",
-                               "Fonte"
+                               "Produção citada"
   )
   
   saveRDS(sage.profiles, file.path("cache", "impactos", "sage-profile.Rds"))
@@ -2243,7 +2341,7 @@ if (!sjmisc::is_empty(id.TCC)) {
 
 # print table
 source("Scripts/table-with-buttons.R", local = knitr::knit_global())
-create_dt(table.tese, title = "Repositório - Teses")
+create_dt(table.tese, title = "Impacto - Teses defendidas durante a Pandemia")
 
 source("Scripts/fonte-sucupira.R", local = knitr::knit_global())
 ```
@@ -2335,7 +2433,7 @@ if (!sjmisc::is_empty(id.TCC)) {
 
 # print table
 source("Scripts/table-with-buttons.R", local = knitr::knit_global())
-create_dt(table.dissert, title = "Repositório - Dissertações")
+create_dt(table.tese, title = "Impacto - Dissertações defendidas durante a Pandemia")
 
 source("Scripts/fonte-sucupira.R", local = knitr::knit_global())
 ```
