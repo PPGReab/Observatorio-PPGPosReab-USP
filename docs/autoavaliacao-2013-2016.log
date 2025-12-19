@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.11.27)  3 DEC 2025 21:44
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.12.14)  19 DEC 2025 09:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,23 +597,23 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \pandoc@box=\box64
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/11/23 v25.16 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count327
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2050.
+ne 2068.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2052.
+ne 2070.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2054.
+e 2072.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2055.
+e 2073.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2056.
+on input line 2074.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2058.
+on input line 2076.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2083.
+on input line 2101.
 \U@D=\dimen191
 \l@unhyphenated=\language90
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/xebabel.def)
@@ -623,7 +623,7 @@ on input line 2083.
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/locale/pt/babel-brazilian
 .tex)
 Package babel Info: Importing font and identification data for brazilian
-(babel)             from babel-pt-BR.ini. Reported on input line 4298.
+(babel)             from babel-pt-BR.ini. Reported on input line 4320.
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel-portuges/brazilian.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
@@ -1042,7 +1042,7 @@ Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (/usr/local/texlive/2025/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 (/usr/local/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 \ESO@tempdima=\dimen338
 \ESO@tempdimb=\dimen339
 )
@@ -4618,458 +4618,679 @@ Overfull \hbox (15.09442pt too wide) in paragraph at lines 2203--2255
  [][] 
  []
 
-[76] [77
+[76]
+Underfull \hbox (badness 2065) in paragraph at lines 2299--2299
+[]\TU/lmr/m/n/10 Declínio De Atividades Instrumentais De
+ []
 
+
+Underfull \hbox (badness 3930) in paragraph at lines 2299--2299
+[]\TU/lmr/m/n/10 Multidisciplinary Assessment Of Patients
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 2299--2299
+\TU/lmr/m/n/10 Analysis By Speckle Tracking Echocardio-
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 2299--2299
+[]\TU/lmr/m/n/10 Declínio De Atividades Instrumentais De
+ []
+
+[77
+
+]
+Underfull \hbox (badness 3930) in paragraph at lines 2299--2299
+[]\TU/lmr/m/n/10 Multidisciplinary Assessment Of Patients
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 2299--2299
+\TU/lmr/m/n/10 Analysis By Speckle Tracking Echocardio-
+ []
+
+[78] [79] [80] [81] [82] [83]
+Underfull \hbox (badness 10000) in paragraph at lines 2420--2420
+[]\TU/lmr/bx/n/10 Stack Ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2420--2420
+[]\TU/lmr/bx/n/10 Stack Ex-
+ []
+
+[84]
+Underfull \hbox (badness 1371) in paragraph at lines 2480--2480
+[]\TU/lmr/m/n/10 Effects Of Strengthening, Stretching And
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 2480--2480
+[]\TU/lmr/m/n/10 Computer Task Performance By Subjects
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 2480--2480
+[]\TU/lmr/m/n/10 Effects Of Strengthening, Stretching And
+ []
+
+[85]
+Underfull \hbox (badness 1436) in paragraph at lines 2480--2480
+[]\TU/lmr/m/n/10 Computer Task Performance By Subjects
+ []
+
+[86] [87] [88] [89] [90] [91] [92]
+Underfull \hbox (badness 1371) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Effects Of Strengthening, Stretching And
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Anxiety And Depression Are Related To
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 2654--2654
+\TU/lmr/m/n/10 Dyspnea And Clinical Control But Not
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Computer Task Performance By Subjects
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 2654--2654
+\TU/lmr/m/n/10 Analysis By Speckle Tracking Echocardio-
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Multidisciplinary Assessment Of Patients
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Functional Communication Profile-Revised:
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Patients With Parkinson Disease Present
+ []
+
+[93]
+Underfull \hbox (badness 1371) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Effects Of Strengthening, Stretching And
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Anxiety And Depression Are Related To
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 2654--2654
+\TU/lmr/m/n/10 Dyspnea And Clinical Control But Not
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Computer Task Performance By Subjects
+ []
+
+[94]
+Underfull \hbox (badness 1122) in paragraph at lines 2654--2654
+\TU/lmr/m/n/10 Analysis By Speckle Tracking Echocardio-
+ []
+
+[95]
+Underfull \hbox (badness 3930) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Multidisciplinary Assessment Of Patients
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Functional Communication Profile-Revised:
+ []
+
+[96]
+Underfull \hbox (badness 1968) in paragraph at lines 2654--2654
+[]\TU/lmr/m/n/10 Patients With Parkinson Disease Present
+ []
+
+[97]
+Underfull \hbox (badness 1371) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Effects Of Strengthening, Stretching And
+ []
+
+
+Underfull \hbox (badness 3930) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Multidisciplinary Assessment Of Patients
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Anxiety And Depression Are Related To
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 2723--2723
+\TU/lmr/m/n/10 Dyspnea And Clinical Control But Not
+ []
+
+
+Underfull \hbox (badness 1122) in paragraph at lines 2723--2723
+\TU/lmr/m/n/10 Analysis By Speckle Tracking Echocardio-
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Patients With Parkinson Disease Present
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Computer Task Performance By Subjects
+ []
+
+
+Underfull \hbox (badness 1742) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Functional Communication Profile-Revised:
+ []
+
+
+Underfull \hbox (badness 1371) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Effects Of Strengthening, Stretching And
+ []
+
+[98] [99]
+Underfull \hbox (badness 3930) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Multidisciplinary Assessment Of Patients
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Anxiety And Depression Are Related To
+ []
+
+
+Underfull \hbox (badness 3039) in paragraph at lines 2723--2723
+\TU/lmr/m/n/10 Dyspnea And Clinical Control But Not
+ []
+
+[100]
+Underfull \hbox (badness 1122) in paragraph at lines 2723--2723
+\TU/lmr/m/n/10 Analysis By Speckle Tracking Echocardio-
+ []
+
+
+Underfull \hbox (badness 1968) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Patients With Parkinson Disease Present
+ []
+
+
+Underfull \hbox (badness 1436) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Computer Task Performance By Subjects
+ []
+
+[101]
+Underfull \hbox (badness 1742) in paragraph at lines 2723--2723
+[]\TU/lmr/m/n/10 Functional Communication Profile-Revised:
+ []
+
+[102] [103
 
 ]
 File: site.png Graphic file (type bmp)
 <site.png>
-[78]
+[104]
 File: observatorio.png Graphic file (type bmp)
 <observatorio.png>
-[79]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[105]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 1067) in paragraph at lines 2855--2855
+Underfull \hbox (badness 1067) in paragraph at lines 3292--3292
 []\TU/lmr/bx/n/10 Antonio Guillermo Jose Balbin Villa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 2855--2855
+Underfull \hbox (badness 2744) in paragraph at lines 3292--3292
 []\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 2855--2855
+Underfull \hbox (badness 2744) in paragraph at lines 3292--3292
 []\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 2855--2855
+Underfull \hbox (badness 1292) in paragraph at lines 3292--3292
 []\TU/lmr/bx/n/10 Fernanda Grazielle Da Silva Azevedo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 4518) in paragraph at lines 2855--2855
+Underfull \hbox (badness 4518) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 CENTRO UNIVERSITÁRIO FUNDAÇÃO SANTO AN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 2855--2855
+Underfull \hbox (badness 2057) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 UNIVERSITY OF TORONTO - SCARBOROUGH, TO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
-[80
+[106
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
-[81]
-Underfull \hbox (badness 1067) in paragraph at lines 2855--2855
+[107]
+Underfull \hbox (badness 1067) in paragraph at lines 3292--3292
 []\TU/lmr/bx/n/10 Antonio Guillermo Jose Balbin Villa-
  []
 
-[82] [83]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[108] [109]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 2855--2855
+Underfull \hbox (badness 2744) in paragraph at lines 3292--3292
 []\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 2855--2855
+Underfull \hbox (badness 2744) in paragraph at lines 3292--3292
 []\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
-[84]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[110]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
-[85]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[111]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
-[86]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[112]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 1292) in paragraph at lines 2855--2855
+Underfull \hbox (badness 1292) in paragraph at lines 3292--3292
 []\TU/lmr/bx/n/10 Fernanda Grazielle Da Silva Azevedo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
-[87]
-Underfull \hbox (badness 4518) in paragraph at lines 2855--2855
+[113]
+Underfull \hbox (badness 4518) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 CENTRO UNIVERSITÁRIO FUNDAÇÃO SANTO AN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
-[88] [89]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-[91]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[114] [115]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
-[92]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[116]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+ []
+
+[117]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+ []
+
+[118]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
-[93]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[119]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
-[94]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-[95]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[120]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+ []
+
+[121]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
-[96]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[122]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
-[97]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[123]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
-[98]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[124]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 2855--2855
+Underfull \hbox (badness 2057) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 UNIVERSITY OF TORONTO - SCARBOROUGH, TO-
  []
 
-[99] [100]
-Underfull \hbox (badness 10000) in paragraph at lines 2855--2855
+[125] [126]
+Underfull \hbox (badness 10000) in paragraph at lines 3292--3292
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
-[101]
-Underfull \hbox (badness 10000) in paragraph at lines 2884--2884
+[127]
+Underfull \hbox (badness 10000) in paragraph at lines 3321--3321
 []\TU/lmr/bx/n/10 FRANCIS TROMBINI DE
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 2884--2884
+Underfull \hbox (badness 3815) in paragraph at lines 3321--3321
 []\TU/lmr/bx/n/10 RAFAELLA FAGUNDES XA-
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 2884--2884
+Underfull \hbox (badness 4229) in paragraph at lines 3321--3321
 []\TU/lmr/bx/n/10 RONALDO APARECIDO DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2884--2884
+Underfull \hbox (badness 10000) in paragraph at lines 3321--3321
 []\TU/lmr/bx/n/10 FRANCIS TROMBINI DE
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 2884--2884
+Underfull \hbox (badness 3815) in paragraph at lines 3321--3321
 []\TU/lmr/bx/n/10 RAFAELLA FAGUNDES XA-
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 2884--2884
+Underfull \hbox (badness 4229) in paragraph at lines 3321--3321
 []\TU/lmr/bx/n/10 RONALDO APARECIDO DA
  []
 
-[102] [103]
-Underfull \hbox (badness 10000) in paragraph at lines 2925--2925
+[128] [129]
+Underfull \hbox (badness 10000) in paragraph at lines 3362--3362
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2925--2925
+Underfull \hbox (badness 10000) in paragraph at lines 3362--3362
 \TU/lmr/bx/n/10 (iní-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2925--2925
+Underfull \hbox (badness 10000) in paragraph at lines 3362--3362
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2925--2925
+Underfull \hbox (badness 10000) in paragraph at lines 3362--3362
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2925--2925
+Underfull \hbox (badness 10000) in paragraph at lines 3362--3362
 \TU/lmr/bx/n/10 (iní-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2925--2925
+Underfull \hbox (badness 10000) in paragraph at lines 3362--3362
 []\TU/lmr/bx/n/10 Ano
  []
 
-[104]
-Underfull \hbox (badness 2245) in paragraph at lines 2948--2948
+[130]
+Underfull \hbox (badness 2245) in paragraph at lines 3385--3385
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 2948--2948
+Underfull \hbox (badness 2245) in paragraph at lines 3385--3385
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
-[105] (./autoavaliacao-2013-2016.aux)
+[131] (./autoavaliacao-2013-2016.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
@@ -5079,12 +5300,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 62617 strings out of 468179
- 1314325 string characters out of 5433206
- 2304437 words of memory out of 5000000
- 90704 multiletter control sequences out of 15000+600000
+ 62819 strings out of 468179
+ 1318806 string characters out of 5433206
+ 2304567 words of memory out of 5000000
+ 90906 multiletter control sequences out of 15000+600000
  631776 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,126p,1212b,25405s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on autoavaliacao-2013-2016.pdf (108 pages).
+Output written on autoavaliacao-2013-2016.pdf (134 pages).
