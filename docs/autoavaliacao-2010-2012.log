@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.1.27)  7 FEB 2026 17:12
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.9)  10 FEB 2026 11:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1577,18 +1577,6 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./autoavaliacao-2010-2012.aux
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 8.
-
-LaTeX Warning: Label `tab:2-2-1-list-tables' multiply defined.
-
-
-LaTeX Warning: Label `tab:2-2-1-list-tables' multiply defined.
-
-
-LaTeX Warning: Label `tab:2-2-2-list-tables' multiply defined.
-
-
-LaTeX Warning: Label `tab:2-2-2-list-tables' multiply defined.
-
 )
 \openout1 = `autoavaliacao-2010-2012.aux'.
 
@@ -27059,32 +27047,32 @@ Underfull \hbox (badness 1178) in paragraph at lines 558--558
 ] [92
 
 ]
-Underfull \hbox (badness 3942) in paragraph at lines 1263--1263
+Underfull \hbox (badness 3942) in paragraph at lines 1150--1150
 []\TU/lmr/bx/n/10 Função E Dis-
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 1263--1263
+Underfull \hbox (badness 2460) in paragraph at lines 1150--1150
 []\TU/lmr/bx/n/10 Intervenção So-
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 1263--1263
+Underfull \hbox (badness 3557) in paragraph at lines 1150--1150
 []\TU/lmr/bx/n/10 Celso Ricardo Fernandes De
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 1263--1263
+Underfull \hbox (badness 3942) in paragraph at lines 1150--1150
 []\TU/lmr/bx/n/10 Função E Dis-
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 1263--1263
+Underfull \hbox (badness 2460) in paragraph at lines 1150--1150
 []\TU/lmr/bx/n/10 Intervenção So-
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 1263--1263
+Underfull \hbox (badness 3557) in paragraph at lines 1150--1150
 []\TU/lmr/bx/n/10 Celso Ricardo Fernandes De
  []
 
@@ -27094,7 +27082,7 @@ Underfull \hbox (badness 3557) in paragraph at lines 1263--1263
 
 
 ] [96]
-Overfull \hbox (3.10945pt too wide) in paragraph at lines 1372--1405
+Overfull \hbox (3.10945pt too wide) in paragraph at lines 1259--1292
  [][] 
  []
 
@@ -27102,7 +27090,7 @@ Overfull \hbox (3.10945pt too wide) in paragraph at lines 1372--1405
 
 
 ] [98]
-Overfull \hbox (37.73654pt too wide) in paragraph at lines 1455--1487
+Overfull \hbox (37.73654pt too wide) in paragraph at lines 1342--1374
  [][] 
  []
 
@@ -27120,12 +27108,12 @@ File: observatorio.png Graphic file (type bmp)
 [106] [107
 
 ] [108]
-Underfull \hbox (badness 2245) in paragraph at lines 1626--1626
+Underfull \hbox (badness 2245) in paragraph at lines 1513--1513
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1626--1626
+Underfull \hbox (badness 2245) in paragraph at lines 1513--1513
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
@@ -27134,15 +27122,12 @@ Underfull \hbox (badness 2245) in paragraph at lines 1626--1626
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 52800 strings out of 468174
- 1116040 string characters out of 5433150
- 1945830 words of memory out of 5000000
- 80882 multiletter control sequences out of 15000+600000
+ 52798 strings out of 468174
+ 1115994 string characters out of 5433151
+ 1944505 words of memory out of 5000000
+ 80880 multiletter control sequences out of 15000+600000
  631768 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,126p,1212b,9855s stack positions out of 10000i,1000n,20000p,200000b,200000s
