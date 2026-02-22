@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.9)  11 FEB 2026 11:00
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.16)  22 FEB 2026 16:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,7 +597,7 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \pandoc@box=\box64
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2026/01/26 v26.2 The multilingual framework for LuaLaTeX, pdfLaT
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
 \babel@savecnt=\count327
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -1577,6 +1577,15 @@ Package: xurl 2022/01/09 v 0.10 modify URL breaks
 ) (./autoavaliacao-2021-2024.aux
 Package babel Info: 'brazilian' activates 'portuges' shorthands.
 (babel)             Reported on input line 8.
+
+LaTeX Warning: Label `tab:2-1-2-list-tables' multiply defined.
+
+
+LaTeX Warning: Label `tab:2-1-2-list-tables' multiply defined.
+
+
+LaTeX Warning: Label `tab:2-1-2-list-tables' multiply defined.
+
 
 LaTeX Warning: Label `tab:2-2-1-list-tables' multiply defined.
 
@@ -3375,45 +3384,43 @@ Overfull \hbox (12.4192pt too wide) in paragraph at lines 1187--1187
 []\TU/lmr/bx/n/10 PositiveLRC 
  []
 
-[41] [42
-
-]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1230--1230
+[41]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1220--1220
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1230--1230
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1220--1220
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1230--1230
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1220--1220
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1230--1230
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1220--1220
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1250--1250
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1240--1240
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1250--1250
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1240--1240
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1250--1250
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1240--1240
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1250--1250
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1240--1240
 []\TU/lmr/bx/n/10 2024|  
  []
 
@@ -3433,863 +3440,945 @@ Overfull \hbox (1.66045pt too wide) in paragraph at lines 1266--1266
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1266--1266
-[]\TU/lmr/bx/n/10 2024|  
+Overfull \hbox (34.20045pt too wide) in paragraph at lines 1266--1266
+[]\TU/lmr/bx/n/10 Quadriênio|  
  []
 
-[43]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1300--1300
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1282--1282
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1300--1300
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1282--1282
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1300--1300
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1282--1282
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1300--1300
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1282--1282
 []\TU/lmr/bx/n/10 2024|  
  []
 
+[42
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1320--1320
+] [43]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1322--1322
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1320--1320
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1322--1322
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1320--1320
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1322--1322
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1320--1320
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1322--1322
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1336--1336
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1342--1342
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1336--1336
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1342--1342
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1336--1336
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1342--1342
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1336--1336
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1342--1342
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1358--1358
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1358--1358
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1358--1358
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1358--1358
 []\TU/lmr/bx/n/10 2024|  
  []
 
 [44]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1371--1371
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1392--1392
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1371--1371
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1392--1392
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1371--1371
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1392--1392
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1371--1371
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1392--1392
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 1349--1372
- [][] 
- []
-
-[45] [46] [47] [48]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1498--1498
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1412--1412
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1498--1498
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1412--1412
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1498--1498
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1412--1412
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1498--1498
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1412--1412
 []\TU/lmr/bx/n/10 2024|  
  []
 
-[49]
-Overfull \hbox (19.17838pt too wide) in paragraph at lines 1517--1530
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1428--1428
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1428--1428
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1428--1428
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1428--1428
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+[45]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1463--1463
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1463--1463
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1463--1463
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1463--1463
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1441--1464
  [][] 
  []
 
-[50
+[46] [47] [48] [49]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1590--1590
+[]\TU/lmr/bx/n/10 2021|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1590--1590
+[]\TU/lmr/bx/n/10 2022|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1590--1590
+[]\TU/lmr/bx/n/10 2023|  
+ []
+
+
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1590--1590
+[]\TU/lmr/bx/n/10 2024|  
+ []
+
+[50]
+Overfull \hbox (19.17838pt too wide) in paragraph at lines 1609--1622
+ [][] 
+ []
+
+[51
 
 ]
-Overfull \hbox (19.17752pt too wide) in paragraph at lines 1539--1571
- [][] 
- []
-
-[51]
-Overfull \hbox (7.17876pt too wide) in paragraph at lines 1580--1617
+Overfull \hbox (19.17752pt too wide) in paragraph at lines 1631--1663
  [][] 
  []
 
 [52]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1667--1667
+Overfull \hbox (7.17876pt too wide) in paragraph at lines 1672--1709
+ [][] 
+ []
+
+[53]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1759--1759
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1667--1667
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1759--1759
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1667--1667
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1759--1759
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 1667--1667
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 1759--1759
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (15.0944pt too wide) in paragraph at lines 1631--1668
+Overfull \hbox (15.0944pt too wide) in paragraph at lines 1723--1760
  [][] 
- []
-
-[53
-
-]
-Underfull \hbox (badness 3942) in paragraph at lines 1717--1717
-[]\TU/lmr/bx/n/10 Função E Dis-
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 1717--1717
-[]\TU/lmr/bx/n/10 Intervenção So-
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 1717--1717
-[]\TU/lmr/bx/n/10 Celso Ricardo Fernandes De
- []
-
-
-Underfull \hbox (badness 3942) in paragraph at lines 1717--1717
-[]\TU/lmr/bx/n/10 Função E Dis-
- []
-
-
-Underfull \hbox (badness 2460) in paragraph at lines 1717--1717
-[]\TU/lmr/bx/n/10 Intervenção So-
- []
-
-
-Underfull \hbox (badness 3557) in paragraph at lines 1717--1717
-[]\TU/lmr/bx/n/10 Celso Ricardo Fernandes De
  []
 
 [54
 
-] [55]
-Overfull \hbox (31.17657pt too wide) in paragraph at lines 1730--1772
+]
+Underfull \hbox (badness 3942) in paragraph at lines 1809--1809
+[]\TU/lmr/bx/n/10 Função E Dis-
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 1809--1809
+[]\TU/lmr/bx/n/10 Intervenção So-
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 1809--1809
+[]\TU/lmr/bx/n/10 Celso Ricardo Fernandes De
+ []
+
+
+Underfull \hbox (badness 3942) in paragraph at lines 1809--1809
+[]\TU/lmr/bx/n/10 Função E Dis-
+ []
+
+
+Underfull \hbox (badness 2460) in paragraph at lines 1809--1809
+[]\TU/lmr/bx/n/10 Intervenção So-
+ []
+
+
+Underfull \hbox (badness 3557) in paragraph at lines 1809--1809
+[]\TU/lmr/bx/n/10 Celso Ricardo Fernandes De
+ []
+
+[55
+
+] [56]
+Overfull \hbox (31.17657pt too wide) in paragraph at lines 1822--1864
  [][] 
  []
 
-[56
+[57
 
 
 ]
 Overfull \vbox (20.1045pt too high) has occurred while \output is active []
 
-[57]
-Overfull \hbox (31.17657pt too wide) in paragraph at lines 1784--1827
+[58]
+Overfull \hbox (31.17657pt too wide) in paragraph at lines 1876--1919
  [][] 
  []
-
-[58]
-Overfull \vbox (32.1045pt too high) has occurred while \output is active []
 
 [59]
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \vbox (32.1045pt too high) has occurred while \output is active []
+
+[60]
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2021|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2022|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2023|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2024|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2021|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2022|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2023|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2024|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2021|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2022|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2023|  
  []
 
 
-Overfull \hbox (8.84317pt too wide) in paragraph at lines 1882--1882
+Overfull \hbox (8.84317pt too wide) in paragraph at lines 1974--1974
 []\TU/lmr/m/n/10 2024|  
  []
 
 
-Overfull \hbox (3.10945pt too wide) in paragraph at lines 1843--1883
+Overfull \hbox (3.10945pt too wide) in paragraph at lines 1935--1975
  [][] 
  []
 
-[60
+[61
 
 
-] [61]
-Overfull \hbox (19.17883pt too wide) in paragraph at lines 1940--1979
+] [62]
+Overfull \hbox (19.17883pt too wide) in paragraph at lines 2032--2071
  [][] 
  []
 
-[62] [63
+[63] [64
 
-] [64]
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2056--2056
+] [65]
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 2148--2148
 []\TU/lmr/bx/n/10 2021|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2056--2056
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 2148--2148
 []\TU/lmr/bx/n/10 2022|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2056--2056
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 2148--2148
 []\TU/lmr/bx/n/10 2023|  
  []
 
 
-Overfull \hbox (1.66045pt too wide) in paragraph at lines 2056--2056
+Overfull \hbox (1.66045pt too wide) in paragraph at lines 2148--2148
 []\TU/lmr/bx/n/10 2024|  
  []
 
 
-Overfull \hbox (27.09439pt too wide) in paragraph at lines 2006--2057
+Overfull \hbox (27.09439pt too wide) in paragraph at lines 2098--2149
  [][] 
  []
 
-[65] [66] [67
+[66] [67] [68
 
-] [68]
-Underfull \hbox (badness 5050) in paragraph at lines 2200--2200
+] [69]
+Underfull \hbox (badness 5050) in paragraph at lines 2292--2292
 []\TU/lmr/m/n/10 Age-Associated Phenotypic Imbalance In
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 2200--2200
+Underfull \hbox (badness 3219) in paragraph at lines 2292--2292
 \TU/lmr/m/n/10 Post-Acute Covid-19 Syndrome: Results
  []
 
 
-Underfull \hbox (badness 5050) in paragraph at lines 2200--2200
+Underfull \hbox (badness 5050) in paragraph at lines 2292--2292
 []\TU/lmr/m/n/10 Age-Associated Phenotypic Imbalance In
  []
 
 
-Underfull \hbox (badness 3219) in paragraph at lines 2200--2200
+Underfull \hbox (badness 3219) in paragraph at lines 2292--2292
 \TU/lmr/m/n/10 Post-Acute Covid-19 Syndrome: Results
- []
-
-[69]
-Underfull \hbox (badness 1325) in paragraph at lines 2253--2253
-[]\TU/lmr/m/n/10 Effects Of Two Different Dual-Task Trai-
- []
-
-
-Underfull \hbox (badness 1242) in paragraph at lines 2253--2253
-[]\TU/lmr/m/n/10 The Brazilian Phonoaudiology Association
- []
-
-
-Underfull \hbox (badness 1616) in paragraph at lines 2253--2253
-\TU/lmr/m/n/10 mulation Combined With Virtual Reality
- []
-
-
-Underfull \hbox (badness 1325) in paragraph at lines 2253--2253
-[]\TU/lmr/m/n/10 Effects Of Two Different Dual-Task Trai-
  []
 
 [70]
-Underfull \hbox (badness 1242) in paragraph at lines 2253--2253
+Underfull \hbox (badness 1325) in paragraph at lines 2345--2345
+[]\TU/lmr/m/n/10 Effects Of Two Different Dual-Task Trai-
+ []
+
+
+Underfull \hbox (badness 1242) in paragraph at lines 2345--2345
 []\TU/lmr/m/n/10 The Brazilian Phonoaudiology Association
  []
 
-[71]
-Underfull \hbox (badness 1616) in paragraph at lines 2253--2253
+
+Underfull \hbox (badness 1616) in paragraph at lines 2345--2345
 \TU/lmr/m/n/10 mulation Combined With Virtual Reality
  []
 
-[72] [73]
-Underfull \hbox (badness 1325) in paragraph at lines 2276--2276
+
+Underfull \hbox (badness 1325) in paragraph at lines 2345--2345
+[]\TU/lmr/m/n/10 Effects Of Two Different Dual-Task Trai-
+ []
+
+[71]
+Underfull \hbox (badness 1242) in paragraph at lines 2345--2345
+[]\TU/lmr/m/n/10 The Brazilian Phonoaudiology Association
+ []
+
+[72]
+Underfull \hbox (badness 1616) in paragraph at lines 2345--2345
+\TU/lmr/m/n/10 mulation Combined With Virtual Reality
+ []
+
+[73] [74]
+Underfull \hbox (badness 1325) in paragraph at lines 2368--2368
 []\TU/lmr/m/n/10 Effects Of Two Different Dual-Task Trai-
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 2276--2276
+Underfull \hbox (badness 1325) in paragraph at lines 2368--2368
 []\TU/lmr/m/n/10 Effects Of Two Different Dual-Task Trai-
  []
 
-[74] [75] [76] [77]
-Overfull \hbox (17.5824pt too wide) in paragraph at lines 2374--2374
+[75] [76] [77] [78]
+Overfull \hbox (17.5824pt too wide) in paragraph at lines 2466--2466
 []\TU/lmr/bx/n/10 YouTube/Vimeo 
  []
 
 
-Overfull \hbox (17.5824pt too wide) in paragraph at lines 2374--2374
+Overfull \hbox (17.5824pt too wide) in paragraph at lines 2466--2466
 []\TU/lmr/bx/n/10 YouTube/Vimeo 
- []
-
-[78]
-Underfull \hbox (badness 4686) in paragraph at lines 2428--2428
-[]\TU/lmr/m/n/10 Effect Of The Association Of Continu-
- []
-
-
-Underfull \hbox (badness 1997) in paragraph at lines 2428--2428
-[]\TU/lmr/m/n/10 Feasibility Of A Home-Based Foot-Ankle
- []
-
-
-Underfull \hbox (badness 6825) in paragraph at lines 2428--2428
-[]\TU/lmr/m/n/10 Nationwide Questionnaire Data Of 229
- []
-
-
-Underfull \hbox (badness 1097) in paragraph at lines 2428--2428
-\TU/lmr/m/n/10 Williams-Beuren Syndrome Patients Using
  []
 
 [79]
-Underfull \hbox (badness 4686) in paragraph at lines 2428--2428
+Underfull \hbox (badness 4686) in paragraph at lines 2520--2520
 []\TU/lmr/m/n/10 Effect Of The Association Of Continu-
  []
 
-[80]
-Underfull \hbox (badness 1997) in paragraph at lines 2428--2428
+
+Underfull \hbox (badness 1997) in paragraph at lines 2520--2520
 []\TU/lmr/m/n/10 Feasibility Of A Home-Based Foot-Ankle
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 2428--2428
+Underfull \hbox (badness 6825) in paragraph at lines 2520--2520
 []\TU/lmr/m/n/10 Nationwide Questionnaire Data Of 229
  []
 
 
-Underfull \hbox (badness 1097) in paragraph at lines 2428--2428
+Underfull \hbox (badness 1097) in paragraph at lines 2520--2520
 \TU/lmr/m/n/10 Williams-Beuren Syndrome Patients Using
  []
 
-[81] [82]
+[80]
+Underfull \hbox (badness 4686) in paragraph at lines 2520--2520
+[]\TU/lmr/m/n/10 Effect Of The Association Of Continu-
+ []
+
+[81]
+Underfull \hbox (badness 1997) in paragraph at lines 2520--2520
+[]\TU/lmr/m/n/10 Feasibility Of A Home-Based Foot-Ankle
+ []
+
+
+Underfull \hbox (badness 6825) in paragraph at lines 2520--2520
+[]\TU/lmr/m/n/10 Nationwide Questionnaire Data Of 229
+ []
+
+
+Underfull \hbox (badness 1097) in paragraph at lines 2520--2520
+\TU/lmr/m/n/10 Williams-Beuren Syndrome Patients Using
+ []
+
+[82] [83]
 Missing character: There is no ^^92 (U+0092) in font [lmroman10-regular]:mappin
 g=tex-text;!
 Missing character: There is no ^^92 (U+0092) in font [lmroman10-regular]:mappin
 g=tex-text;!
 
-Underfull \hbox (badness 4096) in paragraph at lines 2478--2478
+Underfull \hbox (badness 4096) in paragraph at lines 2570--2570
 \TU/lmr/m/n/10 Running-Related Injuries In Recreational
  []
 
 Missing character: There is no ^^92 (U+0092) in font [lmroman10-regular]:mappin
 g=tex-text;!
 
-Underfull \hbox (badness 4096) in paragraph at lines 2478--2478
+Underfull \hbox (badness 4096) in paragraph at lines 2570--2570
 \TU/lmr/m/n/10 Running-Related Injuries In Recreational
  []
 
-[83]
+[84]
 Missing character: There is no ^^92 (U+0092) in font [lmroman10-regular]:mappin
 g=tex-text;!
-[84] [85] [86
+[85] [86] [87
 
 ]
 File: site.png Graphic file (type bmp)
 <site.png>
-[87]
+[88]
 File: observatorio.png Graphic file (type bmp)
 <observatorio.png>
-[88]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+[89]
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 2798--2798
+Underfull \hbox (badness 2744) in paragraph at lines 2890--2890
 []\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
  []
 
 
-Underfull \hbox (badness 2744) in paragraph at lines 2798--2798
+Underfull \hbox (badness 2744) in paragraph at lines 2890--2890
 []\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 2057) in paragraph at lines 2798--2798
+Underfull \hbox (badness 2057) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 UNIVERSITY OF TORONTO - SCARBOROUGH, TO-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
-[89
+[90
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
- []
-
-[90]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 2798--2798
-[]\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
- []
-
-
-Underfull \hbox (badness 2744) in paragraph at lines 2798--2798
-[]\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 [91]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 2744) in paragraph at lines 2890--2890
+[]\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
+ []
+
+
+Underfull \hbox (badness 2744) in paragraph at lines 2890--2890
+[]\TU/lmr/bx/n/10 Cibelle Albuquerque De La Higuera
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 [92]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 [93]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 [94]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 [95]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
-[]\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
-[]\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 [96]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
+[]\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
  []
 
 [97]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
+[]\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
+ []
+
+[98]
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
 []\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-[98]
-Underfull \hbox (badness 2057) in paragraph at lines 2798--2798
-[]\TU/lmr/m/n/10 UNIVERSITY OF TORONTO - SCARBOROUGH, TO-
  []
 
 [99]
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2798--2798
-[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+Underfull \hbox (badness 2057) in paragraph at lines 2890--2890
+[]\TU/lmr/m/n/10 UNIVERSITY OF TORONTO - SCARBOROUGH, TO-
  []
 
 [100]
-Underfull \hbox (badness 10000) in paragraph at lines 2834--2834
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2890--2890
+[]\TU/lmr/m/n/10 Co-Autor, Examinador Ex-
+ []
+
+[101]
+Underfull \hbox (badness 10000) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 LILIANE APARECIDA FA-
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 2834--2834
+Underfull \hbox (badness 3815) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 RAFAELLA FAGUNDES XA-
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 2834--2834
+Underfull \hbox (badness 3815) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 RAFAELLA FAGUNDES XA-
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 2834--2834
+Underfull \hbox (badness 4229) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 RONALDO APARECIDO DA
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 2834--2834
+Underfull \hbox (badness 4229) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 RONALDO APARECIDO DA
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2834--2834
+Underfull \hbox (badness 10000) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 LILIANE APARECIDA FA-
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 2834--2834
+Underfull \hbox (badness 3815) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 RAFAELLA FAGUNDES XA-
  []
 
 
-Underfull \hbox (badness 3815) in paragraph at lines 2834--2834
+Underfull \hbox (badness 3815) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 RAFAELLA FAGUNDES XA-
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 2834--2834
+Underfull \hbox (badness 4229) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 RONALDO APARECIDO DA
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 2834--2834
+Underfull \hbox (badness 4229) in paragraph at lines 2926--2926
 []\TU/lmr/bx/n/10 RONALDO APARECIDO DA
  []
 
-[101] [102] [103]
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+[102] [103] [104]
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 \TU/lmr/bx/n/10 (iní-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 2903--2903
+Underfull \hbox (badness 1314) in paragraph at lines 2995--2995
 []\TU/lmr/m/n/10 ALESSANDRA GIANNELLA SA-
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 2903--2903
+Underfull \hbox (badness 1314) in paragraph at lines 2995--2995
 []\TU/lmr/m/n/10 ALESSANDRA GIANNELLA SA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 []\TU/lmr/m/n/10 RAQUEL APARECIDA CASA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 []\TU/lmr/m/n/10 RAQUEL APARECIDA CASA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 \TU/lmr/bx/n/10 (iní-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 []\TU/lmr/bx/n/10 Ano
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 2903--2903
+Underfull \hbox (badness 1314) in paragraph at lines 2995--2995
 []\TU/lmr/m/n/10 ALESSANDRA GIANNELLA SA-
  []
 
 
-Underfull \hbox (badness 1314) in paragraph at lines 2903--2903
+Underfull \hbox (badness 1314) in paragraph at lines 2995--2995
 []\TU/lmr/m/n/10 ALESSANDRA GIANNELLA SA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 []\TU/lmr/m/n/10 RAQUEL APARECIDA CASA-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2903--2903
+Underfull \hbox (badness 10000) in paragraph at lines 2995--2995
 []\TU/lmr/m/n/10 RAQUEL APARECIDA CASA-
  []
 
-[104] [105]
-Underfull \hbox (badness 2245) in paragraph at lines 2928--2928
+[105] [106]
+Underfull \hbox (badness 2245) in paragraph at lines 3020--3020
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 2928--2928
+Underfull \hbox (badness 2368) in paragraph at lines 3020--3020
 []\TU/lmr/m/n/10 Gomes, ELFD; Gomes,EL;Dantas Gomes,
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 2928--2928
+Underfull \hbox (badness 2368) in paragraph at lines 3020--3020
 []\TU/lmr/m/n/10 Gomes, ELFD; Gomes,EL;Dantas Gomes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2928--2928
+Underfull \hbox (badness 10000) in paragraph at lines 3020--3020
 []\TU/lmr/m/n/10 Coordenadora
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2928--2928
+Underfull \hbox (badness 10000) in paragraph at lines 3020--3020
 \TU/lmr/m/n/10 do departa-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 2928--2928
+Underfull \hbox (badness 2245) in paragraph at lines 3020--3020
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 2928--2928
+Underfull \hbox (badness 2368) in paragraph at lines 3020--3020
 []\TU/lmr/m/n/10 Gomes, ELFD; Gomes,EL;Dantas Gomes,
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 2928--2928
+Underfull \hbox (badness 2368) in paragraph at lines 3020--3020
 []\TU/lmr/m/n/10 Gomes, ELFD; Gomes,EL;Dantas Gomes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2928--2928
+Underfull \hbox (badness 10000) in paragraph at lines 3020--3020
 []\TU/lmr/m/n/10 Coordenadora
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2928--2928
+Underfull \hbox (badness 10000) in paragraph at lines 3020--3020
 \TU/lmr/m/n/10 do departa-
  []
 
-[106] (./autoavaliacao-2021-2024.aux)
+[107] (./autoavaliacao-2021-2024.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
@@ -4299,12 +4388,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 56658 strings out of 468174
- 1208464 string characters out of 5433151
- 1984690 words of memory out of 5000000
- 84738 multiletter control sequences out of 15000+600000
+ 56659 strings out of 468174
+ 1208487 string characters out of 5433150
+ 1984782 words of memory out of 5000000
+ 84739 multiletter control sequences out of 15000+600000
  631776 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  99i,19n,126p,1212b,14131s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on autoavaliacao-2021-2024.pdf (109 pages).
+Output written on autoavaliacao-2021-2024.pdf (110 pages).

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.9)  11 FEB 2026 10:39
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2026.2.16)  22 FEB 2026 16:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -597,7 +597,7 @@ Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \pandoc@box=\box64
 (/usr/local/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2026/01/26 v26.2 The multilingual framework for LuaLaTeX, pdfLaT
+Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaT
 eX and XeLaTeX
 \babel@savecnt=\count327
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
@@ -15997,7 +15997,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (144.85327pt too high) has occurred while \output is active []
+Overfull \vbox (144.45319pt too high) has occurred while \output is active []
 
 [7]
 Overfull \hbox (36.77095pt too wide) in paragraph at lines 460--460
@@ -16435,7 +16435,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (72.85327pt too high) has occurred while \output is active []
+Overfull \vbox (72.45319pt too high) has occurred while \output is active []
 
 [8]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -16763,7 +16763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (48.85327pt too high) has occurred while \output is active []
+Overfull \vbox (48.45319pt too high) has occurred while \output is active []
 
 [9]
 Overfull \hbox (5.76094pt too wide) in paragraph at lines 460--460
@@ -17581,7 +17581,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (120.85327pt too high) has occurred while \output is active []
+Overfull \vbox (120.45319pt too high) has occurred while \output is active []
 
 [11]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -18054,7 +18054,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (24.85327pt too high) has occurred while \output is active []
+Overfull \vbox (24.45319pt too high) has occurred while \output is active []
 
 [12]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -18457,7 +18457,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (0.85327pt too high) has occurred while \output is active []
+Overfull \vbox (0.45319pt too high) has occurred while \output is active []
 
 [13]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -19450,7 +19450,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (36.85327pt too high) has occurred while \output is active []
+Overfull \vbox (36.45319pt too high) has occurred while \output is active []
 
 [16]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -19898,7 +19898,7 @@ Underfull \hbox (badness 5359) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (48.85327pt too high) has occurred while \output is active []
+Overfull \vbox (48.45319pt too high) has occurred while \output is active []
 
 [17]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -20366,7 +20366,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (72.85327pt too high) has occurred while \output is active []
+Overfull \vbox (72.45319pt too high) has occurred while \output is active []
 
 [18]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -20893,7 +20893,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (48.85327pt too high) has occurred while \output is active []
+Overfull \vbox (48.45319pt too high) has occurred while \output is active []
 
 [20]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -21196,7 +21196,7 @@ Underfull \hbox (badness 1394) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (0.85327pt too high) has occurred while \output is active []
+Overfull \vbox (0.45319pt too high) has occurred while \output is active []
 
 [21]
 Overfull \hbox (3.17094pt too wide) in paragraph at lines 460--460
@@ -21529,7 +21529,7 @@ Underfull \hbox (badness 1092) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (12.85327pt too high) has occurred while \output is active []
+Overfull \vbox (12.45319pt too high) has occurred while \output is active []
 
 [22]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -22642,7 +22642,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (72.85327pt too high) has occurred while \output is active []
+Overfull \vbox (72.45319pt too high) has occurred while \output is active []
 
 [26]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -23545,7 +23545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (60.85327pt too high) has occurred while \output is active []
+Overfull \vbox (60.45319pt too high) has occurred while \output is active []
 
 [30]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -23763,7 +23763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (12.85327pt too high) has occurred while \output is active []
+Overfull \vbox (12.45319pt too high) has occurred while \output is active []
 
 [31]
 Overfull \hbox (1.89095pt too wide) in paragraph at lines 460--460
@@ -24191,7 +24191,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (60.85327pt too high) has occurred while \output is active []
+Overfull \vbox (60.45319pt too high) has occurred while \output is active []
 
 [33]
 Overfull \hbox (10.78094pt too wide) in paragraph at lines 460--460
@@ -24734,7 +24734,7 @@ Underfull \hbox (badness 4168) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (0.85327pt too high) has occurred while \output is active []
+Overfull \vbox (0.45319pt too high) has occurred while \output is active []
 
 [38]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -24942,7 +24942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (96.85327pt too high) has occurred while \output is active []
+Overfull \vbox (96.45319pt too high) has occurred while \output is active []
 
 [39]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -25055,7 +25055,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (48.85327pt too high) has occurred while \output is active []
+Overfull \vbox (48.45319pt too high) has occurred while \output is active []
 
 [40]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -25203,7 +25203,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (0.85327pt too high) has occurred while \output is active []
+Overfull \vbox (0.45319pt too high) has occurred while \output is active []
 
 [42]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -25416,7 +25416,7 @@ Underfull \hbox (badness 7099) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (216.85327pt too high) has occurred while \output is active []
+Overfull \vbox (216.45319pt too high) has occurred while \output is active []
 
 [44]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -25569,7 +25569,7 @@ Underfull \hbox (badness 4168) in paragraph at lines 460--460
  []
 
 
-Overfull \vbox (168.85327pt too high) has occurred while \output is active []
+Overfull \vbox (168.45319pt too high) has occurred while \output is active []
 
 [45]
 Underfull \hbox (badness 10000) in paragraph at lines 460--460
@@ -27047,32 +27047,32 @@ Underfull \hbox (badness 1178) in paragraph at lines 558--558
 ] [92
 
 ]
-Underfull \hbox (badness 3942) in paragraph at lines 1150--1150
+Underfull \hbox (badness 3942) in paragraph at lines 1152--1152
 []\TU/lmr/bx/n/10 Função E Dis-
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 1150--1150
+Underfull \hbox (badness 2460) in paragraph at lines 1152--1152
 []\TU/lmr/bx/n/10 Intervenção So-
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 1150--1150
+Underfull \hbox (badness 3557) in paragraph at lines 1152--1152
 []\TU/lmr/bx/n/10 Celso Ricardo Fernandes De
  []
 
 
-Underfull \hbox (badness 3942) in paragraph at lines 1150--1150
+Underfull \hbox (badness 3942) in paragraph at lines 1152--1152
 []\TU/lmr/bx/n/10 Função E Dis-
  []
 
 
-Underfull \hbox (badness 2460) in paragraph at lines 1150--1150
+Underfull \hbox (badness 2460) in paragraph at lines 1152--1152
 []\TU/lmr/bx/n/10 Intervenção So-
  []
 
 
-Underfull \hbox (badness 3557) in paragraph at lines 1150--1150
+Underfull \hbox (badness 3557) in paragraph at lines 1152--1152
 []\TU/lmr/bx/n/10 Celso Ricardo Fernandes De
  []
 
@@ -27082,7 +27082,7 @@ Underfull \hbox (badness 3557) in paragraph at lines 1150--1150
 
 
 ] [96]
-Overfull \hbox (3.10945pt too wide) in paragraph at lines 1259--1292
+Overfull \hbox (3.10945pt too wide) in paragraph at lines 1261--1294
  [][] 
  []
 
@@ -27090,7 +27090,7 @@ Overfull \hbox (3.10945pt too wide) in paragraph at lines 1259--1292
 
 
 ] [98]
-Overfull \hbox (37.73654pt too wide) in paragraph at lines 1342--1374
+Overfull \hbox (37.73654pt too wide) in paragraph at lines 1344--1376
  [][] 
  []
 
@@ -27108,12 +27108,12 @@ File: observatorio.png Graphic file (type bmp)
 [106] [107
 
 ] [108]
-Underfull \hbox (badness 2245) in paragraph at lines 1513--1513
+Underfull \hbox (badness 2245) in paragraph at lines 1515--1515
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 1513--1513
+Underfull \hbox (badness 2245) in paragraph at lines 1515--1515
 []\TU/lmr/m/n/10 Associação Brasileira de Pesquisa e Pós-
  []
 
@@ -27125,8 +27125,8 @@ L3 programming layer <2026-01-19>
  ) 
 Here is how much of TeX's memory you used:
  52798 strings out of 468174
- 1115994 string characters out of 5433151
- 1944505 words of memory out of 5000000
+ 1115994 string characters out of 5433150
+ 1944453 words of memory out of 5000000
  80880 multiletter control sequences out of 15000+600000
  631768 words of font info for 78 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
